@@ -47,7 +47,6 @@ org.springframework.beans.TypeMismatchException
 
 org.springframework.beans.annotation.AnnotationBeanUtils
 
-org.springframework.beans.factory.aspectj.ConfigurableObject
 org.springframework.beans.factory.Aware
 org.springframework.beans.factory.BeanClassLoaderAware
 org.springframework.beans.factory.BeanCreationException
