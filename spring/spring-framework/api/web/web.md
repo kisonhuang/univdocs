@@ -80,7 +80,6 @@ org.springframework.web.bind.WebDataBinder
 
 org.springframework.web.client.AsyncRequestCallback
 org.springframework.web.client.AsyncRestOperations
-org.springframework.web.client.AsyncRestTemplate
 org.springframework.web.client.DefaultResponseErrorHandler
 org.springframework.web.client.ExtractingResponseErrorHandler
 org.springframework.web.client.HttpClientErrorException
@@ -109,8 +108,6 @@ org.springframework.web.client.ResponseErrorHandler
 org.springframework.web.client.ResponseExtractor
 org.springframework.web.client.RestClientException
 org.springframework.web.client.RestClientResponseException
-org.springframework.web.client.RestOperations
-org.springframework.web.client.RestTemplate
 org.springframework.web.client.support.RestGatewaySupport
 org.springframework.web.client.UnknownContentTypeException
 org.springframework.web.client.UnknownHttpStatusCodeException
@@ -277,7 +274,6 @@ org.springframework.web.multipart.support.DefaultMultipartHttpServletRequest
 org.springframework.web.multipart.support.MissingServletRequestPartException
 org.springframework.web.multipart.support.MultipartFilter
 org.springframework.web.multipart.support.MultipartResolutionDelegate
-org.springframework.web.multipart.support.RequestPartServletServerHttpRequest
 org.springframework.web.multipart.support.StandardMultipartHttpServletRequest
 org.springframework.web.multipart.support.StandardServletMultipartResolver
 org.springframework.web.multipart.support.StandardServletPartUtils
@@ -286,7 +282,6 @@ org.springframework.web.multipart.support.StringMultipartFileEditor
 org.springframework.web.server.adapter.AbstractReactiveWebInitializer
 org.springframework.web.server.adapter.DefaultServerWebExchange
 org.springframework.web.server.adapter.ForwardedHeaderTransformer
-org.springframework.web.server.adapter.HttpWebHandlerAdapter
 org.springframework.web.server.adapter.WebHttpHandlerBuilder
 org.springframework.web.server.adapter.WebHttpHandlerBuilder.SpringWebBlockHoundIntegration
 org.springframework.web.server.handler.DefaultWebFilterChain
