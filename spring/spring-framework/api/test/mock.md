@@ -4,17 +4,8 @@
 org.springframework.mock.env.MockEnvironment
 org.springframework.mock.env.MockPropertySource
 
-org.springframework.mock.http.client.MockAsyncClientHttpRequest
-org.springframework.mock.http.client.MockClientHttpRequest
-org.springframework.mock.http.client.MockClientHttpResponse
-org.springframework.mock.http.client.reactive.MockClientHttpRequest
-org.springframework.mock.http.client.reactive.MockClientHttpResponse
-org.springframework.mock.http.MockHttpInputMessage
-org.springframework.mock.http.MockHttpOutputMessage
-org.springframework.mock.http.server.reactive.MockServerHttpRequest
 org.springframework.mock.http.server.reactive.MockServerHttpRequest.BaseBuilder
 org.springframework.mock.http.server.reactive.MockServerHttpRequest.BodyBuilder
-org.springframework.mock.http.server.reactive.MockServerHttpResponse
 
 org.springframework.mock.jndi.ExpectedLookupTemplate
 org.springframework.mock.jndi.SimpleNamingContext
@@ -34,7 +25,6 @@ org.springframework.mock.web.MockHttpServletResponse
 org.springframework.mock.web.MockHttpSession
 org.springframework.mock.web.MockJspWriter
 org.springframework.mock.web.MockMultipartFile
-org.springframework.mock.web.MockMultipartHttpServletRequest
 org.springframework.mock.web.MockPageContext
 org.springframework.mock.web.MockPart
 org.springframework.mock.web.MockRequestDispatcher

@@ -166,7 +166,6 @@ org.springframework.test.web.client.match.ContentRequestMatchers
 org.springframework.test.web.client.match.JsonPathRequestMatchers
 org.springframework.test.web.client.match.MockRestRequestMatchers
 org.springframework.test.web.client.match.XpathRequestMatchers
-org.springframework.test.web.client.MockMvcClientHttpRequestFactory
 org.springframework.test.web.client.MockRestServiceServer
 org.springframework.test.web.client.MockRestServiceServer.MockRestServiceServerBuilder
 org.springframework.test.web.client.RequestExpectation
@@ -184,10 +183,8 @@ org.springframework.test.web.reactive.server.EntityExchangeResult
 org.springframework.test.web.reactive.server.ExchangeResult
 org.springframework.test.web.reactive.server.FluxExchangeResult
 org.springframework.test.web.reactive.server.HeaderAssertions
-org.springframework.test.web.reactive.server.HttpHandlerConnector
 org.springframework.test.web.reactive.server.HttpHandlerConnector.FailureAfterResponseCompletedException
 org.springframework.test.web.reactive.server.JsonPathAssertions
-org.springframework.test.web.reactive.server.MockServerClientHttpResponse
 org.springframework.test.web.reactive.server.MockServerConfigurer
 org.springframework.test.web.reactive.server.StatusAssertions
 org.springframework.test.web.reactive.server.WebTestClient
@@ -207,7 +204,6 @@ org.springframework.test.web.reactive.server.WebTestClient.RouterFunctionSpec
 org.springframework.test.web.reactive.server.WebTestClient.UriSpec
 org.springframework.test.web.reactive.server.WebTestClientConfigurer
 org.springframework.test.web.reactive.server.XpathAssertions
-org.springframework.test.web.servlet.client.MockMvcHttpConnector
 org.springframework.test.web.servlet.client.MockMvcWebTestClient
 org.springframework.test.web.servlet.client.MockMvcWebTestClient.ControllerSpec
 org.springframework.test.web.servlet.client.MockMvcWebTestClient.MockMvcServerSpec
