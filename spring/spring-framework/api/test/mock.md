@@ -24,7 +24,6 @@ org.springframework.mock.web.MockHttpServletRequest
 org.springframework.mock.web.MockHttpServletResponse
 org.springframework.mock.web.MockHttpSession
 org.springframework.mock.web.MockJspWriter
-org.springframework.mock.web.MockMultipartFile
 org.springframework.mock.web.MockPageContext
 org.springframework.mock.web.MockPart
 org.springframework.mock.web.MockRequestDispatcher

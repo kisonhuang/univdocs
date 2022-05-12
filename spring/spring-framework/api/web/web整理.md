@@ -22,6 +22,7 @@ org.springframework.web.context.ContextLoader
 ```java
 org.springframework.web.multipart.MultipartFile
     + org.springframework.web.multipart.commons.CommonsMultipartFile
+    + org.springframework.mock.web.MockMultipartFile
 ```
 
 ## MultipartRequest
