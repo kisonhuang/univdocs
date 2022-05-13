@@ -290,6 +290,9 @@ org.springframework.http.InvalidMediaTypeException
 org.springframework.web.client.RestOperations
     + org.springframework.web.client.RestTemplate
 
+org.springframework.web.client.AsyncRestOperations
+    + org.springframework.web.client.AsyncRestTemplate
+
 org.springframework.http.client.support.HttpAccessor
     + org.springframework.http.client.support.InterceptingHttpAccessor
         + org.springframework.web.client.RestTemplate
@@ -339,6 +342,14 @@ org.springframework.http.codec.CodecConfigurer.DefaultCodecConfig
 ## HttpHandler
 
 ```java
+org.springframework.web.server.WebHandler
+    + org.springframework.web.reactive.DispatcherHandler
+    + org.springframework.web.reactive.resource.ResourceWebHandler
+    + org.springframework.web.server.handler.WebHandlerDecorator
+        + org.springframework.web.server.handler.ExceptionHandlingWebHandler
+        + org.springframework.web.server.handler.FilteringWebHandler
+        + org.springframework.web.server.adapter.HttpWebHandlerAdapter
+
 org.springframework.http.server.reactive.HttpHandler
     + org.springframework.http.server.reactive.ContextPathCompositeHandler
     + org.springframework.web.server.adapter.HttpWebHandlerAdapter

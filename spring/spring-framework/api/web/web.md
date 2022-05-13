@@ -129,13 +129,6 @@ org.springframework.web.bind.support.WebDataBinderFactory
 org.springframework.web.client.AsyncRequestCallback
 ```
 
-## AsyncRestOperations
-
-```java
-org.springframework.web.client.AsyncRestOperations
-    + org.springframework.web.client.AsyncRestTemplate
-```
-
 ## RequestCallback
 
 ```java
@@ -367,18 +360,6 @@ org.springframework.web.server.WebFilter
 ```java
 org.springframework.web.server.WebFilterChain
     + org.springframework.web.server.handler.DefaultWebFilterChain
-```
-
-## WebHandler
-
-```java
-org.springframework.web.server.WebHandler
-    + org.springframework.web.reactive.DispatcherHandler
-    + org.springframework.web.reactive.resource.ResourceWebHandler
-    + org.springframework.web.server.handler.WebHandlerDecorator
-        + org.springframework.web.server.handler.ExceptionHandlingWebHandler
-        + org.springframework.web.server.handler.FilteringWebHandler
-        + org.springframework.web.server.adapter.HttpWebHandlerAdapter
 ```
 
 ## WebSession
