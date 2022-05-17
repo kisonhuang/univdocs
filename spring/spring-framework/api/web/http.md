@@ -109,55 +109,6 @@ org.springframework.http.codec.LoggingCodecSupport
     + org.springframework.http.codec.multipart.SynchronossPartHttpMessageReader
 ```
 
-## HttpMessageConverter
-
-```java
-org.springframework.http.converter.HttpMessageConverter<T>
-    + org.springframework.http.converter.AbstractHttpMessageConverter<T>
-        + org.springframework.http.converter.AbstractGenericHttpMessageConverter<T>
-            + org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter
-                + org.springframework.http.converter.cbor.MappingJackson2CborHttpMessageConverter
-                + org.springframework.http.converter.json.MappingJackson2HttpMessageConverter
-                + org.springframework.http.converter.smile.MappingJackson2SmileHttpMessageConverter
-                + org.springframework.http.converter.xml.MappingJackson2XmlHttpMessageConverter
-            + org.springframework.http.converter.json.AbstractJsonHttpMessageConverter
-                + org.springframework.http.converter.json.GsonHttpMessageConverter
-                + org.springframework.http.converter.json.JsonbHttpMessageConverter
-            + org.springframework.http.converter.json.KotlinSerializationJsonHttpMessageConverter
-            + org.springframework.http.converter.ResourceRegionHttpMessageConverter
-        + org.springframework.http.converter.feed.AbstractWireFeedHttpMessageConverter<T>
-            + org.springframework.http.converter.feed.AtomFeedHttpMessageConverter
-            + org.springframework.http.converter.feed.RssChannelHttpMessageConverter
-        + org.springframework.http.converter.xml.AbstractXmlHttpMessageConverter<T>
-            + org.springframework.http.converter.xml.AbstractJaxb2HttpMessageConverter<T>
-                + org.springframework.http.converter.xml.Jaxb2CollectionHttpMessageConverter<T>
-                + org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverter
-            + org.springframework.http.converter.xml.MarshallingHttpMessageConverter
-        + org.springframework.http.converter.ByteArrayHttpMessageConverter
-        + org.springframework.http.converter.ObjectToStringHttpMessageConverter
-        + org.springframework.http.converter.protobuf.ProtobufHttpMessageConverter
-            + org.springframework.http.converter.protobuf.ProtobufJsonFormatHttpMessageConverter
-        + org.springframework.http.converter.ResourceHttpMessageConverter
-        + org.springframework.http.converter.xml.SourceHttpMessageConverter<T>
-        + org.springframework.http.converter.StringHttpMessageConverter
-    + org.springframework.http.converter.BufferedImageHttpMessageConverter
-    + org.springframework.http.converter.FormHttpMessageConverter
-        + org.springframework.http.converter.support.AllEncompassingFormHttpMessageConverter
-    + org.springframework.http.converter.GenericHttpMessageConverter<T>
-        + org.springframework.http.converter.AbstractGenericHttpMessageConverter<T>
-            + org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter
-                + org.springframework.http.converter.cbor.MappingJackson2CborHttpMessageConverter
-                + org.springframework.http.converter.json.MappingJackson2HttpMessageConverter
-                + org.springframework.http.converter.smile.MappingJackson2SmileHttpMessageConverter
-                + org.springframework.http.converter.xml.MappingJackson2XmlHttpMessageConverter
-            + org.springframework.http.converter.json.AbstractJsonHttpMessageConverter
-                + org.springframework.http.converter.json.GsonHttpMessageConverter
-                + org.springframework.http.converter.json.JsonbHttpMessageConverter
-            + org.springframework.http.converter.json.KotlinSerializationJsonHttpMessageConverter
-            + org.springframework.http.converter.ResourceRegionHttpMessageConverter
-        + org.springframework.http.converter.xml.Jaxb2CollectionHttpMessageConverter<T>
-```
-
 
 ## Jackson2CodecSupport
 
@@ -210,14 +161,7 @@ org.springframework.http.codec.CodecConfigurer
 ## PathContainer
 
 ```java
-org.springframework.http.server.PathContainer
-    + org.springframework.http.server.RequestPath
 
-org.springframework.http.server.PathContainer.Element
-    + org.springframework.http.server.PathContainer.PathSegment
-    + org.springframework.http.server.PathContainer.Separator
-
-org.springframework.http.server.PathContainer.Options
 ```
 
 ## HttpCookie
@@ -391,9 +335,7 @@ org.springframework.http.CacheControl
 org.springframework.http.ContentDisposition
 org.springframework.http.ContentDisposition.Builder
 
-org.springframework.http.MediaType
-org.springframework.http.MediaTypeEditor
-org.springframework.http.MediaTypeFactory
+
 
 org.springframework.http.codec.ServerSentEvent
 org.springframework.http.codec.ServerSentEvent.Builder
