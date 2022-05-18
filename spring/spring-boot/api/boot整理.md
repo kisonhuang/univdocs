@@ -1,31 +1,6 @@
-org.springframework.boot.jackson.JsonComponent
-org.springframework.boot.sql.init.dependency.DependsOnDatabaseInitialization
-org.springframework.boot.context.properties.EnableConfigurationProperties
-org.springframework.boot.context.properties.ConfigurationPropertiesScan
-org.springframework.boot.context.properties.DeprecatedConfigurationProperty
-org.springframework.boot.context.properties.ConfigurationProperties
-org.springframework.boot.context.properties.ConfigurationPropertiesBinding
-org.springframework.boot.context.properties.bind.Name
-org.springframework.boot.context.properties.bind.DefaultValue
-org.springframework.boot.context.properties.ConstructorBinding
-org.springframework.boot.context.properties.NestedConfigurationProperty
-org.springframework.boot.convert.DataSizeUnit
-org.springframework.boot.convert.Delimiter
-org.springframework.boot.convert.PeriodFormat
-org.springframework.boot.convert.PeriodUnit
-org.springframework.boot.convert.DurationFormat
-org.springframework.boot.convert.DurationUnit
+# SpringBootApplication
 
-org.springframework.boot.rsocket.context.LocalRSocketServerPort
-org.springframework.boot.web.servlet.ServletComponentScan
-org.springframework.boot.web.server.LocalServerPort
-
-# 
-
-
-
-
-
+```java
 org.springframework.boot.autoconfigure.SpringBootApplication
 
 org.springframework.boot.SpringBootConfiguration
@@ -54,6 +29,7 @@ org.springframework.boot.context.TypeExcludeFilter
             + org.springframework.boot.test.autoconfigure.webservices.server.WebServiceServerTypeExcludeFilter
 
 org.springframework.boot.autoconfigure.AutoConfigurationExcludeFilter
+```
 
 
 
