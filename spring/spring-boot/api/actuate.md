@@ -234,7 +234,6 @@ org.springframework.boot.actuate.autoconfigure.web.server.LocalManagementPort
 org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextAutoConfiguration
 org.springframework.boot.actuate.autoconfigure.web.server.ManagementPortType
 org.springframework.boot.actuate.autoconfigure.web.server.ManagementServerProperties
-org.springframework.boot.actuate.autoconfigure.web.server.ManagementWebServerFactoryCustomizer
 org.springframework.boot.actuate.autoconfigure.web.servlet.ManagementErrorEndpoint
 org.springframework.boot.actuate.autoconfigure.web.servlet.ManagementServletContext
 org.springframework.boot.actuate.autoconfigure.web.servlet.ServletManagementContextAutoConfiguration

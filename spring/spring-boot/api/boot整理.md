@@ -104,9 +104,165 @@ org.springframework.boot.context.event.SpringApplicationEvent
     + org.springframework.boot.context.event.ApplicationReadyEvent
 ```
 
+## server
+
+```java
+org.springframework.boot.web.server.WebServerFactory
+    + org.springframework.boot.web.server.ConfigurableWebServerFactory
+        + org.springframework.boot.web.server.AbstractConfigurableWebServerFactory
+            + org.springframework.boot.web.servlet.server.AbstractServletWebServerFactory
+                + org.springframework.boot.web.embedded.jetty.JettyServletWebServerFactory
+                + org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory
+                + org.springframework.boot.web.embedded.undertow.UndertowServletWebServerFactory
+            + org.springframework.boot.web.reactive.server.AbstractReactiveWebServerFactory
+                + org.springframework.boot.web.embedded.jetty.JettyReactiveWebServerFactory
+                + org.springframework.boot.web.embedded.netty.NettyReactiveWebServerFactory
+                + org.springframework.boot.web.embedded.tomcat.TomcatReactiveWebServerFactory
+                + org.springframework.boot.web.embedded.undertow.UndertowReactiveWebServerFactory
+        + org.springframework.boot.web.servlet.server.ConfigurableServletWebServerFactory
+            + org.springframework.boot.web.servlet.server.AbstractServletWebServerFactory
+                + org.springframework.boot.web.embedded.jetty.JettyServletWebServerFactory
+                + org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory
+                + org.springframework.boot.web.embedded.undertow.UndertowServletWebServerFactory
+        + org.springframework.boot.web.reactive.server.ConfigurableReactiveWebServerFactory
+            + org.springframework.boot.web.reactive.server.AbstractReactiveWebServerFactory
+                + org.springframework.boot.web.embedded.jetty.JettyReactiveWebServerFactory
+                + org.springframework.boot.web.embedded.netty.NettyReactiveWebServerFactory
+                + org.springframework.boot.web.embedded.tomcat.TomcatReactiveWebServerFactory
+                + org.springframework.boot.web.embedded.undertow.UndertowReactiveWebServerFactory
+        + org.springframework.boot.web.embedded.jetty.ConfigurableJettyWebServerFactory
+            + org.springframework.boot.web.embedded.jetty.JettyServletWebServerFactory
+            + org.springframework.boot.web.embedded.jetty.JettyReactiveWebServerFactory
+        + org.springframework.boot.web.embedded.tomcat.ConfigurableTomcatWebServerFactory
+            + org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory
+            + org.springframework.boot.web.embedded.tomcat.TomcatReactiveWebServerFactory
+        + org.springframework.boot.web.embedded.undertow.ConfigurableUndertowWebServerFactory
+            + org.springframework.boot.web.embedded.undertow.UndertowServletWebServerFactory
+            + org.springframework.boot.web.embedded.undertow.UndertowReactiveWebServerFactory
+
+org.springframework.boot.web.server.ErrorPageRegistry
+    + org.springframework.boot.web.servlet.support.ErrorPageFilter
+    + org.springframework.boot.web.server.ConfigurableWebServerFactory
+        + org.springframework.boot.web.server.AbstractConfigurableWebServerFactory
+            + org.springframework.boot.web.servlet.server.AbstractServletWebServerFactory
+                + org.springframework.boot.web.embedded.jetty.JettyServletWebServerFactory
+                + org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory
+                + org.springframework.boot.web.embedded.undertow.UndertowServletWebServerFactory
+            + org.springframework.boot.web.reactive.server.AbstractReactiveWebServerFactory
+                + org.springframework.boot.web.embedded.jetty.JettyReactiveWebServerFactory
+                + org.springframework.boot.web.embedded.netty.NettyReactiveWebServerFactory
+                + org.springframework.boot.web.embedded.tomcat.TomcatReactiveWebServerFactory
+                + org.springframework.boot.web.embedded.undertow.UndertowReactiveWebServerFactory
+        + org.springframework.boot.web.servlet.server.ConfigurableServletWebServerFactory
+            + org.springframework.boot.web.servlet.server.AbstractServletWebServerFactory
+                + org.springframework.boot.web.embedded.jetty.JettyServletWebServerFactory
+                + org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory
+                + org.springframework.boot.web.embedded.undertow.UndertowServletWebServerFactory
+        + org.springframework.boot.web.reactive.server.ConfigurableReactiveWebServerFactory
+            + org.springframework.boot.web.reactive.server.AbstractReactiveWebServerFactory
+                + org.springframework.boot.web.embedded.jetty.JettyReactiveWebServerFactory
+                + org.springframework.boot.web.embedded.netty.NettyReactiveWebServerFactory
+                + org.springframework.boot.web.embedded.tomcat.TomcatReactiveWebServerFactory
+                + org.springframework.boot.web.embedded.undertow.UndertowReactiveWebServerFactory
+        + org.springframework.boot.web.embedded.jetty.ConfigurableJettyWebServerFactory
+            + org.springframework.boot.web.embedded.jetty.JettyServletWebServerFactory
+            + org.springframework.boot.web.embedded.jetty.JettyReactiveWebServerFactory
+        + org.springframework.boot.web.embedded.tomcat.ConfigurableTomcatWebServerFactory
+            + org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory
+            + org.springframework.boot.web.embedded.tomcat.TomcatReactiveWebServerFactory
+        + org.springframework.boot.web.embedded.undertow.ConfigurableUndertowWebServerFactory
+            + org.springframework.boot.web.embedded.undertow.UndertowServletWebServerFactory
+            + org.springframework.boot.web.embedded.undertow.UndertowReactiveWebServerFactory
+
+org.springframework.boot.web.servlet.server.ServletWebServerFactory
+    + org.springframework.boot.web.servlet.server.ConfigurableServletWebServerFactory
+        + org.springframework.boot.web.servlet.server.AbstractServletWebServerFactory
+            + org.springframework.boot.web.embedded.jetty.JettyServletWebServerFactory
+            + org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory
+            + org.springframework.boot.web.embedded.undertow.UndertowServletWebServerFactory
+
+org.springframework.boot.web.reactive.server.ReactiveWebServerFactory
+    + org.springframework.boot.web.reactive.server.ConfigurableReactiveWebServerFactory
+        + org.springframework.boot.web.reactive.server.AbstractReactiveWebServerFactory
+            + org.springframework.boot.web.embedded.jetty.JettyReactiveWebServerFactory
+            + org.springframework.boot.web.embedded.netty.NettyReactiveWebServerFactory
+            + org.springframework.boot.web.embedded.tomcat.TomcatReactiveWebServerFactory
+            + org.springframework.boot.web.embedded.undertow.UndertowReactiveWebServerFactory
+
+org.springframework.boot.web.server.WebServerFactoryCustomizer<T>
+    + org.springframework.boot.autoconfigure.web.embedded.JettyWebServerFactoryCustomizer
+    + org.springframework.boot.autoconfigure.web.embedded.NettyWebServerFactoryCustomizer
+    + org.springframework.boot.autoconfigure.web.embedded.TomcatWebServerFactoryCustomizer
+    + org.springframework.boot.autoconfigure.web.embedded.UndertowWebServerFactoryCustomizer
+    + org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryCustomizer
+    + org.springframework.boot.autoconfigure.web.servlet.TomcatServletWebServerFactoryCustomizer
+    + org.springframework.boot.autoconfigure.web.servlet.UndertowServletWebServerFactoryCustomizer
+    + org.springframework.boot.autoconfigure.web.reactive.ReactiveWebServerFactoryCustomizer
+    + org.springframework.boot.autoconfigure.web.reactive.TomcatReactiveWebServerFactoryCustomizer
+    + org.springframework.boot.autoconfigure.websocket.servlet.JettyWebSocketServletWebServerCustomizer
+    + org.springframework.boot.autoconfigure.websocket.servlet.TomcatWebSocketServletWebServerCustomizer
+    + org.springframework.boot.autoconfigure.websocket.servlet.UndertowWebSocketServletWebServerCustomizer
+    + org.springframework.boot.autoconfigure.websocket.reactive.TomcatWebSocketReactiveWebServerCustomizer
+    + org.springframework.boot.actuate.autoconfigure.web.server.ManagementWebServerFactoryCustomizer<T>
+
+org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor
+
+org.springframework.boot.web.server.WebServer
+    + org.springframework.boot.web.embedded.jetty.JettyWebServer
+    + org.springframework.boot.web.embedded.netty.NettyWebServer
+    + org.springframework.boot.web.embedded.tomcat.TomcatWebServer
+    + org.springframework.boot.web.embedded.undertow.UndertowWebServer
+        + org.springframework.boot.web.embedded.undertow.UndertowServletWebServer
+
+org.springframework.boot.web.server.Http2
+org.springframework.boot.web.server.Compression
+org.springframework.boot.web.server.LocalServerPort
+org.springframework.boot.web.server.MimeMappings
+org.springframework.boot.web.server.MimeMappings.Mapping
+
+org.springframework.boot.web.server.ErrorPage
+org.springframework.boot.web.server.ErrorPageRegistrar
+org.springframework.boot.web.server.ErrorPageRegistrarBeanPostProcessor
+
+org.springframework.boot.web.server.Shutdown
+org.springframework.boot.web.server.GracefulShutdownResult
+org.springframework.boot.web.server.GracefulShutdownCallback
+
+org.springframework.boot.web.server.Ssl
+org.springframework.boot.web.server.Ssl.ClientAuth
+org.springframework.boot.web.server.SslStoreProvider
+org.springframework.boot.web.server.SslConfigurationValidator
+
+org.springframework.boot.web.server.Cookie
+    + org.springframework.boot.web.servlet.server.Session.Cookie
+
+org.springframework.boot.web.server.Cookie.SameSite
+
+org.springframework.boot.web.server.WebServerException
+    + org.springframework.boot.web.server.PortInUseException
+    + org.springframework.boot.web.embedded.tomcat.ConnectorStartFailedException
+
+org.springframework.boot.web.embedded.jetty.JettyServerCustomizer
+org.springframework.boot.web.embedded.jetty.ServletContextInitializerConfiguration
+
+org.springframework.boot.web.embedded.netty.NettyRouteProvider
+
+org.springframework.boot.web.embedded.netty.NettyServerCustomizer
+    + org.springframework.boot.web.embedded.netty.SslServerCustomizer
+
+org.springframework.boot.web.embedded.tomcat.TomcatEmbeddedWebappClassLoader
+org.springframework.boot.web.embedded.tomcat.TomcatConnectorCustomizer
+org.springframework.boot.web.embedded.tomcat.TomcatContextCustomizer
+org.springframework.boot.web.embedded.tomcat.TomcatProtocolHandlerCustomizer
+
+org.springframework.boot.web.embedded.undertow.HttpHandlerFactory
+org.springframework.boot.web.embedded.undertow.UndertowBuilderCustomizer
+org.springframework.boot.web.embedded.undertow.UndertowDeploymentInfoCustomizer
+```
+
 ## logging
 
-```
+```java
 org.springframework.boot.context.logging.LoggingApplicationListener
 org.springframework.boot.logging.LoggingInitializationContext
 org.springframework.boot.logging.LogFile
