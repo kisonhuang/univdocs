@@ -50,8 +50,6 @@ org.springframework.boot.autoconfigure.batch.BatchProperties
 org.springframework.boot.autoconfigure.batch.BatchProperties.Jdbc
 org.springframework.boot.autoconfigure.batch.BatchProperties.Job
 org.springframework.boot.autoconfigure.batch.JobExecutionEvent
-org.springframework.boot.autoconfigure.batch.JobExecutionExitCodeGenerator
-org.springframework.boot.autoconfigure.batch.JobLauncherApplicationRunner
 org.springframework.boot.autoconfigure.batch.JpaBatchConfigurer
 org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration
 org.springframework.boot.autoconfigure.cache.CacheManagerCustomizer

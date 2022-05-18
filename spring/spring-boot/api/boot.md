@@ -70,7 +70,6 @@ org.springframework.boot.context.event.ApplicationPreparedEvent
 org.springframework.boot.context.event.ApplicationReadyEvent
 org.springframework.boot.context.event.ApplicationStartedEvent
 org.springframework.boot.context.event.ApplicationStartingEvent
-org.springframework.boot.context.event.EventPublishingRunListener
 org.springframework.boot.context.event.SpringApplicationEvent
 org.springframework.boot.context.FileEncodingApplicationListener
 org.springframework.boot.context.logging.LoggingApplicationListener

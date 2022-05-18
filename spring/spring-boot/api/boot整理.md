@@ -32,16 +32,27 @@ org.springframework.boot.ApplicationContextFactory
 
 
 org.springframework.boot.ApplicationArguments
+    + org.springframework.boot.DefaultApplicationArguments
+
 org.springframework.boot.ApplicationRunner
+    + org.springframework.boot.autoconfigure.batch.JobLauncherApplicationRunner
+
 org.springframework.boot.CommandLineRunner
-org.springframework.boot.DefaultApplicationArguments
+
 org.springframework.boot.DefaultPropertiesPropertySource
+
 org.springframework.boot.ExitCodeEvent
 org.springframework.boot.ExitCodeExceptionMapper
+
 org.springframework.boot.ExitCodeGenerator
+    + org.springframework.boot.autoconfigure.batch.JobExecutionExitCodeGenerator
+
 org.springframework.boot.LazyInitializationBeanFactoryPostProcessor
 org.springframework.boot.LazyInitializationExcludeFilter
+
 org.springframework.boot.SpringApplicationRunListener
+    + org.springframework.boot.context.event.EventPublishingRunListener
+
 org.springframework.boot.SpringApplicationShutdownHandlers
 org.springframework.boot.SpringBootExceptionReporter
 org.springframework.boot.SpringBootVersion
