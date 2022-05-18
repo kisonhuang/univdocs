@@ -5,14 +5,20 @@
 ```java
 org.springframework.boot.SpringApplication
 
+org.springframework.boot.SpringApplicationRunListener
+    + org.springframework.boot.context.event.EventPublishingRunListener
+
+org.springframework.boot.SpringApplicationShutdownHandlers
+
+org.springframework.boot.SpringBootExceptionReporter
+org.springframework.boot.SpringBootVersion
+
 org.springframework.boot.Banner
    + org.springframework.boot.ImageBanner
    + org.springframework.boot.ResourceBanner
 
 org.springframework.boot.Banner.Mode
 org.springframework.boot.ImageBanner.PixelMode
-
-org.springframework.boot.WebApplicationType
 
 org.springframework.boot.BootstrapRegistryInitializer
 
@@ -28,14 +34,15 @@ org.springframework.boot.BootstrapRegistry.Scope
 org.springframework.boot.BootstrapRegistry.InstanceSupplier
 
 org.springframework.boot.BootstrapContextClosedEvent
+
+org.springframework.boot.WebApplicationType
 org.springframework.boot.ApplicationContextFactory
-
-
-org.springframework.boot.ApplicationArguments
-    + org.springframework.boot.DefaultApplicationArguments
 
 org.springframework.boot.ApplicationRunner
     + org.springframework.boot.autoconfigure.batch.JobLauncherApplicationRunner
+
+org.springframework.boot.ApplicationArguments
+    + org.springframework.boot.DefaultApplicationArguments
 
 org.springframework.boot.CommandLineRunner
 
@@ -49,24 +56,6 @@ org.springframework.boot.ExitCodeGenerator
 
 org.springframework.boot.LazyInitializationBeanFactoryPostProcessor
 org.springframework.boot.LazyInitializationExcludeFilter
-
-org.springframework.boot.SpringApplicationRunListener
-    + org.springframework.boot.context.event.EventPublishingRunListener
-
-org.springframework.boot.SpringApplicationShutdownHandlers
-org.springframework.boot.SpringBootExceptionReporter
-org.springframework.boot.SpringBootVersion
-
-
-
-
-
-
-
-
-
-
-
 ```
 
 ## SpringBootApplication
