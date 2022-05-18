@@ -16,8 +16,6 @@ org.springframework.boot.devtools.classpath.ClassPathDirectories
 org.springframework.boot.devtools.classpath.ClassPathFileSystemWatcher
 org.springframework.boot.devtools.classpath.ClassPathRestartStrategy
 org.springframework.boot.devtools.classpath.PatternClassPathRestartStrategy
-org.springframework.boot.devtools.env.DevToolsHomePropertiesPostProcessor
-org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor
 org.springframework.boot.devtools.filewatch.ChangedFile
 org.springframework.boot.devtools.filewatch.ChangedFile.Type
 org.springframework.boot.devtools.filewatch.ChangedFiles
