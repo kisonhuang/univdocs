@@ -306,6 +306,32 @@ org.springframework.boot.logging.logback.WhitespaceThrowableProxyConverter
 org.springframework.boot.logging.logback.ExtendedWhitespaceThrowableProxyConverter
 ```
 
+## admin
+
+```java
+org.springframework.boot.admin.SpringApplicationAdminMXBean
+org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar
+
+org.springframework.boot.availability.AvailabilityChangeEvent
+
+org.springframework.boot.availability.ApplicationAvailability
+    + org.springframework.boot.availability.ApplicationAvailabilityBean
+
+org.springframework.boot.availability.AvailabilityState
+    + org.springframework.boot.availability.LivenessState
+    + org.springframework.boot.availability.ReadinessState
+
+org.springframework.boot.diagnostics.FailureAnalyzer
+    + org.springframework.boot.diagnostics.AbstractFailureAnalyzer<T>
+        + org.springframework.boot.diagnostics.analyzer.AbstractInjectionFailureAnalyzer<T>
+            + org.springframework.boot.diagnostics.analyzer.BeanNotOfRequiredTypeFailureAnalyzer
+
+org.springframework.boot.diagnostics.FailureAnalysisReporter
+    + org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter
+
+org.springframework.boot.diagnostics.FailureAnalysis
+```
+
 ## 
 
 ```java

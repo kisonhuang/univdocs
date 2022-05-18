@@ -1,5 +1,3 @@
-org.springframework.boot.admin.SpringApplicationAdminMXBean
-org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar
 org.springframework.boot.ansi.Ansi8BitColor
 org.springframework.boot.ansi.AnsiBackground
 org.springframework.boot.ansi.AnsiColor
@@ -10,12 +8,6 @@ org.springframework.boot.ansi.AnsiOutput
 org.springframework.boot.ansi.AnsiOutput.Enabled
 org.springframework.boot.ansi.AnsiPropertySource
 org.springframework.boot.ansi.AnsiStyle
-org.springframework.boot.availability.ApplicationAvailability
-org.springframework.boot.availability.ApplicationAvailabilityBean
-org.springframework.boot.availability.AvailabilityChangeEvent
-org.springframework.boot.availability.AvailabilityState
-org.springframework.boot.availability.LivenessState
-org.springframework.boot.availability.ReadinessState
 org.springframework.boot.builder.ParentContextApplicationContextInitializer
 org.springframework.boot.builder.ParentContextApplicationContextInitializer.ParentContextAvailableEvent
 org.springframework.boot.builder.ParentContextCloserApplicationListener
@@ -96,13 +88,6 @@ org.springframework.boot.convert.DurationUnit
 org.springframework.boot.convert.PeriodFormat
 org.springframework.boot.convert.PeriodStyle
 org.springframework.boot.convert.PeriodUnit
-org.springframework.boot.diagnostics.AbstractFailureAnalyzer
-org.springframework.boot.diagnostics.analyzer.AbstractInjectionFailureAnalyzer
-org.springframework.boot.diagnostics.analyzer.BeanNotOfRequiredTypeFailureAnalyzer
-org.springframework.boot.diagnostics.FailureAnalysis
-org.springframework.boot.diagnostics.FailureAnalysisReporter
-org.springframework.boot.diagnostics.FailureAnalyzer
-org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter
 org.springframework.boot.env.ConfigTreePropertySource.Option
 org.springframework.boot.env.ConfigTreePropertySource.Value
 org.springframework.boot.env.EnvironmentPostProcessor
