@@ -30,15 +30,11 @@ org.springframework.boot.autoconfigure.amqp.RabbitRetryTemplateCustomizer.Target
 org.springframework.boot.autoconfigure.amqp.RabbitTemplateConfigurer
 org.springframework.boot.autoconfigure.amqp.SimpleRabbitListenerContainerFactoryConfigurer
 org.springframework.boot.autoconfigure.aop.AopAutoConfiguration
-org.springframework.boot.autoconfigure.AutoConfigurationExcludeFilter
 org.springframework.boot.autoconfigure.AutoConfigurationImportEvent
 org.springframework.boot.autoconfigure.AutoConfigurationImportFilter
 org.springframework.boot.autoconfigure.AutoConfigurationImportListener
-org.springframework.boot.autoconfigure.AutoConfigurationImportSelector
 org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.AutoConfigurationEntry
 org.springframework.boot.autoconfigure.AutoConfigurationMetadata
-org.springframework.boot.autoconfigure.AutoConfigurationPackage
-org.springframework.boot.autoconfigure.AutoConfigurationPackages
 org.springframework.boot.autoconfigure.AutoConfigurations
 org.springframework.boot.autoconfigure.AutoConfigureAfter
 org.springframework.boot.autoconfigure.AutoConfigureBefore
@@ -194,7 +190,6 @@ org.springframework.boot.autoconfigure.elasticsearch.ElasticsearchRestClientAuto
 org.springframework.boot.autoconfigure.elasticsearch.ElasticsearchRestClientProperties
 org.springframework.boot.autoconfigure.elasticsearch.ElasticsearchRestClientProperties.Sniffer
 org.springframework.boot.autoconfigure.elasticsearch.RestClientBuilderCustomizer
-org.springframework.boot.autoconfigure.EnableAutoConfiguration
 org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration
 org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration.FlywayConfiguration
 org.springframework.boot.autoconfigure.flyway.FlywayConfigurationCustomizer
@@ -488,7 +483,6 @@ org.springframework.boot.autoconfigure.session.SessionRepositoryUnavailableExcep
 org.springframework.boot.autoconfigure.session.StoreType
 org.springframework.boot.autoconfigure.solr.SolrAutoConfiguration
 org.springframework.boot.autoconfigure.solr.SolrProperties
-org.springframework.boot.autoconfigure.SpringBootApplication
 org.springframework.boot.autoconfigure.sql.init.OnDatabaseInitializationCondition
 org.springframework.boot.autoconfigure.sql.init.SqlDataSourceScriptDatabaseInitializer
 org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration

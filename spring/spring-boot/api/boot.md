@@ -143,7 +143,6 @@ org.springframework.boot.context.properties.source.IterableConfigurationProperty
 org.springframework.boot.context.properties.source.MapConfigurationPropertySource
 org.springframework.boot.context.properties.source.MutuallyExclusiveConfigurationPropertiesException
 org.springframework.boot.context.properties.source.UnboundElementsSourceFilter
-org.springframework.boot.context.TypeExcludeFilter
 org.springframework.boot.convert.ApplicationConversionService
 org.springframework.boot.convert.DataSizeUnit
 org.springframework.boot.convert.Delimiter
@@ -302,7 +301,6 @@ org.springframework.boot.security.servlet.ApplicationContextRequestMatcher
 org.springframework.boot.SpringApplication
 org.springframework.boot.SpringApplicationRunListener
 org.springframework.boot.SpringApplicationShutdownHandlers
-org.springframework.boot.SpringBootConfiguration
 org.springframework.boot.SpringBootExceptionReporter
 org.springframework.boot.SpringBootVersion
 org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer
