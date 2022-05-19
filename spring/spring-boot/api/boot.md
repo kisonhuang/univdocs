@@ -1,13 +1,3 @@
-org.springframework.boot.ansi.Ansi8BitColor
-org.springframework.boot.ansi.AnsiBackground
-org.springframework.boot.ansi.AnsiColor
-org.springframework.boot.ansi.AnsiColors
-org.springframework.boot.ansi.AnsiColors.BitDepth
-org.springframework.boot.ansi.AnsiElement
-org.springframework.boot.ansi.AnsiOutput
-org.springframework.boot.ansi.AnsiOutput.Enabled
-org.springframework.boot.ansi.AnsiPropertySource
-org.springframework.boot.ansi.AnsiStyle
 org.springframework.boot.context.annotation.Configurations
 org.springframework.boot.context.annotation.DeterminableImports
 org.springframework.boot.context.annotation.UserConfigurations
