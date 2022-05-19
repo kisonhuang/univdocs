@@ -423,7 +423,6 @@ org.springframework.boot.context.properties.bind.BindHandler
         + org.springframework.boot.context.properties.bind.validation.ValidationBindHandler
 ```
 
-
 ## web
 
 ```java
@@ -469,16 +468,44 @@ org.springframework.boot.web.context.WebServerInitializedEvent
 
 org.springframework.boot.web.context.WebServerPortFileWriter
 org.springframework.boot.web.context.WebServerGracefulShutdownLifecycle
+
+org.springframework.boot.web.client.RestTemplateBuilder
+org.springframework.boot.web.client.RestTemplateRequestCustomizer
+org.springframework.boot.web.client.ClientHttpRequestFactorySupplier
+
+org.springframework.boot.web.client.RestTemplateCustomizer
+    + org.springframework.boot.actuate.metrics.web.client.MetricsRestTemplateCustomizer
+    + org.springframework.boot.test.web.client.MockServerRestTemplateCustomizer
+
+org.springframework.boot.web.client.RootUriTemplateHandler
+    + org.springframework.boot.test.web.client.LocalHostUriTemplateHandler
+
+org.springframework.boot.web.codec.CodecCustomizer
+
+org.springframework.boot.web.error.ErrorAttributeOptions
+org.springframework.boot.web.error.ErrorAttributeOptions.Include
 ```
 
+## util
 
+```java
+org.springframework.boot.util.Instantiator
+org.springframework.boot.util.Instantiator.AvailableParameters
+org.springframework.boot.util.LambdaSafe
+org.springframework.boot.util.LambdaSafe.InvocationResult
 
+org.springframework.boot.util.LambdaSafe.LambdaSafeCallback
+    + org.springframework.boot.util.LambdaSafe.Callback
+    + org.springframework.boot.util.LambdaSafe.Callbacks
+```
 
+## webservices
 
-
-
-
-
+```java
+org.springframework.boot.webservices.client.HttpWebServiceMessageSenderBuilder
+org.springframework.boot.webservices.client.WebServiceTemplateBuilder
+org.springframework.boot.webservices.client.WebServiceTemplateCustomizer
+```
 
 
 

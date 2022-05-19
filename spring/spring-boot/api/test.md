@@ -127,8 +127,6 @@ org.springframework.boot.test.util.ApplicationContextTestUtils
 org.springframework.boot.test.util.TestPropertyValues
 org.springframework.boot.test.util.TestPropertyValues.Pair
 org.springframework.boot.test.util.TestPropertyValues.Type
-org.springframework.boot.test.web.client.LocalHostUriTemplateHandler
-org.springframework.boot.test.web.client.MockServerRestTemplateCustomizer
 org.springframework.boot.test.web.client.RootUriRequestExpectationManager
 org.springframework.boot.test.web.client.TestRestTemplate
 org.springframework.boot.test.web.client.TestRestTemplate.CustomHttpComponentsClientHttpRequestFactory

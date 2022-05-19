@@ -481,7 +481,6 @@ org.springframework.boot.actuate.metrics.r2dbc.ConnectionPoolMetrics
 org.springframework.boot.actuate.metrics.startup.StartupTimeMetricsListener
 org.springframework.boot.actuate.metrics.system.DiskSpaceMetricsBinder
 org.springframework.boot.actuate.metrics.web.client.DefaultRestTemplateExchangeTagsProvider
-org.springframework.boot.actuate.metrics.web.client.MetricsRestTemplateCustomizer
 org.springframework.boot.actuate.metrics.web.client.RestTemplateExchangeTags
 org.springframework.boot.actuate.metrics.web.client.RestTemplateExchangeTagsProvider
 org.springframework.boot.actuate.metrics.web.jetty.AbstractJettyMetricsBinder
