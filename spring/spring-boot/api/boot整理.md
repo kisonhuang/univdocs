@@ -742,6 +742,34 @@ org.springframework.boot.context.config.ConfigDataLocationResolver<R>
 
 org.springframework.boot.context.config.ConfigDataLocationResolverContext
 
+org.springframework.boot.context.config.Profiles
+org.springframework.boot.context.config.ConfigDataNotFoundAction
+
+org.springframework.boot.context.config.AnsiOutputApplicationListener
+org.springframework.boot.context.config.ConfigDataEnvironmentUpdateListener
+org.springframework.boot.context.config.DelegatingApplicationListener
+
+org.springframework.boot.context.properties.NestedConfigurationProperty
+org.springframework.boot.context.properties.DeprecatedConfigurationProperty
+
+org.springframework.boot.context.properties.PropertyMapper
+org.springframework.boot.context.properties.PropertyMapper.Source
+org.springframework.boot.context.properties.PropertyMapper.SourceOperator
+
+org.springframework.boot.context.properties.bind.Binder
+org.springframework.boot.context.properties.bind.Name
+org.springframework.boot.context.properties.bind.DefaultValue
+org.springframework.boot.context.properties.bind.BindContext
+org.springframework.boot.context.properties.bind.BindResult
+org.springframework.boot.context.properties.bind.Bindable
+org.springframework.boot.context.properties.bind.Bindable.BindRestriction
+org.springframework.boot.context.properties.bind.BindConstructorProvider
+org.springframework.boot.context.properties.bind.DataObjectPropertyName
+org.springframework.boot.context.properties.source.UnboundElementsSourceFilter
+
+org.springframework.boot.context.properties.bind.PlaceholdersResolver
+    + org.springframework.boot.context.properties.bind.PropertySourcesPlaceholdersResolver
+
 org.springframework.boot.context.config.ConfigDataException
     + org.springframework.boot.context.config.InactiveConfigDataAccessException
     + org.springframework.boot.context.config.InvalidConfigDataPropertyException
@@ -750,12 +778,13 @@ org.springframework.boot.context.config.ConfigDataException
         + org.springframework.boot.context.config.ConfigDataLocationNotFoundException
         + org.springframework.boot.context.config.ConfigDataResourceNotFoundException
 
-org.springframework.boot.context.config.Profiles
-org.springframework.boot.context.config.ConfigDataNotFoundAction
-
-org.springframework.boot.context.config.AnsiOutputApplicationListener
-org.springframework.boot.context.config.ConfigDataEnvironmentUpdateListener
-org.springframework.boot.context.config.DelegatingApplicationListener
+org.springframework.boot.context.properties.IncompatibleConfigurationException
+org.springframework.boot.context.properties.bind.UnboundConfigurationPropertiesException
+org.springframework.boot.context.properties.bind.validation.ValidationErrors
+org.springframework.boot.context.properties.bind.validation.BindValidationException
+org.springframework.boot.context.properties.source.InvalidConfigurationPropertyNameException
+org.springframework.boot.context.properties.source.InvalidConfigurationPropertyValueException
+org.springframework.boot.context.properties.source.MutuallyExclusiveConfigurationPropertiesException
 ```
 
 ## 
