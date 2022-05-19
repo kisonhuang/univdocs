@@ -363,7 +363,7 @@ org.springframework.boot.env.EnvironmentPostProcessor
 org.springframework.boot.cloud.CloudPlatform
 ```
 
-## 
+## properties
 
 ```java
 org.springframework.boot.context.properties.EnableConfigurationProperties
@@ -424,6 +424,52 @@ org.springframework.boot.context.properties.bind.BindHandler
 ```
 
 
+## web
+
+```java
+org.springframework.boot.builder.ParentContextApplicationContextInitializer
+org.springframework.boot.builder.ParentContextApplicationContextInitializer.ParentContextAvailableEvent
+org.springframework.boot.context.ConfigurationWarningsApplicationContextInitializer
+org.springframework.boot.context.ConfigurationWarningsApplicationContextInitializer.ConfigurationWarningsPostProcessor
+org.springframework.boot.context.ContextIdApplicationContextInitializer
+org.springframework.boot.context.config.DelegatingApplicationContextInitializer
+org.springframework.boot.web.context.ServerPortInfoApplicationContextInitializer
+org.springframework.boot.web.servlet.support.ServletContextApplicationContextInitializer
+org.springframework.boot.rsocket.context.RSocketPortInfoApplicationContextInitializer
+org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener
+org.springframework.boot.test.context.ConfigDataApplicationContextInitializer
+org.springframework.boot.devtools.restart.RestartScopeInitializer
+
+org.springframework.boot.context.ConfigurationWarningsApplicationContextInitializer.Check
+    + org.springframework.boot.context.ConfigurationWarningsApplicationContextInitializer.ComponentScanPackageCheck
+
+org.springframework.boot.web.context.WebServerApplicationContext
+    + org.springframework.boot.web.context.ConfigurableWebServerApplicationContext
+        + org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext
+            + org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext
+            + org.springframework.boot.web.servlet.context.XmlServletWebServerApplicationContext
+        + org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext
+            + org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext
+
+org.springframework.boot.web.servlet.context.AnnotationConfigServletWebApplicationContext
+org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.ExistingWebApplicationScopes
+
+org.springframework.boot.web.reactive.context.ReactiveWebApplicationContext
+    + org.springframework.boot.web.reactive.context.ConfigurableReactiveWebApplicationContext
+        + org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebApplicationContext
+        + org.springframework.boot.test.context.assertj.AssertableReactiveWebApplicationContext
+        + org.springframework.boot.web.reactive.context.GenericReactiveWebApplicationContext
+            + org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext
+                + org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext
+
+org.springframework.boot.web.context.WebServerInitializedEvent
+    + org.springframework.boot.web.servlet.context.ServletWebServerInitializedEvent
+    + org.springframework.boot.web.reactive.context.ReactiveWebServerInitializedEvent
+
+
+org.springframework.boot.web.context.WebServerPortFileWriter
+org.springframework.boot.web.context.WebServerGracefulShutdownLifecycle
+```
 
 
 

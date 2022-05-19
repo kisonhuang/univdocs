@@ -54,7 +54,6 @@ org.springframework.boot.devtools.restart.Restarter
 org.springframework.boot.devtools.restart.RestartInitializer
 org.springframework.boot.devtools.restart.RestartListener
 org.springframework.boot.devtools.restart.RestartScope
-org.springframework.boot.devtools.restart.RestartScopeInitializer
 org.springframework.boot.devtools.restart.server.DefaultSourceDirectoryUrlFilter
 org.springframework.boot.devtools.restart.server.HttpRestartServer
 org.springframework.boot.devtools.restart.server.HttpRestartServerHandler

@@ -346,7 +346,6 @@ org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration
 org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration.LiquibaseConfiguration
 org.springframework.boot.autoconfigure.liquibase.LiquibaseDataSource
 org.springframework.boot.autoconfigure.liquibase.LiquibaseProperties
-org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener
 org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportMessage
 org.springframework.boot.autoconfigure.mail.MailProperties
 org.springframework.boot.autoconfigure.mail.MailSenderAutoConfiguration

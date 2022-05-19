@@ -80,9 +80,7 @@ org.springframework.boot.test.context.assertj.ApplicationContextAssert
 org.springframework.boot.test.context.assertj.ApplicationContextAssert.Scope
 org.springframework.boot.test.context.assertj.ApplicationContextAssertProvider
 org.springframework.boot.test.context.assertj.AssertableApplicationContext
-org.springframework.boot.test.context.assertj.AssertableReactiveWebApplicationContext
 org.springframework.boot.test.context.assertj.AssertableWebApplicationContext
-org.springframework.boot.test.context.ConfigDataApplicationContextInitializer
 org.springframework.boot.test.context.DefaultTestExecutionListenersPostProcessor
 org.springframework.boot.test.context.FilteredClassLoader
 org.springframework.boot.test.context.FilteredClassLoader.ClassFilter
