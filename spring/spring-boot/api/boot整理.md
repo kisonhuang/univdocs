@@ -671,10 +671,27 @@ org.springframework.boot.ansi.AnsiElement
     + org.springframework.boot.ansi.AnsiStyle
 ```
 
-## 
+## rsocket
 
 ```java
+org.springframework.boot.rsocket.server.RSocketServer.Transport
+org.springframework.boot.rsocket.server.RSocketServerCustomizer
+org.springframework.boot.rsocket.server.RSocketServerException
 
+org.springframework.boot.rsocket.context.LocalRSocketServerPort
+org.springframework.boot.rsocket.context.RSocketServerBootstrap
+org.springframework.boot.rsocket.context.RSocketServerInitializedEvent
+
+org.springframework.boot.rsocket.messaging.RSocketStrategiesCustomizer
+
+org.springframework.boot.rsocket.server.RSocketServerFactory
+    + org.springframework.boot.rsocket.netty.NettyRSocketServerFactory
+
+org.springframework.boot.rsocket.server.ConfigurableRSocketServerFactory
+    + org.springframework.boot.rsocket.netty.NettyRSocketServerFactory
+
+org.springframework.boot.rsocket.server.RSocketServer
+    + org.springframework.boot.rsocket.netty.NettyRSocketServer
 ```
 
 ## 
