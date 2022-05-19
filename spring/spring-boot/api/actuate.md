@@ -362,7 +362,6 @@ org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHand
 org.springframework.boot.actuate.endpoint.web.servlet.AdditionalHealthEndpointPathsWebMvcHandlerMapping
 org.springframework.boot.actuate.endpoint.web.servlet.ControllerEndpointHandlerMapping
 org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping
-org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar
 org.springframework.boot.actuate.endpoint.web.WebEndpointHttpMethod
 org.springframework.boot.actuate.endpoint.web.WebEndpointResponse
 org.springframework.boot.actuate.endpoint.web.WebEndpointsSupplier

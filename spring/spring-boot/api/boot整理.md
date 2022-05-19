@@ -498,6 +498,75 @@ org.springframework.boot.web.codec.CodecCustomizer
 
 org.springframework.boot.web.error.ErrorAttributeOptions
 org.springframework.boot.web.error.ErrorAttributeOptions.Include
+
+org.springframework.boot.web.servlet.filter.OrderedFilter
+    + org.springframework.boot.web.servlet.filter.OrderedFormContentFilter
+    + org.springframework.boot.web.servlet.filter.OrderedHiddenHttpMethodFilter
+    + org.springframework.boot.web.servlet.filter.OrderedRequestContextFilter
+    + org.springframework.boot.web.servlet.filter.OrderedCharacterEncodingFilter
+
+org.springframework.boot.web.servlet.filter.ApplicationContextHeaderFilter
+org.springframework.boot.web.servlet.filter.ErrorPageSecurityFilter
+
+org.springframework.boot.web.reactive.filter.OrderedWebFilter
+    + org.springframework.boot.web.reactive.filter.OrderedHiddenHttpMethodFilter
+
+org.springframework.boot.web.servlet.error.ErrorAttributes
+    + org.springframework.boot.web.servlet.error.DefaultErrorAttributes
+
+org.springframework.boot.web.servlet.error.ErrorController
+    + org.springframework.boot.autoconfigure.web.servlet.error.AbstractErrorController
+        + org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+
+org.springframework.boot.web.reactive.error.ErrorAttributes
+    + org.springframework.boot.web.reactive.error.DefaultErrorAttributes
+
+org.springframework.boot.web.reactive.error.ErrorWebExceptionHandler
+    + org.springframework.boot.autoconfigure.web.reactive.error.AbstractErrorWebExceptionHandler
+        + org.springframework.boot.autoconfigure.web.reactive.error.DefaultErrorWebExceptionHandler
+
+org.springframework.boot.web.servlet.ServletContextInitializer
+    + org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar
+    + org.springframework.boot.web.servlet.RegistrationBean
+        + org.springframework.boot.web.servlet.ServletListenerRegistrationBean<T>
+        + org.springframework.boot.web.servlet.DynamicRegistrationBean<D>
+            + org.springframework.boot.web.servlet.AbstractFilterRegistrationBean<T>
+                + org.springframework.boot.web.servlet.DelegatingFilterProxyRegistrationBean
+                + org.springframework.boot.web.servlet.FilterRegistrationBean<T>
+            + org.springframework.boot.web.servlet.ServletRegistrationBean<T>
+                + org.springframework.boot.autoconfigure.web.servlet.DispatcherServletRegistrationBean
+
+org.springframework.boot.web.servlet.DispatcherType
+org.springframework.boot.web.servlet.MultipartConfigFactory
+org.springframework.boot.web.servlet.ServletComponentScan
+org.springframework.boot.web.servlet.ServletContextInitializerBeans
+org.springframework.boot.web.servlet.ServletContextInitializerBeans.RegistrationBeanAdapter
+org.springframework.boot.web.servlet.WebListenerRegistrar
+
+org.springframework.boot.web.servlet.WebListenerRegistry
+    + org.springframework.boot.web.servlet.server.ConfigurableServletWebServerFactory
+        + org.springframework.boot.web.servlet.server.AbstractServletWebServerFactory
+            + org.springframework.boot.web.embedded.jetty.JettyServletWebServerFactory
+            + org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory
+            + org.springframework.boot.web.embedded.undertow.UndertowServletWebServerFactory
+
+org.springframework.boot.web.servlet.server.Jsp
+org.springframework.boot.web.servlet.server.Encoding
+org.springframework.boot.web.servlet.server.Encoding.Type
+org.springframework.boot.web.servlet.server.Session
+org.springframework.boot.web.servlet.server.Session.SessionTrackingMode
+org.springframework.boot.web.servlet.server.CookieSameSiteSupplier
+org.springframework.boot.web.servlet.support.SpringBootServletInitializer
+org.springframework.boot.web.servlet.context.WebApplicationContextServletContextAwareProcessor
+org.springframework.boot.web.servlet.view.MustacheView
+org.springframework.boot.web.servlet.view.MustacheViewResolver
+
+org.springframework.boot.web.reactive.context.ConfigurableReactiveWebEnvironment
+    + org.springframework.boot.web.reactive.context.StandardReactiveWebEnvironment
+
+org.springframework.boot.web.reactive.function.client.WebClientCustomizer
+org.springframework.boot.web.reactive.result.view.MustacheView
+org.springframework.boot.web.reactive.result.view.MustacheViewResolver
 ```
 
 ## util

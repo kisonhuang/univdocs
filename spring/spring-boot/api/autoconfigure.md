@@ -518,8 +518,6 @@ org.springframework.boot.autoconfigure.web.ErrorProperties.IncludeStacktrace
 org.springframework.boot.autoconfigure.web.ErrorProperties.Whitelabel
 org.springframework.boot.autoconfigure.web.format.DateTimeFormatters
 org.springframework.boot.autoconfigure.web.format.WebConversionService
-org.springframework.boot.autoconfigure.web.reactive.error.AbstractErrorWebExceptionHandler
-org.springframework.boot.autoconfigure.web.reactive.error.DefaultErrorWebExceptionHandler
 org.springframework.boot.autoconfigure.web.reactive.error.ErrorWebFluxAutoConfiguration
 org.springframework.boot.autoconfigure.web.reactive.function.client.ClientHttpConnectorAutoConfiguration
 org.springframework.boot.autoconfigure.web.reactive.function.client.ReactorNettyHttpClientMapper
@@ -570,9 +568,6 @@ org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfigur
 org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration.DispatcherServletConfiguration
 org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration.DispatcherServletRegistrationConfiguration
 org.springframework.boot.autoconfigure.web.servlet.DispatcherServletPath
-org.springframework.boot.autoconfigure.web.servlet.DispatcherServletRegistrationBean
-org.springframework.boot.autoconfigure.web.servlet.error.AbstractErrorController
-org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
 org.springframework.boot.autoconfigure.web.servlet.error.DefaultErrorViewResolver
 org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration
 org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration.WhitelabelErrorViewConfiguration
