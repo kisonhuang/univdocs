@@ -37,6 +37,7 @@ org.springframework.boot.autoconfigure.AutoConfigurationExcludeFilter
 
 ```java
 org.springframework.boot.SpringApplication
+org.springframework.boot.builder.SpringApplicationBuilder
 
 org.springframework.boot.SpringApplicationRunListener
     + org.springframework.boot.context.event.EventPublishingRunListener
@@ -426,6 +427,8 @@ org.springframework.boot.context.properties.bind.BindHandler
 ## web
 
 ```java
+org.springframework.boot.builder.ParentContextCloserApplicationListener
+org.springframework.boot.builder.ParentContextCloserApplicationListener.ContextCloserListener
 org.springframework.boot.builder.ParentContextApplicationContextInitializer
 org.springframework.boot.builder.ParentContextApplicationContextInitializer.ParentContextAvailableEvent
 org.springframework.boot.context.ConfigurationWarningsApplicationContextInitializer
@@ -515,6 +518,16 @@ org.springframework.boot.system.SystemProperties
 org.springframework.boot.system.ApplicationPid
 org.springframework.boot.system.ApplicationHome
 org.springframework.boot.system.ApplicationTemp
+
+org.springframework.boot.info.JavaInfo
+org.springframework.boot.info.JavaInfo.JavaRuntimeEnvironmentInfo
+org.springframework.boot.info.JavaInfo.JavaVirtualMachineInfo
+
+org.springframework.boot.info.InfoProperties.Entry
+
+org.springframework.boot.info.InfoProperties
+    + org.springframework.boot.info.BuildProperties
+    + org.springframework.boot.info.GitProperties
 ```
 
 ## validation
@@ -533,8 +546,12 @@ org.springframework.boot.jta.atomikos.AtomikosProperties.Recovery
 org.springframework.boot.jta.atomikos.AtomikosDataSourceBean
 org.springframework.boot.jta.atomikos.AtomikosConnectionFactoryBean
 org.springframework.boot.jta.atomikos.AtomikosDependsOnBeanFactoryPostProcessor
-org.springframework.boot.jta.atomikos.AtomikosXADataSourceWrapper
-org.springframework.boot.jta.atomikos.AtomikosXAConnectionFactoryWrapper
+
+org.springframework.boot.jdbc.XADataSourceWrapper
+    + org.springframework.boot.jta.atomikos.AtomikosXADataSourceWrapper
+
+org.springframework.boot.jms.XAConnectionFactoryWrapper
+    + org.springframework.boot.jta.atomikos.AtomikosXAConnectionFactoryWrapper
 
 org.springframework.boot.sql.init.DatabaseInitializationMode
 org.springframework.boot.sql.init.DatabaseInitializationSettings
@@ -562,7 +579,6 @@ org.springframework.boot.jdbc.EmbeddedDatabaseConnection
 org.springframework.boot.jdbc.DataSourceBuilder
 org.springframework.boot.jdbc.DataSourceInitializationMode
 org.springframework.boot.jdbc.DataSourceUnwrapper
-org.springframework.boot.jdbc.XADataSourceWrapper
 org.springframework.boot.jdbc.SchemaManagement
 org.springframework.boot.jdbc.SchemaManagementProvider
 org.springframework.boot.jdbc.UnsupportedDataSourcePropertyException
@@ -594,28 +610,49 @@ org.springframework.boot.r2dbc.ConnectionFactoryBuilder
 org.springframework.boot.r2dbc.OptionsCapableConnectionFactory
 ```
 
-## 
+## json
 
 ```java
+org.springframework.boot.json.JsonParserFactory
+org.springframework.boot.json.JsonParseException
 
+org.springframework.boot.json.JsonParser
+    + org.springframework.boot.json.AbstractJsonParser
+        + org.springframework.boot.json.BasicJsonParser
+        + org.springframework.boot.json.GsonJsonParser
+        + org.springframework.boot.json.JacksonJsonParser
+        + org.springframework.boot.json.YamlJsonParser
+
+org.springframework.boot.jackson.JsonComponent
+org.springframework.boot.jackson.JsonComponent.Scope
+org.springframework.boot.jackson.JsonComponentModule
+org.springframework.boot.jackson.JsonObjectSerializer
+org.springframework.boot.jackson.JsonObjectDeserializer
 ```
 
-## 
+## security
 
 ```java
+org.springframework.boot.security.servlet.ApplicationContextRequestMatcher
+    + org.springframework.boot.autoconfigure.security.servlet.PathRequest.H2ConsoleRequestMatcher
+    + org.springframework.boot.autoconfigure.security.servlet.StaticResourceRequest.StaticResourceRequestMatcher
 
+org.springframework.boot.security.reactive.ApplicationContextServerWebExchangeMatcher
 ```
 
-## 
+## task
 
 ```java
-
+org.springframework.boot.task.TaskExecutorBuilder
+org.springframework.boot.task.TaskExecutorCustomizer
+org.springframework.boot.task.TaskSchedulerBuilder
+org.springframework.boot.task.TaskSchedulerCustomizer
 ```
 
-## 
+## type
 
 ```java
-
+org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory
 ```
 
 ## 
