@@ -44,8 +44,6 @@ org.springframework.boot.autoconfigure.BackgroundPreinitializer
 org.springframework.boot.autoconfigure.batch.BasicBatchConfigurer
 org.springframework.boot.autoconfigure.batch.BatchAutoConfiguration
 org.springframework.boot.autoconfigure.batch.BatchDataSource
-org.springframework.boot.autoconfigure.batch.BatchDataSourceInitializer
-org.springframework.boot.autoconfigure.batch.BatchDataSourceScriptDatabaseInitializer
 org.springframework.boot.autoconfigure.batch.BatchProperties
 org.springframework.boot.autoconfigure.batch.BatchProperties.Jdbc
 org.springframework.boot.autoconfigure.batch.BatchProperties.Job
@@ -244,8 +242,6 @@ org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration.
 org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration.IntegrationRSocketConfiguration.IntegrationRSocketClientConfiguration
 org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration.IntegrationRSocketConfiguration.IntegrationRSocketServerConfiguration
 org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration.IntegrationTaskSchedulerConfiguration
-org.springframework.boot.autoconfigure.integration.IntegrationDataSourceInitializer
-org.springframework.boot.autoconfigure.integration.IntegrationDataSourceScriptDatabaseInitializer
 org.springframework.boot.autoconfigure.integration.IntegrationProperties
 org.springframework.boot.autoconfigure.integration.IntegrationProperties.Channel
 org.springframework.boot.autoconfigure.integration.IntegrationProperties.Endpoint
@@ -392,8 +388,6 @@ org.springframework.boot.autoconfigure.quartz.JobStoreType
 org.springframework.boot.autoconfigure.quartz.QuartzAutoConfiguration
 org.springframework.boot.autoconfigure.quartz.QuartzAutoConfiguration.JdbcStoreTypeConfiguration
 org.springframework.boot.autoconfigure.quartz.QuartzDataSource
-org.springframework.boot.autoconfigure.quartz.QuartzDataSourceInitializer
-org.springframework.boot.autoconfigure.quartz.QuartzDataSourceScriptDatabaseInitializer
 org.springframework.boot.autoconfigure.quartz.QuartzProperties
 org.springframework.boot.autoconfigure.quartz.QuartzProperties.Jdbc
 org.springframework.boot.autoconfigure.quartz.QuartzTransactionManager
@@ -466,8 +460,6 @@ org.springframework.boot.autoconfigure.sendgrid.SendGridProperties
 org.springframework.boot.autoconfigure.sendgrid.SendGridProperties.Proxy
 org.springframework.boot.autoconfigure.session.DefaultCookieSerializerCustomizer
 org.springframework.boot.autoconfigure.session.HazelcastSessionProperties
-org.springframework.boot.autoconfigure.session.JdbcSessionDataSourceInitializer
-org.springframework.boot.autoconfigure.session.JdbcSessionDataSourceScriptDatabaseInitializer
 org.springframework.boot.autoconfigure.session.JdbcSessionProperties
 org.springframework.boot.autoconfigure.session.MongoSessionProperties
 org.springframework.boot.autoconfigure.session.NonUniqueSessionRepositoryException
@@ -481,10 +473,8 @@ org.springframework.boot.autoconfigure.session.StoreType
 org.springframework.boot.autoconfigure.solr.SolrAutoConfiguration
 org.springframework.boot.autoconfigure.solr.SolrProperties
 org.springframework.boot.autoconfigure.sql.init.OnDatabaseInitializationCondition
-org.springframework.boot.autoconfigure.sql.init.SqlDataSourceScriptDatabaseInitializer
 org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration
 org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties
-org.springframework.boot.autoconfigure.sql.init.SqlR2dbcScriptDatabaseInitializer
 org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration
 org.springframework.boot.autoconfigure.task.TaskExecutionProperties
 org.springframework.boot.autoconfigure.task.TaskExecutionProperties.Pool

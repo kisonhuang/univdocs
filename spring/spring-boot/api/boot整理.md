@@ -525,10 +525,73 @@ org.springframework.boot.validation.beanvalidation.MethodValidationExcludeFilter
 org.springframework.boot.validation.beanvalidation.FilteredMethodValidationPostProcessor
 ```
 
-## 
+## data
 
 ```java
+org.springframework.boot.jta.atomikos.AtomikosProperties
+org.springframework.boot.jta.atomikos.AtomikosProperties.Recovery
+org.springframework.boot.jta.atomikos.AtomikosDataSourceBean
+org.springframework.boot.jta.atomikos.AtomikosConnectionFactoryBean
+org.springframework.boot.jta.atomikos.AtomikosDependsOnBeanFactoryPostProcessor
+org.springframework.boot.jta.atomikos.AtomikosXADataSourceWrapper
+org.springframework.boot.jta.atomikos.AtomikosXAConnectionFactoryWrapper
 
+org.springframework.boot.sql.init.DatabaseInitializationMode
+org.springframework.boot.sql.init.DatabaseInitializationSettings
+org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer
+org.springframework.boot.sql.init.dependency.DependsOnDatabaseInitialization
+
+org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer
+    + org.springframework.boot.jdbc.init.DataSourceScriptDatabaseInitializer
+        + org.springframework.boot.autoconfigure.sql.init.SqlDataSourceScriptDatabaseInitializer
+        + org.springframework.boot.autoconfigure.session.JdbcSessionDataSourceScriptDatabaseInitializer
+        + org.springframework.boot.autoconfigure.quartz.QuartzDataSourceScriptDatabaseInitializer
+        + org.springframework.boot.autoconfigure.batch.BatchDataSourceScriptDatabaseInitializer
+        + org.springframework.boot.autoconfigure.integration.IntegrationDataSourceScriptDatabaseInitializer
+    + org.springframework.boot.r2dbc.init.R2dbcScriptDatabaseInitializer
+        + org.springframework.boot.autoconfigure.sql.init.SqlR2dbcScriptDatabaseInitializer
+
+org.springframework.boot.sql.init.dependency.DatabaseInitializerDetector
+    + org.springframework.boot.sql.init.dependency.AbstractBeansOfTypeDatabaseInitializerDetector
+
+org.springframework.boot.sql.init.dependency.DependsOnDatabaseInitializationDetector
+    + org.springframework.boot.sql.init.dependency.AbstractBeansOfTypeDependsOnDatabaseInitializationDetector
+
+org.springframework.boot.jdbc.DatabaseDriver
+org.springframework.boot.jdbc.EmbeddedDatabaseConnection
+org.springframework.boot.jdbc.DataSourceBuilder
+org.springframework.boot.jdbc.DataSourceInitializationMode
+org.springframework.boot.jdbc.DataSourceUnwrapper
+org.springframework.boot.jdbc.XADataSourceWrapper
+org.springframework.boot.jdbc.SchemaManagement
+org.springframework.boot.jdbc.SchemaManagementProvider
+org.springframework.boot.jdbc.UnsupportedDataSourcePropertyException
+org.springframework.boot.jdbc.init.PlatformPlaceholderDatabaseDriverResolver
+
+org.springframework.boot.jdbc.AbstractDataSourceInitializer
+    + org.springframework.boot.autoconfigure.session.JdbcSessionDataSourceInitializer
+    + org.springframework.boot.autoconfigure.quartz.QuartzDataSourceInitializer
+    + org.springframework.boot.autoconfigure.batch.BatchDataSourceInitializer
+    + org.springframework.boot.autoconfigure.integration.IntegrationDataSourceInitializer
+
+org.springframework.boot.jdbc.metadata.DataSourcePoolMetadata
+    + org.springframework.boot.jdbc.metadata.AbstractDataSourcePoolMetadata<T>
+        + org.springframework.boot.jdbc.metadata.CommonsDbcp2DataSourcePoolMetadata
+        + org.springframework.boot.jdbc.metadata.HikariDataSourcePoolMetadata
+        + org.springframework.boot.jdbc.metadata.OracleUcpDataSourcePoolMetadata
+        + org.springframework.boot.jdbc.metadata.TomcatDataSourcePoolMetadata
+
+org.springframework.boot.jdbc.metadata.DataSourcePoolMetadataProvider
+    + org.springframework.boot.jdbc.metadata.CompositeDataSourcePoolMetadataProvider
+
+org.springframework.boot.orm.jpa.EntityManagerFactoryBuilder
+org.springframework.boot.orm.jpa.hibernate.SpringJtaPlatform
+org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy
+org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy
+
+org.springframework.boot.r2dbc.EmbeddedDatabaseConnection
+org.springframework.boot.r2dbc.ConnectionFactoryBuilder
+org.springframework.boot.r2dbc.OptionsCapableConnectionFactory
 ```
 
 ## 
