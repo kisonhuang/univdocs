@@ -1,7 +1,3 @@
-org.springframework.boot.context.annotation.Configurations
-org.springframework.boot.context.annotation.DeterminableImports
-org.springframework.boot.context.annotation.UserConfigurations
-org.springframework.boot.context.ApplicationPidFileWriter
 org.springframework.boot.context.config.AnsiOutputApplicationListener
 org.springframework.boot.context.config.ConfigData
 org.springframework.boot.context.config.ConfigData.Option
@@ -26,10 +22,6 @@ org.springframework.boot.context.config.StandardConfigDataLoader
 org.springframework.boot.context.config.StandardConfigDataLocationResolver
 org.springframework.boot.context.config.StandardConfigDataResource
 org.springframework.boot.context.config.UnsupportedConfigDataLocationException
-org.springframework.boot.context.FileEncodingApplicationListener
-org.springframework.boot.context.metrics.buffering.BufferingApplicationStartup
-org.springframework.boot.context.metrics.buffering.StartupTimeline
-org.springframework.boot.context.metrics.buffering.StartupTimeline.TimelineEvent
 org.springframework.boot.context.properties.bind.Bindable
 org.springframework.boot.context.properties.bind.Bindable.BindRestriction
 org.springframework.boot.context.properties.bind.BindConstructorProvider

@@ -35,7 +35,6 @@ org.springframework.boot.autoconfigure.AutoConfigurationImportFilter
 org.springframework.boot.autoconfigure.AutoConfigurationImportListener
 org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.AutoConfigurationEntry
 org.springframework.boot.autoconfigure.AutoConfigurationMetadata
-org.springframework.boot.autoconfigure.AutoConfigurations
 org.springframework.boot.autoconfigure.AutoConfigureAfter
 org.springframework.boot.autoconfigure.AutoConfigureBefore
 org.springframework.boot.autoconfigure.AutoConfigureOrder
