@@ -154,11 +154,6 @@ org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyCon
 org.springframework.boot.sql.init.dependency.DatabaseInitializerDetector
 org.springframework.boot.sql.init.dependency.DependsOnDatabaseInitialization
 org.springframework.boot.sql.init.dependency.DependsOnDatabaseInitializationDetector
-org.springframework.boot.system.ApplicationHome
-org.springframework.boot.system.ApplicationPid
-org.springframework.boot.system.ApplicationTemp
-org.springframework.boot.system.JavaVersion
-org.springframework.boot.system.SystemProperties
 org.springframework.boot.task.TaskExecutorBuilder
 org.springframework.boot.task.TaskExecutorCustomizer
 org.springframework.boot.task.TaskSchedulerBuilder
