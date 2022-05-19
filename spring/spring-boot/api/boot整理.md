@@ -720,6 +720,42 @@ org.springframework.boot.context.annotation.Configurations
 org.springframework.boot.context.metrics.buffering.BufferingApplicationStartup
 org.springframework.boot.context.metrics.buffering.StartupTimeline
 org.springframework.boot.context.metrics.buffering.StartupTimeline.TimelineEvent
+
+org.springframework.boot.context.config.ConfigData
+org.springframework.boot.context.config.ConfigData.Option
+org.springframework.boot.context.config.ConfigData.Options
+org.springframework.boot.context.config.ConfigData.PropertySourceOptions
+
+org.springframework.boot.context.config.ConfigDataResource
+    + org.springframework.boot.context.config.ConfigTreeConfigDataResource
+    + org.springframework.boot.context.config.StandardConfigDataResource
+
+org.springframework.boot.context.config.ConfigDataLoader<R>
+    + org.springframework.boot.context.config.ConfigTreeConfigDataLoader
+    + org.springframework.boot.context.config.StandardConfigDataLoader
+
+org.springframework.boot.context.config.ConfigDataLoaderContext
+
+org.springframework.boot.context.config.ConfigDataLocationResolver<R>
+    + org.springframework.boot.context.config.ConfigTreeConfigDataLocationResolver
+    + org.springframework.boot.context.config.StandardConfigDataLocationResolver
+
+org.springframework.boot.context.config.ConfigDataLocationResolverContext
+
+org.springframework.boot.context.config.ConfigDataException
+    + org.springframework.boot.context.config.InactiveConfigDataAccessException
+    + org.springframework.boot.context.config.InvalidConfigDataPropertyException
+    + org.springframework.boot.context.config.UnsupportedConfigDataLocationException
+    + org.springframework.boot.context.config.ConfigDataNotFoundException
+        + org.springframework.boot.context.config.ConfigDataLocationNotFoundException
+        + org.springframework.boot.context.config.ConfigDataResourceNotFoundException
+
+org.springframework.boot.context.config.Profiles
+org.springframework.boot.context.config.ConfigDataNotFoundAction
+
+org.springframework.boot.context.config.AnsiOutputApplicationListener
+org.springframework.boot.context.config.ConfigDataEnvironmentUpdateListener
+org.springframework.boot.context.config.DelegatingApplicationListener
 ```
 
 ## 
