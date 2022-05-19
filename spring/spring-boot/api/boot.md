@@ -159,9 +159,6 @@ org.springframework.boot.task.TaskExecutorCustomizer
 org.springframework.boot.task.TaskSchedulerBuilder
 org.springframework.boot.task.TaskSchedulerCustomizer
 org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory
-org.springframework.boot.validation.beanvalidation.FilteredMethodValidationPostProcessor
-org.springframework.boot.validation.beanvalidation.MethodValidationExcludeFilter
-org.springframework.boot.validation.MessageInterpolatorFactory
 org.springframework.boot.web.reactive.context.ConfigurableReactiveWebEnvironment
 org.springframework.boot.web.reactive.context.StandardReactiveWebEnvironment
 org.springframework.boot.web.reactive.error.DefaultErrorAttributes
