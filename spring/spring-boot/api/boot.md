@@ -54,14 +54,6 @@ org.springframework.boot.context.properties.source.InvalidConfigurationPropertyN
 org.springframework.boot.context.properties.source.InvalidConfigurationPropertyValueException
 org.springframework.boot.context.properties.source.MutuallyExclusiveConfigurationPropertiesException
 org.springframework.boot.context.properties.source.UnboundElementsSourceFilter
-org.springframework.boot.env.ConfigTreePropertySource.Option
-org.springframework.boot.env.ConfigTreePropertySource.Value
-org.springframework.boot.env.EnvironmentPostProcessorApplicationListener
-org.springframework.boot.env.EnvironmentPostProcessorsFactory
-org.springframework.boot.env.PropertiesPropertySourceLoader
-org.springframework.boot.env.PropertySourceLoader
-org.springframework.boot.env.RandomValuePropertySource
-org.springframework.boot.env.YamlPropertySourceLoader
 org.springframework.boot.web.reactive.context.ConfigurableReactiveWebEnvironment
 org.springframework.boot.web.reactive.context.StandardReactiveWebEnvironment
 org.springframework.boot.web.reactive.error.DefaultErrorAttributes
