@@ -182,23 +182,7 @@ org.springframework.boot.web.server.WebServerFactoryCustomizer<T>
     + org.springframework.boot.actuate.autoconfigure.web.server.ManagementWebServerFactoryCustomizer<T>
 ```
 
-## Web服务器工厂定制器的自动配置
-
-```java
-org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration
-org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration.TomcatWebServerFactoryCustomizerConfiguration
-org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration.JettyWebServerFactoryCustomizerConfiguration
-org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration.NettyWebServerFactoryCustomizerConfiguration
-org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration.UndertowWebServerFactoryCustomizerConfiguration
-```
-
-## Web服务器工厂定制器的后置处理器
-
-```java
-org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor
-```
-
-## Web服务器工厂定制属性
+## Web服务器工厂定制器属性
 
 ```java
 ## Web服务器属性
@@ -236,6 +220,22 @@ org.springframework.boot.autoconfigure.web.ServerProperties.Reactive.Session
 
 ## X-Forwarded-*头部的处理策略
 org.springframework.boot.autoconfigure.web.ServerProperties.ForwardHeadersStrategy
+```
+
+## Web服务器工厂定制器的自动配置
+
+```java
+org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration
+org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration.TomcatWebServerFactoryCustomizerConfiguration
+org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration.JettyWebServerFactoryCustomizerConfiguration
+org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration.NettyWebServerFactoryCustomizerConfiguration
+org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration.UndertowWebServerFactoryCustomizerConfiguration
+```
+
+## Web服务器工厂定制器的后置处理器
+
+```java
+org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor
 ```
 
 ## 错误页面注册器
