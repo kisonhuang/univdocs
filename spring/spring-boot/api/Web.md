@@ -18,8 +18,6 @@ org.springframework.boot.autoconfigure.web.reactive.WebFluxRegistrations
 
 
 
-org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration
-org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration.BeanPostProcessorsRegistrar
 
 
 org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration
@@ -62,8 +60,6 @@ org.springframework.boot.autoconfigure.web.reactive.function.client.WebClientAut
 org.springframework.boot.autoconfigure.web.reactive.HttpHandlerAutoConfiguration
 org.springframework.boot.autoconfigure.web.reactive.HttpHandlerAutoConfiguration.AnnotationConfig
 org.springframework.boot.autoconfigure.web.reactive.ReactiveMultipartAutoConfiguration
-org.springframework.boot.autoconfigure.web.reactive.ReactiveWebServerFactoryAutoConfiguration
-org.springframework.boot.autoconfigure.web.reactive.ReactiveWebServerFactoryAutoConfiguration.BeanPostProcessorsRegistrar
 org.springframework.boot.autoconfigure.web.reactive.WebFluxAutoConfiguration
 org.springframework.boot.autoconfigure.web.reactive.WebFluxAutoConfiguration.EnableWebFluxConfiguration
 org.springframework.boot.autoconfigure.web.reactive.WebFluxAutoConfiguration.WebFluxConfig
