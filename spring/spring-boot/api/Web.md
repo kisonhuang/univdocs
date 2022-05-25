@@ -23,10 +23,14 @@ org.springframework.boot.autoconfigure.web.reactive.WebFluxRegistrations
 org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration
 org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration.DispatcherServletConfiguration
 org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration.DispatcherServletRegistrationConfiguration
+
 org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration
 org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration.WhitelabelErrorViewConfiguration
+
 org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration
+
 org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration
+
 org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration
 org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration.EnableWebMvcConfiguration
 org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter
