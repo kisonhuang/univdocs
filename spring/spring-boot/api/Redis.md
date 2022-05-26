@@ -2,7 +2,7 @@
 
 ## 启动器
 
-### 传统应用程序
+### 传统应用程序启动器
 
 ```xml
 ## 传统应用程序，默认使用Lettuce
@@ -12,7 +12,7 @@
 </dependency>
 ```
 
-### 响应式应用程序
+### 响应式应用程序启动器
 
 ```xml
 ## 响应式应用程序
@@ -24,10 +24,10 @@
 
 ## 自动配置
 
-### Redis自动配置
+### Spring Data Redis自动配置
 
 ```java
-## Spring Data Redis的自动配置：
+## Spring Data Redis自动配置：
 ## 配置Bean：RedisTemplate
 ## 配置Bean：StringRedisTemplate
 ## 配置Bean：JedisConnectionFactory  （使用Jedis客户端）
@@ -36,17 +36,17 @@
 org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration
 ```
 
-### Redis Repository自动配置
+### Spring Data Redis Repository自动配置
 
 ```java
-## Spring Data Redis Repository的自动配置
+## Spring Data Redis Repository自动配置
 org.springframework.boot.autoconfigure.data.redis.RedisRepositoriesAutoConfiguration
 ```
 
-### 响应式Redis自动配置
+### Spring Data 响应式Redis自动配置
 
 ```java
-## Spring Data响应式Redis的自动配置
+## Spring Data响应式Redis自动配置
 org.springframework.boot.autoconfigure.data.redis.RedisReactiveAutoConfiguration
 ```
 
@@ -66,9 +66,9 @@ org.springframework.boot.autoconfigure.data.redis.RedisProperties.ClientType
 spring.redis.url
 spring.redis.host
 spring.redis.port
-spring.redis.database
 spring.redis.username
 spring.redis.password
+spring.redis.database
 spring.redis.ssl
 spring.redis.timeout
 spring.redis.connect-timeout
@@ -78,7 +78,7 @@ spring.redis.client-type
 
 ### Redis集群配置
 
-```
+```java
 ## Redis集群配置
 org.springframework.boot.autoconfigure.data.redis.RedisProperties.Cluster
 
@@ -89,7 +89,7 @@ spring.redis.cluster.max-redirects
 
 ### Redis哨兵配置
 
-```
+```java
 ## Redis哨兵配置
 org.springframework.boot.autoconfigure.data.redis.RedisProperties.Sentinel
 
@@ -102,7 +102,7 @@ spring.redis.sentinel.password
 
 ### Jedis客户端配置
 
-```
+```java
 ## Jedis客户端配置
 org.springframework.boot.autoconfigure.data.redis.RedisProperties.Jedis
 
@@ -117,7 +117,7 @@ spring.redis.jedis.pool.time-between-eviction-runs
 
 ### Lettuce客户端配置
 
-```
+```java
 ## Lettuce客户端配置
 org.springframework.boot.autoconfigure.data.redis.RedisProperties.Lettuce
 ## Lettuce客户端集群配置
@@ -145,27 +145,27 @@ spring.redis.lettuce.cluster.refresh.adaptive
 ### ClientResources.Builder定制器
 
 ```java
-## Bean可以实现的回调接口，
-## 通过ClientResources.Builder定制ClientResources，
-## 同时保留默认的自动配置。
+## Bean可以实现的回调接口
+## 通过ClientResources.Builder定制ClientResources
+## 同时保留默认的自动配置
 org.springframework.boot.autoconfigure.data.redis.ClientResourcesBuilderCustomizer
 ```
 
 ### JedisClientConfigurationBuilder定制器
 
-```
-## Bean可以实现的回调接口，
-## 通过JedisClientConfiguration.JedisClientConfigurationBuilder定制JedisClientConfiguration，
-## 同时保留默认的自动配置。
+```java
+## Bean可以实现的回调接口
+## 通过JedisClientConfiguration.JedisClientConfigurationBuilder定制JedisClientConfiguration
+## 同时保留默认的自动配置
 org.springframework.boot.autoconfigure.data.redis.JedisClientConfigurationBuilderCustomizer
 ```
 
 ### LettuceClientConfigurationBuilder定制器
 
-```
-## Bean可以实现的回调接口，
-## 通过LettuceClientConfiguration.LettuceClientConfigurationBuilder定制LettuceClientConfiguration，
-## 同时保留默认的自动配置。
+```java
+## Bean可以实现的回调接口
+## 通过LettuceClientConfiguration.LettuceClientConfigurationBuilder定制LettuceClientConfiguration
+## 同时保留默认的自动配置
 org.springframework.boot.autoconfigure.data.redis.LettuceClientConfigurationBuilderCustomizer
 ```
 
