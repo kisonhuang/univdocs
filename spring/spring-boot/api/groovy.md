@@ -1,3 +1,0 @@
-org.springframework.boot.groovy.DependencyManagementBom
-org.springframework.boot.groovy.EnableGroovyTemplates
-org.springframework.boot.groovy.GroovyTemplate
