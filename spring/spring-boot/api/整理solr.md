@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.solr.SolrAutoConfiguration
+org.springframework.boot.autoconfigure.solr.SolrProperties

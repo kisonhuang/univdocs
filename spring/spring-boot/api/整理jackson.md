@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.jackson.Jackson2ObjectMapperBuilderCustomizer
+org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration
+org.springframework.boot.autoconfigure.jackson.JacksonProperties
+org.springframework.boot.autoconfigure.jackson.JacksonProperties.ConstructorDetectorStrategy

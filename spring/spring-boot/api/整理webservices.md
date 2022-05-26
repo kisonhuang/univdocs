@@ -1,0 +1,5 @@
+org.springframework.boot.autoconfigure.webservices.client.WebServiceTemplateAutoConfiguration
+org.springframework.boot.autoconfigure.webservices.WebServicesAutoConfiguration
+org.springframework.boot.autoconfigure.webservices.WebServicesAutoConfiguration.WsConfiguration
+org.springframework.boot.autoconfigure.webservices.WebServicesProperties
+org.springframework.boot.autoconfigure.webservices.WebServicesProperties.Servlet

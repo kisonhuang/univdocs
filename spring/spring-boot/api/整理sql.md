@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.sql.init.OnDatabaseInitializationCondition
+org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration
+org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties

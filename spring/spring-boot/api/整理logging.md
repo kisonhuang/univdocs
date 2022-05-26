@@ -1,0 +1,1 @@
+org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportMessage

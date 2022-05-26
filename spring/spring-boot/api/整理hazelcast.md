@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.hazelcast.HazelcastAutoConfiguration
+org.springframework.boot.autoconfigure.hazelcast.HazelcastConfigResourceCondition
+org.springframework.boot.autoconfigure.hazelcast.HazelcastJpaDependencyAutoConfiguration
+org.springframework.boot.autoconfigure.hazelcast.HazelcastProperties

@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.domain.EntityScan
+org.springframework.boot.autoconfigure.domain.EntityScanner
+org.springframework.boot.autoconfigure.domain.EntityScanPackages

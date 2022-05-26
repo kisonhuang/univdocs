@@ -1,0 +1,5 @@
+org.springframework.boot.autoconfigure.liquibase.DataSourceClosingSpringLiquibase
+org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration
+org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration.LiquibaseConfiguration
+org.springframework.boot.autoconfigure.liquibase.LiquibaseDataSource
+org.springframework.boot.autoconfigure.liquibase.LiquibaseProperties

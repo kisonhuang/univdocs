@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration
+org.springframework.boot.autoconfigure.gson.GsonBuilderCustomizer
+org.springframework.boot.autoconfigure.gson.GsonProperties

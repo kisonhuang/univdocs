@@ -1,0 +1,7 @@
+org.springframework.boot.autoconfigure.template.AbstractTemplateViewResolverProperties
+org.springframework.boot.autoconfigure.template.AbstractViewResolverProperties
+org.springframework.boot.autoconfigure.template.PathBasedTemplateAvailabilityProvider
+org.springframework.boot.autoconfigure.template.PathBasedTemplateAvailabilityProvider.TemplateAvailabilityProperties
+org.springframework.boot.autoconfigure.template.TemplateAvailabilityProvider
+org.springframework.boot.autoconfigure.template.TemplateAvailabilityProviders
+org.springframework.boot.autoconfigure.template.TemplateLocation

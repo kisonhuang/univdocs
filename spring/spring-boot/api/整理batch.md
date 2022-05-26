@@ -1,0 +1,8 @@
+org.springframework.boot.autoconfigure.batch.BasicBatchConfigurer
+org.springframework.boot.autoconfigure.batch.BatchDataSource
+org.springframework.boot.autoconfigure.batch.JobExecutionEvent
+org.springframework.boot.autoconfigure.batch.JpaBatchConfigurer
+org.springframework.boot.autoconfigure.batch.BatchAutoConfiguration
+org.springframework.boot.autoconfigure.batch.BatchProperties
+org.springframework.boot.autoconfigure.batch.BatchProperties.Jdbc
+org.springframework.boot.autoconfigure.batch.BatchProperties.Job

@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration
+org.springframework.boot.autoconfigure.jmx.ParentAwareNamingStrategy

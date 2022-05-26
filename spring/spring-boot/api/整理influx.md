@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.influx.InfluxDbAutoConfiguration
+org.springframework.boot.autoconfigure.influx.InfluxDbCustomizer
+org.springframework.boot.autoconfigure.influx.InfluxDbOkHttpClientBuilderProvider
+org.springframework.boot.autoconfigure.influx.InfluxDbProperties

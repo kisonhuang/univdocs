@@ -1,0 +1,5 @@
+org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration
+org.springframework.boot.autoconfigure.thymeleaf.ThymeleafProperties
+org.springframework.boot.autoconfigure.thymeleaf.ThymeleafProperties.Reactive
+org.springframework.boot.autoconfigure.thymeleaf.ThymeleafProperties.Servlet
+org.springframework.boot.autoconfigure.thymeleaf.ThymeleafTemplateAvailabilityProvider

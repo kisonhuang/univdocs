@@ -1,0 +1,7 @@
+org.springframework.boot.autoconfigure.jersey.JerseyAutoConfiguration
+org.springframework.boot.autoconfigure.jersey.JerseyAutoConfiguration.JerseyWebApplicationInitializer
+org.springframework.boot.autoconfigure.jersey.JerseyProperties
+org.springframework.boot.autoconfigure.jersey.JerseyProperties.Filter
+org.springframework.boot.autoconfigure.jersey.JerseyProperties.Servlet
+org.springframework.boot.autoconfigure.jersey.JerseyProperties.Type
+org.springframework.boot.autoconfigure.jersey.ResourceConfigCustomizer

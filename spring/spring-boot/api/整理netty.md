@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.netty.NettyAutoConfiguration
+org.springframework.boot.autoconfigure.netty.NettyProperties
+org.springframework.boot.autoconfigure.netty.NettyProperties.LeakDetection
