@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.data.rest.RepositoryRestMvcAutoConfiguration
+org.springframework.boot.autoconfigure.data.rest.RepositoryRestProperties

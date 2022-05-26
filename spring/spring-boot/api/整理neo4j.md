@@ -1,0 +1,12 @@
+org.springframework.boot.autoconfigure.data.neo4j.Neo4jDataAutoConfiguration
+org.springframework.boot.autoconfigure.data.neo4j.Neo4jDataProperties
+org.springframework.boot.autoconfigure.data.neo4j.Neo4jReactiveDataAutoConfiguration
+org.springframework.boot.autoconfigure.data.neo4j.Neo4jReactiveRepositoriesAutoConfiguration
+org.springframework.boot.autoconfigure.data.neo4j.Neo4jRepositoriesAutoConfiguration
+org.springframework.boot.autoconfigure.neo4j.ConfigBuilderCustomizer
+org.springframework.boot.autoconfigure.neo4j.Neo4jAutoConfiguration
+org.springframework.boot.autoconfigure.neo4j.Neo4jProperties
+org.springframework.boot.autoconfigure.neo4j.Neo4jProperties.Authentication
+org.springframework.boot.autoconfigure.neo4j.Neo4jProperties.Pool
+org.springframework.boot.autoconfigure.neo4j.Neo4jProperties.Security
+org.springframework.boot.autoconfigure.neo4j.Neo4jProperties.Security.TrustStrategy

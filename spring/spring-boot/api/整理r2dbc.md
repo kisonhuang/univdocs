@@ -1,0 +1,13 @@
+org.springframework.boot.r2dbc.ConnectionFactoryBuilder
+org.springframework.boot.r2dbc.EmbeddedDatabaseConnection
+org.springframework.boot.r2dbc.init.R2dbcScriptDatabaseInitializer
+org.springframework.boot.r2dbc.OptionsCapableConnectionFactory
+org.springframework.boot.autoconfigure.data.r2dbc.R2dbcDataAutoConfiguration
+org.springframework.boot.autoconfigure.data.r2dbc.R2dbcRepositoriesAutoConfiguration
+org.springframework.boot.autoconfigure.r2dbc.ConnectionFactoryBuilder
+org.springframework.boot.autoconfigure.r2dbc.ConnectionFactoryOptionsBuilderCustomizer
+org.springframework.boot.autoconfigure.r2dbc.EmbeddedDatabaseConnection
+org.springframework.boot.autoconfigure.r2dbc.R2dbcAutoConfiguration
+org.springframework.boot.autoconfigure.r2dbc.R2dbcProperties
+org.springframework.boot.autoconfigure.r2dbc.R2dbcProperties.Pool
+org.springframework.boot.autoconfigure.r2dbc.R2dbcTransactionManagerAutoConfiguration

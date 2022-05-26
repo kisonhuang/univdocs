@@ -1,0 +1,15 @@
+org.springframework.boot.autoconfigure.cassandra.CassandraAutoConfiguration
+org.springframework.boot.autoconfigure.cassandra.CassandraProperties
+org.springframework.boot.autoconfigure.cassandra.CassandraProperties.Compression
+org.springframework.boot.autoconfigure.cassandra.CassandraProperties.Connection
+org.springframework.boot.autoconfigure.cassandra.CassandraProperties.Controlconnection
+org.springframework.boot.autoconfigure.cassandra.CassandraProperties.Pool
+org.springframework.boot.autoconfigure.cassandra.CassandraProperties.Request
+org.springframework.boot.autoconfigure.cassandra.CassandraProperties.Throttler
+org.springframework.boot.autoconfigure.cassandra.CassandraProperties.ThrottlerType
+org.springframework.boot.autoconfigure.cassandra.CqlSessionBuilderCustomizer
+org.springframework.boot.autoconfigure.cassandra.DriverConfigLoaderBuilderCustomizer
+org.springframework.boot.autoconfigure.data.cassandra.CassandraDataAutoConfiguration
+org.springframework.boot.autoconfigure.data.cassandra.CassandraReactiveDataAutoConfiguration
+org.springframework.boot.autoconfigure.data.cassandra.CassandraReactiveRepositoriesAutoConfiguration
+org.springframework.boot.autoconfigure.data.cassandra.CassandraRepositoriesAutoConfiguration

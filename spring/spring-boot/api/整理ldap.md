@@ -1,0 +1,8 @@
+org.springframework.boot.autoconfigure.data.ldap.LdapRepositoriesAutoConfiguration
+org.springframework.boot.autoconfigure.ldap.embedded.EmbeddedLdapAutoConfiguration
+org.springframework.boot.autoconfigure.ldap.embedded.EmbeddedLdapProperties
+org.springframework.boot.autoconfigure.ldap.embedded.EmbeddedLdapProperties.Credential
+org.springframework.boot.autoconfigure.ldap.embedded.EmbeddedLdapProperties.Validation
+org.springframework.boot.autoconfigure.ldap.LdapAutoConfiguration
+org.springframework.boot.autoconfigure.ldap.LdapProperties
+org.springframework.boot.autoconfigure.ldap.LdapProperties.Template

@@ -1,0 +1,13 @@
+org.springframework.boot.autoconfigure.couchbase.ClusterEnvironmentBuilderCustomizer
+org.springframework.boot.autoconfigure.couchbase.CouchbaseAutoConfiguration
+org.springframework.boot.autoconfigure.couchbase.CouchbaseProperties
+org.springframework.boot.autoconfigure.couchbase.CouchbaseProperties.Env
+org.springframework.boot.autoconfigure.couchbase.CouchbaseProperties.Io
+org.springframework.boot.autoconfigure.couchbase.CouchbaseProperties.Ssl
+org.springframework.boot.autoconfigure.couchbase.CouchbaseProperties.Timeouts
+org.springframework.boot.autoconfigure.data.couchbase.CouchbaseDataAutoConfiguration
+org.springframework.boot.autoconfigure.data.couchbase.CouchbaseDataAutoConfiguration.ValidationConfiguration
+org.springframework.boot.autoconfigure.data.couchbase.CouchbaseDataProperties
+org.springframework.boot.autoconfigure.data.couchbase.CouchbaseReactiveDataAutoConfiguration
+org.springframework.boot.autoconfigure.data.couchbase.CouchbaseReactiveRepositoriesAutoConfiguration
+org.springframework.boot.autoconfigure.data.couchbase.CouchbaseRepositoriesAutoConfiguration
