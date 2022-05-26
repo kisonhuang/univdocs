@@ -156,22 +156,6 @@ org.springframework.boot.autoconfigure.r2dbc.R2dbcTransactionManagerAutoConfigur
 org.springframework.boot.autoconfigure.r2dbc.R2dbcProperties
 org.springframework.boot.autoconfigure.r2dbc.R2dbcProperties.Pool
 
-org.springframework.boot.autoconfigure.data.redis.ClientResourcesBuilderCustomizer
-org.springframework.boot.autoconfigure.data.redis.JedisClientConfigurationBuilderCustomizer
-org.springframework.boot.autoconfigure.data.redis.LettuceClientConfigurationBuilderCustomizer
-org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration
-org.springframework.boot.autoconfigure.data.redis.RedisReactiveAutoConfiguration
-org.springframework.boot.autoconfigure.data.redis.RedisRepositoriesAutoConfiguration
-org.springframework.boot.autoconfigure.data.redis.RedisProperties
-org.springframework.boot.autoconfigure.data.redis.RedisProperties.ClientType
-org.springframework.boot.autoconfigure.data.redis.RedisProperties.Cluster
-org.springframework.boot.autoconfigure.data.redis.RedisProperties.Jedis
-org.springframework.boot.autoconfigure.data.redis.RedisProperties.Lettuce
-org.springframework.boot.autoconfigure.data.redis.RedisProperties.Lettuce.Cluster
-org.springframework.boot.autoconfigure.data.redis.RedisProperties.Lettuce.Cluster.Refresh
-org.springframework.boot.autoconfigure.data.redis.RedisProperties.Pool
-org.springframework.boot.autoconfigure.data.redis.RedisProperties.Sentinel
-
 org.springframework.boot.autoconfigure.data.rest.RepositoryRestMvcAutoConfiguration
 org.springframework.boot.autoconfigure.data.rest.RepositoryRestProperties
 
