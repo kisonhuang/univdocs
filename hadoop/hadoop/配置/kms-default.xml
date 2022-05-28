@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- Put site-specific property overrides in this file. -->
+<!-- Do not modify this file directly. Instead, copy entries that you -->
+<!-- wish to modify from this file into kms-site.xml and change them -->
+<!-- there. If kms-site.xml does not already exist, create it. -->
 
 <configuration>
 

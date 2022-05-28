@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!-- Do not modify this file directly. Instead, copy entries that you -->
+<!-- wish to modify from this file into httpfs-site.xml and change them -->
+<!-- there. If httpfs-site.xml does not already exist, create it. -->
+
 <configuration>
 
     <property>
