@@ -9,7 +9,7 @@ org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport
     + org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration
 
 org.springframework.web.servlet.config.annotation.WebMvcConfigurer
-    + org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter 废弃
+    + org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 ```
 
 ### PathMatchConfigurer
@@ -102,8 +102,8 @@ org.springframework.web.HttpRequestHandler
     + org.springframework.web.servlet.resource.ResourceHttpRequestHandler
     + org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler
     + org.springframework.web.socket.server.support.WebSocketHttpRequestHandler
-    + org.springframework.remoting.caucho.HessianServiceExporter 废弃
-    + org.springframework.remoting.httpinvoker.HttpInvokerServiceExporter 废弃
+    + org.springframework.remoting.caucho.HessianServiceExporter
+    + org.springframework.remoting.httpinvoker.HttpInvokerServiceExporter
 ```
 
 ### FormatterRegistry
@@ -353,11 +353,11 @@ org.springframework.http.converter.HttpMessageConverter<T>
 org.springframework.web.servlet.config.annotation.AsyncSupportConfigurer
 
 org.springframework.web.context.request.async.CallableProcessingInterceptor
-    + org.springframework.web.context.request.async.CallableProcessingInterceptorAdapter 废弃
+    + org.springframework.web.context.request.async.CallableProcessingInterceptorAdapter
     + org.springframework.web.context.request.async.TimeoutCallableProcessingInterceptor
 
 org.springframework.web.context.request.async.DeferredResultProcessingInterceptor
-    + org.springframework.web.context.request.async.DeferredResultProcessingInterceptorAdapter 废弃
+    + org.springframework.web.context.request.async.DeferredResultProcessingInterceptorAdapter
     + org.springframework.web.context.request.async.TimeoutDeferredResultProcessingInterceptor
 ```
 
@@ -397,7 +397,7 @@ org.springframework.web.servlet.ViewResolver
     + org.springframework.web.servlet.view.BeanNameViewResolver
     + org.springframework.web.servlet.view.ContentNegotiatingViewResolver
     + org.springframework.web.servlet.view.AbstractCachingViewResolver
-        + org.springframework.web.servlet.view.XmlViewResolver 废弃
+        + org.springframework.web.servlet.view.XmlViewResolver
         + org.springframework.web.servlet.view.ResourceBundleViewResolver
         + org.springframework.web.servlet.view.UrlBasedViewResolver
             + org.springframework.web.servlet.view.InternalResourceViewResolver
