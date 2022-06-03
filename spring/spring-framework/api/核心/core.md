@@ -731,3 +731,124 @@ org.springframework.core.type.filter.TypeFilter
         + org.springframework.core.type.filter.AssignableTypeFilter
     + org.springframework.core.type.filter.AspectJTypeFilter
 ```
+
+## ElementFactory
+
+```java
+org.springframework.util.AutoPopulatingList.ElementFactory
+```
+
+## BackOff
+
+```java
+org.springframework.util.backoff.BackOff
+    + org.springframework.util.backoff.ExponentialBackOff
+    + org.springframework.util.backoff.FixedBackOff
+```
+
+## BackOffExecution
+
+```java
+org.springframework.util.backoff.BackOffExecution
+```
+
+## FailureCallback
+
+```java
+org.springframework.util.concurrent.FailureCallback
+    + org.springframework.util.concurrent.ListenableFutureCallback
+```
+
+## SuccessCallback
+
+```java
+org.springframework.util.concurrent.SuccessCallback
+    + org.springframework.util.concurrent.ListenableFutureCallback
+```
+
+## Reference
+
+```java
+org.springframework.util.ConcurrentReferenceHashMap.Reference
+```
+
+## ErrorHandler
+
+```java
+org.springframework.util.ErrorHandler
+```
+
+## IdGenerator
+
+```java
+org.springframework.util.IdGenerator
+    + org.springframework.util.AlternativeJdkIdGenerator
+    + org.springframework.util.JdkIdGenerator
+    + org.springframework.util.SimpleIdGenerator
+```
+
+## PathMatcher
+
+```java
+org.springframework.util.PathMatcher
+    + org.springframework.util.AntPathMatcher
+```
+
+## PropertiesPersister
+
+```java
+org.springframework.util.PropertiesPersister
+    + org.springframework.util.DefaultPropertiesPersister
+        + org.springframework.core.io.support.ResourcePropertiesPersister
+```
+
+## PlaceholderResolver
+
+```java
+org.springframework.util.PropertyPlaceholderHelper.PlaceholderResolver
+```
+
+## FieldCallback
+
+```java
+org.springframework.util.ReflectionUtils.FieldCallback
+```
+
+## FieldFilter
+
+```java
+org.springframework.util.ReflectionUtils.FieldFilter
+```
+
+## MethodCallback
+
+```java
+org.springframework.util.ReflectionUtils.MethodCallback
+```
+
+## MethodFilter
+
+```java
+org.springframework.util.ReflectionUtils.MethodFilter
+```
+
+## RouteMatcher
+
+```java
+org.springframework.util.RouteMatcher
+    + org.springframework.web.util.pattern.PathPatternRouteMatcher
+    + org.springframework.util.SimpleRouteMatcher
+```
+
+## Route
+
+```java
+org.springframework.util.RouteMatcher.Route
+```
+
+## StringValueResolver
+
+```java
+org.springframework.util.StringValueResolver
+    + org.springframework.beans.factory.config.EmbeddedValueResolver
+```
