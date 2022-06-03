@@ -217,25 +217,6 @@ org.springframework.core.InfrastructureProxy
 org.springframework.core.MethodIntrospector.MetadataLookup
 ```
 
-## ApplicationStartup
-
-```java
-org.springframework.core.metrics.ApplicationStartup
-    + org.springframework.core.metrics.jfr.FlightRecorderApplicationStartup
-```
-
-## StartupStep
-
-```java
-org.springframework.core.metrics.StartupStep
-```
-
-## Tag
-
-```java
-org.springframework.core.metrics.StartupStep.Tag
-```
-
 ## OrderSourceProvider
 
 ```java
