@@ -1,305 +1,346 @@
 # beans
 
+## BeanInfoFactory
 
 ```java
-org.springframework.beans.AbstractNestablePropertyAccessor
-org.springframework.beans.AbstractNestablePropertyAccessor.PropertyHandler
-org.springframework.beans.AbstractNestablePropertyAccessor.PropertyTokenHolder
-org.springframework.beans.AbstractPropertyAccessor
 org.springframework.beans.BeanInfoFactory
-org.springframework.beans.BeanInstantiationException
-org.springframework.beans.BeanMetadataAttribute
-org.springframework.beans.BeanMetadataAttributeAccessor
-org.springframework.beans.BeanMetadataElement
-org.springframework.beans.BeansException
-org.springframework.beans.BeanUtils
-org.springframework.beans.BeanWrapper
-org.springframework.beans.BeanWrapperImpl
-org.springframework.beans.CachedIntrospectionResults
-org.springframework.beans.ConfigurablePropertyAccessor
-org.springframework.beans.ConversionNotSupportedException
-org.springframework.beans.DirectFieldAccessor
-org.springframework.beans.ExtendedBeanInfoFactory
-org.springframework.beans.FatalBeanException
-org.springframework.beans.InvalidPropertyException
-org.springframework.beans.Mergeable
-org.springframework.beans.MethodInvocationException
-org.springframework.beans.MutablePropertyValues
-org.springframework.beans.NotReadablePropertyException
-org.springframework.beans.NotWritablePropertyException
-org.springframework.beans.NullValueInNestedPathException
-org.springframework.beans.PropertyAccessException
-org.springframework.beans.PropertyAccessor
-org.springframework.beans.PropertyAccessorFactory
-org.springframework.beans.PropertyAccessorUtils
-org.springframework.beans.PropertyBatchUpdateException
-org.springframework.beans.PropertyEditorRegistrar
-org.springframework.beans.PropertyEditorRegistry
-org.springframework.beans.PropertyEditorRegistrySupport
-org.springframework.beans.PropertyMatches
-org.springframework.beans.PropertyValue
-org.springframework.beans.PropertyValues
-org.springframework.beans.PropertyValuesEditor
-org.springframework.beans.SimpleTypeConverter
-org.springframework.beans.TypeConverter
-org.springframework.beans.TypeConverterSupport
-org.springframework.beans.TypeMismatchException
+    + org.springframework.beans.ExtendedBeanInfoFactory
+```
 
-org.springframework.beans.annotation.AnnotationBeanUtils
+org.springframework.beans.PropertyEditorRegistrar
+    + org.springframework.beans.support.ResourceEditorRegistrar
+
+org.springframework.beans.PropertyAccessor
+    + org.springframework.beans.ConfigurablePropertyAccessor
+        + org.springframework.beans.AbstractPropertyAccessor
+            + org.springframework.beans.AbstractNestablePropertyAccessor
+                + org.springframework.beans.DirectFieldAccessor
+                + org.springframework.beans.BeanWrapperImpl
+        + org.springframework.beans.BeanWrapper
+            + org.springframework.beans.BeanWrapperImpl
+
+org.springframework.beans.PropertyEditorRegistry
+    + org.springframework.beans.ConfigurablePropertyAccessor
+        + org.springframework.beans.AbstractPropertyAccessor
+            + org.springframework.beans.AbstractNestablePropertyAccessor
+                + org.springframework.beans.DirectFieldAccessor
+                + org.springframework.beans.BeanWrapperImpl
+        + org.springframework.beans.BeanWrapper
+            + org.springframework.beans.BeanWrapperImpl
+    + org.springframework.beans.PropertyEditorRegistrySupport
+        + org.springframework.beans.TypeConverterSupport
+            + org.springframework.beans.SimpleTypeConverter
+            + org.springframework.beans.AbstractPropertyAccessor
+                + org.springframework.beans.AbstractNestablePropertyAccessor
+                    + org.springframework.beans.DirectFieldAccessor
+                    + org.springframework.beans.BeanWrapperImpl
+    + org.springframework.validation.DataBinder
+        + org.springframework.web.bind.WebDataBinder
+            + org.springframework.web.bind.support.WebRequestDataBinder
+            + org.springframework.web.bind.support.WebExchangeDataBinder
+            + org.springframework.web.bind.ServletRequestDataBinder
+                + org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder
+            
+org.springframework.beans.TypeConverter
+    + org.springframework.beans.ConfigurablePropertyAccessor
+        + org.springframework.beans.AbstractPropertyAccessor
+            + org.springframework.beans.AbstractNestablePropertyAccessor
+                + org.springframework.beans.DirectFieldAccessor
+                + org.springframework.beans.BeanWrapperImpl
+        + org.springframework.beans.BeanWrapper
+            + org.springframework.beans.BeanWrapperImpl
+    + org.springframework.beans.TypeConverterSupport
+        + org.springframework.beans.SimpleTypeConverter
+        + org.springframework.beans.AbstractPropertyAccessor
+            + org.springframework.beans.AbstractNestablePropertyAccessor
+                + org.springframework.beans.DirectFieldAccessor
+                + org.springframework.beans.BeanWrapperImpl
+    + org.springframework.validation.DataBinder
+        + org.springframework.web.bind.WebDataBinder
+            + org.springframework.web.bind.support.WebRequestDataBinder
+            + org.springframework.web.bind.support.WebExchangeDataBinder
+            + org.springframework.web.bind.ServletRequestDataBinder
+                + org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder
+
+org.springframework.beans.PropertyValues
+    + org.springframework.beans.MutablePropertyValues
+        + org.springframework.web.bind.ServletRequestParameterPropertyValues
+
+org.springframework.beans.Mergeable
+    + org.springframework.beans.factory.support.ManagedSet
+    + org.springframework.beans.factory.support.ManagedMap
+    + org.springframework.beans.factory.support.ManagedProperties
+    + org.springframework.beans.factory.support.ManagedArray
+        + org.springframework.beans.factory.support.ManagedList
+    + org.springframework.test.web.servlet.request.MockHttpServletRequestBuilder
+        + org.springframework.test.web.servlet.request.MockMultipartHttpServletRequestBuilder
+
+org.springframework.beans.BeanMetadataElement
+    + org.springframework.beans.factory.parsing.AliasDefinition
+    + org.springframework.beans.factory.config.BeanDefinitionHolder
+        + org.springframework.beans.factory.parsing.BeanComponentDefinition
+    + org.springframework.beans.BeanMetadataAttribute
+    + org.springframework.beans.BeanMetadataAttributeAccessor
+        + org.springframework.beans.PropertyValue
+        + org.springframework.beans.factory.support.AutowireCandidateQualifier
+        + org.springframework.beans.factory.support.AbstractBeanDefinition
+            + org.springframework.beans.factory.support.ChildBeanDefinition
+            + org.springframework.beans.factory.support.GenericBeanDefinition
+                + org.springframework.beans.factory.annotation.AnnotatedGenericBeanDefinition
+                + org.springframework.context.annotation.ScannedGenericBeanDefinition
+            + org.springframework.beans.factory.support.RootBeanDefinition
+    + org.springframework.beans.factory.parsing.ImportDefinition
+    + org.springframework.beans.factory.support.ManagedList<E>
+        + org.springframework.beans.factory.support.ManagedArray
+    + org.springframework.beans.factory.support.ManagedMap<K, V>
+    + org.springframework.beans.factory.support.ManagedProperties
+    + org.springframework.beans.factory.support.ManagedSet<E>
+    + org.springframework.beans.factory.support.MethodOverride
+        + org.springframework.beans.factory.support.LookupOverride
+        + org.springframework.beans.factory.support.ReplaceOverride
+    + org.springframework.beans.factory.config.TypedStringValue
+    + org.springframework.beans.factory.config.ConstructorArgumentValues.ValueHolder
+    + org.springframework.beans.factory.config.BeanDefinition
+        + org.springframework.beans.factory.support.AbstractBeanDefinition
+            + org.springframework.beans.factory.support.ChildBeanDefinition
+            + org.springframework.beans.factory.support.GenericBeanDefinition
+                + org.springframework.beans.factory.annotation.AnnotatedGenericBeanDefinition
+                + org.springframework.context.annotation.ScannedGenericBeanDefinition
+            + org.springframework.beans.factory.support.RootBeanDefinition
+        + org.springframework.beans.factory.annotation.AnnotatedBeanDefinition
+            + org.springframework.beans.factory.annotation.AnnotatedGenericBeanDefinition
+            + org.springframework.context.annotation.ScannedGenericBeanDefinition
+    + org.springframework.beans.factory.config.BeanReference
+        + org.springframework.beans.factory.config.RuntimeBeanNameReference
+        + org.springframework.beans.factory.config.RuntimeBeanReference
+    + org.springframework.beans.factory.parsing.ComponentDefinition
+        + org.springframework.beans.factory.parsing.BeanComponentDefinition
+        + org.springframework.beans.factory.parsing.AbstractComponentDefinition
+            + org.springframework.aop.config.AdvisorComponentDefinition
+            + org.springframework.aop.config.PointcutComponentDefinition
+            + org.springframework.beans.factory.parsing.CompositeComponentDefinition
+                + org.springframework.aop.config.AspectComponentDefinition
+    + org.springframework.beans.factory.parsing.DefaultsDefinition
+        + org.springframework.beans.factory.xml.DocumentDefaultsDefinition
+
+org.springframework.beans.factory.BeanFactory
+    + org.springframework.jndi.support.SimpleJndiBeanFactory
+    + org.springframework.beans.factory.config.AutowireCapableBeanFactory
+        + org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory
+            + org.springframework.beans.factory.support.DefaultListableBeanFactory
+                + org.springframework.beans.factory.xml.XmlBeanFactory
+        + org.springframework.beans.factory.config.ConfigurableListableBeanFactory
+            + org.springframework.beans.factory.support.DefaultListableBeanFactory
+                + org.springframework.beans.factory.xml.XmlBeanFactory
+    + org.springframework.beans.factory.HierarchicalBeanFactory
+        + org.springframework.context.ApplicationContext
+            + org.springframework.context.ConfigurableApplicationContext
+                + org.springframework.context.support.AbstractApplicationContext
+                    + org.springframework.context.support.AbstractRefreshableApplicationContext
+                        + org.springframework.context.support.AbstractRefreshableConfigApplicationContext
+                            + org.springframework.web.context.support.AbstractRefreshableWebApplicationContext
+                                + org.springframework.web.context.support.AnnotationConfigWebApplicationContext
+                                + org.springframework.web.context.support.GroovyWebApplicationContext
+                                + org.springframework.web.context.support.XmlWebApplicationContext
+                            + org.springframework.context.support.AbstractXmlApplicationContext
+                                + org.springframework.context.support.ClassPathXmlApplicationContext
+                                + org.springframework.context.support.FileSystemXmlApplicationContext
+                    + org.springframework.context.support.GenericApplicationContext
+                        + org.springframework.context.annotation.AnnotationConfigApplicationContext
+                        + org.springframework.context.support.GenericGroovyApplicationContext
+                        + org.springframework.web.context.support.GenericWebApplicationContext
+                        + org.springframework.context.support.GenericXmlApplicationContext
+                        + org.springframework.jca.context.ResourceAdapterApplicationContext
+                        + org.springframework.context.support.StaticApplicationContext
+                            + org.springframework.web.context.support.StaticWebApplicationContext
+                + org.springframework.web.context.ConfigurableWebApplicationContext
+                    + org.springframework.web.context.support.AbstractRefreshableWebApplicationContext
+                        + org.springframework.web.context.support.AnnotationConfigWebApplicationContext
+                        + org.springframework.web.context.support.GroovyWebApplicationContext
+                        + org.springframework.web.context.support.XmlWebApplicationContext
+                    + org.springframework.web.context.support.GenericWebApplicationContext
+                    + org.springframework.web.context.support.StaticWebApplicationContext
+            + org.springframework.web.context.WebApplicationContext
+                + org.springframework.web.context.ConfigurableWebApplicationContext
+                    + org.springframework.web.context.support.AbstractRefreshableWebApplicationContext
+                        + org.springframework.web.context.support.AnnotationConfigWebApplicationContext
+                        + org.springframework.web.context.support.GroovyWebApplicationContext
+                        + org.springframework.web.context.support.XmlWebApplicationContext
+                    + org.springframework.web.context.support.GenericWebApplicationContext
+                    + org.springframework.web.context.support.StaticWebApplicationContext
+        + org.springframework.beans.factory.config.ConfigurableBeanFactory
+            + org.springframework.beans.factory.support.AbstractBeanFactory
+                + org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory
+                    + org.springframework.beans.factory.support.DefaultListableBeanFactory
+                        + org.springframework.beans.factory.xml.XmlBeanFactory
+            + org.springframework.beans.factory.config.ConfigurableListableBeanFactory
+                + org.springframework.beans.factory.support.DefaultListableBeanFactory
+                    + org.springframework.beans.factory.xml.XmlBeanFactory
+    + org.springframework.beans.factory.ListableBeanFactory
+        + org.springframework.beans.factory.support.StaticListableBeanFactory
+        + org.springframework.context.ApplicationContext
+            + org.springframework.context.ConfigurableApplicationContext
+                + org.springframework.context.support.AbstractApplicationContext
+                    + org.springframework.context.support.AbstractRefreshableApplicationContext
+                        + org.springframework.context.support.AbstractRefreshableConfigApplicationContext
+                            + org.springframework.web.context.support.AbstractRefreshableWebApplicationContext
+                                + org.springframework.web.context.support.AnnotationConfigWebApplicationContext
+                                + org.springframework.web.context.support.GroovyWebApplicationContext
+                                + org.springframework.web.context.support.XmlWebApplicationContext
+                            + org.springframework.context.support.AbstractXmlApplicationContext
+                                + org.springframework.context.support.ClassPathXmlApplicationContext
+                                + org.springframework.context.support.FileSystemXmlApplicationContext
+                    + org.springframework.context.support.GenericApplicationContext
+                        + org.springframework.context.annotation.AnnotationConfigApplicationContext
+                        + org.springframework.context.support.GenericGroovyApplicationContext
+                        + org.springframework.web.context.support.GenericWebApplicationContext
+                        + org.springframework.context.support.GenericXmlApplicationContext
+                        + org.springframework.jca.context.ResourceAdapterApplicationContext
+                        + org.springframework.context.support.StaticApplicationContext
+                            + org.springframework.web.context.support.StaticWebApplicationContext
+                + org.springframework.web.context.ConfigurableWebApplicationContext
+                    + org.springframework.web.context.support.AbstractRefreshableWebApplicationContext
+                        + org.springframework.web.context.support.AnnotationConfigWebApplicationContext
+                        + org.springframework.web.context.support.GroovyWebApplicationContext
+                        + org.springframework.web.context.support.XmlWebApplicationContext
+                    + org.springframework.web.context.support.GenericWebApplicationContext
+                    + org.springframework.web.context.support.StaticWebApplicationContext
+            + org.springframework.web.context.WebApplicationContext
+                + org.springframework.web.context.ConfigurableWebApplicationContext
+                    + org.springframework.web.context.support.AbstractRefreshableWebApplicationContext
+                        + org.springframework.web.context.support.AnnotationConfigWebApplicationContext
+                        + org.springframework.web.context.support.GroovyWebApplicationContext
+                        + org.springframework.web.context.support.XmlWebApplicationContext
+                    + org.springframework.web.context.support.GenericWebApplicationContext
+                    + org.springframework.web.context.support.StaticWebApplicationContext
+        + org.springframework.beans.factory.config.ConfigurableListableBeanFactory
+            + org.springframework.beans.factory.support.DefaultListableBeanFactory
+                + org.springframework.beans.factory.xml.XmlBeanFactory
+
+org.springframework.beans.factory.config.BeanFactoryPostProcessor
+    + org.springframework.context.weaving.AspectJWeavingEnabler
+    + org.springframework.beans.factory.annotation.CustomAutowireConfigurer
+    + org.springframework.beans.factory.config.CustomEditorConfigurer
+    + org.springframework.beans.factory.config.CustomScopeConfigurer
+    + org.springframework.beans.factory.config.DeprecatedBeanWarner
+    + org.springframework.context.event.EventListenerMethodProcessor
+    + org.springframework.beans.factory.config.PropertyResourceConfigurer
+        + org.springframework.beans.factory.config.PlaceholderConfigurerSupport
+            + org.springframework.beans.factory.config.PropertyPlaceholderConfigurer
+                + org.springframework.beans.factory.config.PreferencesPlaceholderConfigurer
+            + org.springframework.context.support.PropertySourcesPlaceholderConfigurer
+        + org.springframework.beans.factory.config.PropertyOverrideConfigurer
+    + org.springframework.beans.factory.support.BeanDefinitionRegistryPostProcessor
+        + org.springframework.context.annotation.ConfigurationClassPostProcessor
+
+org.springframework.beans.factory.support.BeanDefinitionReader
+    + org.springframework.beans.factory.support.AbstractBeanDefinitionReader
+        + org.springframework.beans.factory.groovy.GroovyBeanDefinitionReader
+        + org.springframework.beans.factory.support.PropertiesBeanDefinitionReader
+        + org.springframework.beans.factory.xml.XmlBeanDefinitionReader
+
+org.springframework.beans.factory.xml.BeanDefinitionDocumentReader
+    + org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader
+
+org.springframework.beans.factory.xml.BeanDefinitionParser
+    + org.springframework.beans.factory.xml.AbstractBeanDefinitionParser
+        + org.springframework.beans.factory.xml.AbstractSingleBeanDefinitionParser
+            + org.springframework.beans.factory.xml.AbstractSimpleBeanDefinitionParser
+                + org.springframework.web.servlet.config.GroovyMarkupConfigurerBeanDefinitionParser
+                + org.springframework.web.servlet.config.ScriptTemplateConfigurerBeanDefinitionParser
+            + org.springframework.scheduling.config.ExecutorBeanDefinitionParser
+            + org.springframework.web.servlet.config.FreeMarkerConfigurerBeanDefinitionParser
+            + org.springframework.transaction.config.JtaTransactionManagerBeanDefinitionParser
+            + org.springframework.scheduling.config.ScheduledTasksBeanDefinitionParser
+            + org.springframework.scheduling.config.SchedulerBeanDefinitionParser
+            + org.springframework.web.servlet.config.TilesConfigurerBeanDefinitionParser
+    + org.springframework.context.annotation.AnnotationConfigBeanDefinitionParser
+    + org.springframework.scheduling.config.AnnotationDrivenBeanDefinitionParser
+    + org.springframework.context.annotation.ComponentScanBeanDefinitionParser
+    + org.springframework.web.servlet.config.CorsBeanDefinitionParser
+    + org.springframework.web.servlet.config.ViewResolversBeanDefinitionParser
+
+org.springframework.beans.factory.xml.BeanDefinitionDecorator
+    + org.springframework.aop.config.AbstractInterceptorDrivenBeanDefinitionDecorator
+
+org.springframework.beans.factory.config.BeanDefinitionCustomizer
+
+org.springframework.beans.factory.parsing.ReaderEventListener
+    + org.springframework.beans.factory.parsing.EmptyReaderEventListener
+
+org.springframework.core.NestedRuntimeException
+    + org.springframework.beans.BeansException
+        + org.springframework.beans.factory.BeanNotOfRequiredTypeException
+            + org.springframework.beans.factory.BeanIsNotAFactoryException
+        + org.springframework.beans.FatalBeanException
+            + org.springframework.beans.factory.BeanCreationException
+                + org.springframework.beans.factory.BeanCreationNotAllowedException
+                + org.springframework.beans.factory.BeanCurrentlyInCreationException
+                + org.springframework.beans.factory.BeanIsAbstractException
+                + org.springframework.beans.factory.support.ScopeNotActiveException
+                + org.springframework.beans.factory.UnsatisfiedDependencyException
+            + org.springframework.beans.factory.BeanDefinitionStoreException
+                + org.springframework.beans.factory.support.BeanDefinitionOverrideException
+                + org.springframework.beans.factory.parsing.BeanDefinitionParsingException
+                + org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException
+            + org.springframework.beans.factory.support.BeanDefinitionValidationException
+            + org.springframework.beans.factory.BeanExpressionException
+            + org.springframework.beans.factory.BeanInitializationException
+            + org.springframework.beans.BeanInstantiationException
+            + org.springframework.beans.factory.CannotLoadBeanClassException
+            + org.springframework.beans.factory.FactoryBeanNotInitializedException
+            + org.springframework.beans.InvalidPropertyException
+                + org.springframework.beans.NotReadablePropertyException
+                + org.springframework.beans.NotWritablePropertyException
+                + org.springframework.beans.NullValueInNestedPathException
+        + org.springframework.beans.factory.NoSuchBeanDefinitionException
+            + org.springframework.beans.factory.NoUniqueBeanDefinitionException
+        + org.springframework.beans.PropertyAccessException
+            + org.springframework.beans.MethodInvocationException
+            + org.springframework.beans.TypeMismatchException
+                + org.springframework.beans.ConversionNotSupportedException
+        + org.springframework.beans.PropertyBatchUpdateException
+
+org.springframework.beans.factory.FactoryBean<T>
+    + org.springframework.beans.factory.config.AbstractFactoryBean<T>
+        + org.springframework.beans.factory.serviceloader.AbstractServiceLoaderBasedFactoryBean
+            + org.springframework.beans.factory.serviceloader.ServiceFactoryBean
+            + org.springframework.beans.factory.serviceloader.ServiceListFactoryBean
+            + org.springframework.beans.factory.serviceloader.ServiceLoaderFactoryBean
+        + org.springframework.beans.factory.config.ListFactoryBean
+        + org.springframework.beans.factory.config.MapFactoryBean
+        + org.springframework.beans.factory.config.ObjectFactoryCreatingFactoryBean
+        + org.springframework.beans.factory.config.ProviderCreatingFactoryBean
+        + org.springframework.beans.factory.config.SetFactoryBean
+    + org.springframework.beans.factory.config.FieldRetrievingFactoryBean
+    + org.springframework.beans.factory.config.MethodInvokingFactoryBean
+    + org.springframework.beans.factory.config.PropertiesFactoryBean
+    + org.springframework.beans.factory.config.PropertyPathFactoryBean
+    + org.springframework.beans.factory.config.ServiceLocatorFactoryBean
+    + org.springframework.beans.factory.config.YamlMapFactoryBean
+    + org.springframework.beans.factory.config.YamlPropertiesFactoryBean
+    + org.springframework.beans.factory.SmartFactoryBean<T>
+
+
+org.springframework.beans.factory.config.BeanExpressionResolver
+    + org.springframework.context.expression.StandardBeanExpressionResolver
+
 
 org.springframework.beans.factory.Aware
-org.springframework.beans.factory.BeanClassLoaderAware
-org.springframework.beans.factory.BeanCreationException
-org.springframework.beans.factory.BeanCreationNotAllowedException
-org.springframework.beans.factory.BeanCurrentlyInCreationException
-org.springframework.beans.factory.BeanDefinitionStoreException
-org.springframework.beans.factory.BeanExpressionException
-org.springframework.beans.factory.BeanFactory
-org.springframework.beans.factory.BeanFactoryAware
-org.springframework.beans.factory.BeanFactoryUtils
-org.springframework.beans.factory.BeanInitializationException
-org.springframework.beans.factory.BeanIsAbstractException
-org.springframework.beans.factory.BeanIsNotAFactoryException
-org.springframework.beans.factory.BeanNameAware
-org.springframework.beans.factory.BeanNotOfRequiredTypeException
-org.springframework.beans.factory.CannotLoadBeanClassException
-org.springframework.beans.factory.DisposableBean
-org.springframework.beans.factory.FactoryBean
-org.springframework.beans.factory.FactoryBeanNotInitializedException
-org.springframework.beans.factory.HierarchicalBeanFactory
-org.springframework.beans.factory.InitializingBean
-org.springframework.beans.factory.InjectionPoint
-org.springframework.beans.factory.ListableBeanFactory
-org.springframework.beans.factory.NamedBean
-org.springframework.beans.factory.NoSuchBeanDefinitionException
-org.springframework.beans.factory.NoUniqueBeanDefinitionException
-org.springframework.beans.factory.ObjectFactory
-org.springframework.beans.factory.ObjectProvider
-org.springframework.beans.factory.SmartFactoryBean
-org.springframework.beans.factory.SmartInitializingSingleton
-org.springframework.beans.factory.UnsatisfiedDependencyException
+    + org.springframework.beans.factory.BeanClassLoaderAware
+    + org.springframework.beans.factory.BeanFactoryAware
+    + org.springframework.beans.factory.BeanNameAware
 
-org.springframework.beans.factory.annotation.AnnotatedBeanDefinition
-org.springframework.beans.factory.annotation.AnnotatedGenericBeanDefinition
-org.springframework.beans.factory.annotation.AnnotationBeanWiringInfoResolver
-org.springframework.beans.factory.annotation.Autowire
-org.springframework.beans.factory.annotation.Autowired
-org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor
+org.springframework.beans.annotation.AnnotationBeanUtils
+org.springframework.beans.BeanUtils
 org.springframework.beans.factory.annotation.BeanFactoryAnnotationUtils
-org.springframework.beans.factory.annotation.Configurable
-org.springframework.beans.factory.annotation.CustomAutowireConfigurer
-org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor
-org.springframework.beans.factory.annotation.InjectionMetadata
-org.springframework.beans.factory.annotation.InjectionMetadata.InjectedElement
-org.springframework.beans.factory.annotation.Lookup
-org.springframework.beans.factory.annotation.ParameterResolutionDelegate
-org.springframework.beans.factory.annotation.Qualifier
-org.springframework.beans.factory.annotation.QualifierAnnotationAutowireCandidateResolver
-org.springframework.beans.factory.annotation.Required
-org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor
-org.springframework.beans.factory.annotation.Value
-
-org.springframework.beans.factory.config.AbstractFactoryBean
-org.springframework.beans.factory.config.AutowireCapableBeanFactory
-org.springframework.beans.factory.config.AutowiredPropertyMarker
-org.springframework.beans.factory.config.BeanDefinition
-org.springframework.beans.factory.config.BeanDefinitionCustomizer
-org.springframework.beans.factory.config.BeanDefinitionHolder
-org.springframework.beans.factory.config.BeanDefinitionVisitor
-org.springframework.beans.factory.config.BeanExpressionContext
-org.springframework.beans.factory.config.BeanExpressionResolver
-org.springframework.beans.factory.config.BeanFactoryPostProcessor
-org.springframework.beans.factory.config.BeanPostProcessor
-org.springframework.beans.factory.config.BeanReference
-org.springframework.beans.factory.config.ConfigurableBeanFactory
-org.springframework.beans.factory.config.ConfigurableListableBeanFactory
-org.springframework.beans.factory.config.ConstructorArgumentValues
-org.springframework.beans.factory.config.ConstructorArgumentValues.ValueHolder
-org.springframework.beans.factory.config.CustomEditorConfigurer
-org.springframework.beans.factory.config.CustomScopeConfigurer
-org.springframework.beans.factory.config.DependencyDescriptor
-org.springframework.beans.factory.config.DeprecatedBeanWarner
-org.springframework.beans.factory.config.DestructionAwareBeanPostProcessor
-org.springframework.beans.factory.config.EmbeddedValueResolver
-org.springframework.beans.factory.config.FieldRetrievingFactoryBean
-org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessor
-org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessorAdapter
-org.springframework.beans.factory.config.ListFactoryBean
-org.springframework.beans.factory.config.MapFactoryBean
-org.springframework.beans.factory.config.MethodInvokingBean
-org.springframework.beans.factory.config.MethodInvokingFactoryBean
-org.springframework.beans.factory.config.NamedBeanHolder
-org.springframework.beans.factory.config.ObjectFactoryCreatingFactoryBean
-org.springframework.beans.factory.config.PlaceholderConfigurerSupport
-org.springframework.beans.factory.config.PreferencesPlaceholderConfigurer
-org.springframework.beans.factory.config.PropertiesFactoryBean
-org.springframework.beans.factory.config.PropertyOverrideConfigurer
-org.springframework.beans.factory.config.PropertyPathFactoryBean
-org.springframework.beans.factory.config.PropertyPlaceholderConfigurer
-org.springframework.beans.factory.config.PropertyResourceConfigurer
-org.springframework.beans.factory.config.ProviderCreatingFactoryBean
-org.springframework.beans.factory.config.RuntimeBeanNameReference
-org.springframework.beans.factory.config.RuntimeBeanReference
-org.springframework.beans.factory.config.Scope
-org.springframework.beans.factory.config.ServiceLocatorFactoryBean
-org.springframework.beans.factory.config.SetFactoryBean
-org.springframework.beans.factory.config.SingletonBeanRegistry
-org.springframework.beans.factory.config.SmartInstantiationAwareBeanPostProcessor
-org.springframework.beans.factory.config.TypedStringValue
-org.springframework.beans.factory.config.YamlMapFactoryBean
-org.springframework.beans.factory.config.YamlProcessor
-org.springframework.beans.factory.config.YamlProcessor.DocumentMatcher
-org.springframework.beans.factory.config.YamlProcessor.MatchCallback
-org.springframework.beans.factory.config.YamlProcessor.MatchStatus
-org.springframework.beans.factory.config.YamlProcessor.ResolutionMethod
-org.springframework.beans.factory.config.YamlPropertiesFactoryBean
-
-org.springframework.beans.factory.groovy.GroovyBeanDefinitionReader
-
-org.springframework.beans.factory.parsing.AbstractComponentDefinition
-org.springframework.beans.factory.parsing.AliasDefinition
-org.springframework.beans.factory.parsing.BeanComponentDefinition
-org.springframework.beans.factory.parsing.BeanDefinitionParsingException
-org.springframework.beans.factory.parsing.BeanEntry
-org.springframework.beans.factory.parsing.ComponentDefinition
-org.springframework.beans.factory.parsing.CompositeComponentDefinition
-org.springframework.beans.factory.parsing.ConstructorArgumentEntry
-org.springframework.beans.factory.parsing.DefaultsDefinition
-org.springframework.beans.factory.parsing.EmptyReaderEventListener
-org.springframework.beans.factory.parsing.FailFastProblemReporter
-org.springframework.beans.factory.parsing.ImportDefinition
-org.springframework.beans.factory.parsing.Location
-org.springframework.beans.factory.parsing.NullSourceExtractor
-org.springframework.beans.factory.parsing.ParseState
-org.springframework.beans.factory.parsing.ParseState.Entry
-org.springframework.beans.factory.parsing.PassThroughSourceExtractor
-org.springframework.beans.factory.parsing.Problem
-org.springframework.beans.factory.parsing.ProblemReporter
-org.springframework.beans.factory.parsing.PropertyEntry
-org.springframework.beans.factory.parsing.QualifierEntry
-org.springframework.beans.factory.parsing.ReaderContext
-org.springframework.beans.factory.parsing.ReaderEventListener
-org.springframework.beans.factory.parsing.SourceExtractor
-
-org.springframework.beans.factory.serviceloader.AbstractServiceLoaderBasedFactoryBean
-org.springframework.beans.factory.serviceloader.ServiceFactoryBean
-org.springframework.beans.factory.serviceloader.ServiceListFactoryBean
-org.springframework.beans.factory.serviceloader.ServiceLoaderFactoryBean
-
-org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory
-org.springframework.beans.factory.support.AbstractBeanDefinition
-org.springframework.beans.factory.support.AbstractBeanDefinitionReader
-org.springframework.beans.factory.support.AbstractBeanFactory
-org.springframework.beans.factory.support.AutowireCandidateQualifier
-org.springframework.beans.factory.support.AutowireCandidateResolver
-org.springframework.beans.factory.support.BeanDefinitionBuilder
-org.springframework.beans.factory.support.BeanDefinitionDefaults
-org.springframework.beans.factory.support.BeanDefinitionOverrideException
-org.springframework.beans.factory.support.BeanDefinitionReader
+org.springframework.beans.factory.BeanFactoryUtils
 org.springframework.beans.factory.support.BeanDefinitionReaderUtils
-org.springframework.beans.factory.support.BeanDefinitionRegistry
-org.springframework.beans.factory.support.BeanDefinitionRegistryPostProcessor
-org.springframework.beans.factory.support.BeanDefinitionValidationException
-org.springframework.beans.factory.support.BeanNameGenerator
-org.springframework.beans.factory.support.CglibSubclassingInstantiationStrategy
-org.springframework.beans.factory.support.ChildBeanDefinition
-org.springframework.beans.factory.support.DefaultBeanNameGenerator
-org.springframework.beans.factory.support.DefaultListableBeanFactory
-org.springframework.beans.factory.support.DefaultSingletonBeanRegistry
-org.springframework.beans.factory.support.FactoryBeanRegistrySupport
-org.springframework.beans.factory.support.GenericBeanDefinition
-org.springframework.beans.factory.support.GenericTypeAwareAutowireCandidateResolver
-org.springframework.beans.factory.support.InstantiationStrategy
-org.springframework.beans.factory.support.LookupOverride
-org.springframework.beans.factory.support.ManagedArray
-org.springframework.beans.factory.support.ManagedList
-org.springframework.beans.factory.support.ManagedMap
-org.springframework.beans.factory.support.ManagedProperties
-org.springframework.beans.factory.support.ManagedSet
-org.springframework.beans.factory.support.MergedBeanDefinitionPostProcessor
-org.springframework.beans.factory.support.MethodOverride
-org.springframework.beans.factory.support.MethodOverrides
-org.springframework.beans.factory.support.MethodReplacer
-org.springframework.beans.factory.support.PropertiesBeanDefinitionReader
-org.springframework.beans.factory.support.ReplaceOverride
-org.springframework.beans.factory.support.RootBeanDefinition
-org.springframework.beans.factory.support.ScopeNotActiveException
-org.springframework.beans.factory.support.SecurityContextProvider
-org.springframework.beans.factory.support.SimpleAutowireCandidateResolver
-org.springframework.beans.factory.support.SimpleBeanDefinitionRegistry
-org.springframework.beans.factory.support.SimpleInstantiationStrategy
-org.springframework.beans.factory.support.SimpleSecurityContextProvider
-org.springframework.beans.factory.support.StaticListableBeanFactory
+org.springframework.beans.PropertyAccessorUtils
 
-org.springframework.beans.factory.wiring.BeanConfigurerSupport
-org.springframework.beans.factory.wiring.BeanWiringInfo
-org.springframework.beans.factory.wiring.BeanWiringInfoResolver
-org.springframework.beans.factory.wiring.ClassNameBeanWiringInfoResolver
 
-org.springframework.beans.factory.xml.AbstractBeanDefinitionParser
-org.springframework.beans.factory.xml.AbstractSimpleBeanDefinitionParser
-org.springframework.beans.factory.xml.AbstractSingleBeanDefinitionParser
-org.springframework.beans.factory.xml.BeanDefinitionDecorator
-org.springframework.beans.factory.xml.BeanDefinitionDocumentReader
-org.springframework.beans.factory.xml.BeanDefinitionParser
-org.springframework.beans.factory.xml.BeanDefinitionParserDelegate
-org.springframework.beans.factory.xml.BeansDtdResolver
-org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader
-org.springframework.beans.factory.xml.DefaultDocumentLoader
-org.springframework.beans.factory.xml.DefaultNamespaceHandlerResolver
-org.springframework.beans.factory.xml.DelegatingEntityResolver
-org.springframework.beans.factory.xml.DocumentDefaultsDefinition
-org.springframework.beans.factory.xml.DocumentLoader
-org.springframework.beans.factory.xml.NamespaceHandler
-org.springframework.beans.factory.xml.NamespaceHandlerResolver
-org.springframework.beans.factory.xml.NamespaceHandlerSupport
-org.springframework.beans.factory.xml.ParserContext
-org.springframework.beans.factory.xml.PluggableSchemaResolver
-org.springframework.beans.factory.xml.ResourceEntityResolver
-org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler
-org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler
-org.springframework.beans.factory.xml.UtilNamespaceHandler
-org.springframework.beans.factory.xml.XmlBeanDefinitionReader
-org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException
-org.springframework.beans.factory.xml.XmlBeanFactory
-org.springframework.beans.factory.xml.XmlReaderContext
 
-org.springframework.beans.propertyeditors.ByteArrayPropertyEditor
-org.springframework.beans.propertyeditors.CharacterEditor
-org.springframework.beans.propertyeditors.CharArrayPropertyEditor
-org.springframework.beans.propertyeditors.CharsetEditor
-org.springframework.beans.propertyeditors.ClassArrayEditor
-org.springframework.beans.propertyeditors.ClassEditor
-org.springframework.beans.propertyeditors.CurrencyEditor
-org.springframework.beans.propertyeditors.CustomBooleanEditor
-org.springframework.beans.propertyeditors.CustomCollectionEditor
-org.springframework.beans.propertyeditors.CustomDateEditor
-org.springframework.beans.propertyeditors.CustomMapEditor
-org.springframework.beans.propertyeditors.CustomNumberEditor
-org.springframework.beans.propertyeditors.FileEditor
-org.springframework.beans.propertyeditors.InputSourceEditor
-org.springframework.beans.propertyeditors.InputStreamEditor
-org.springframework.beans.propertyeditors.LocaleEditor
-org.springframework.beans.propertyeditors.PathEditor
-org.springframework.beans.propertyeditors.PatternEditor
-org.springframework.beans.propertyeditors.PropertiesEditor
-org.springframework.beans.propertyeditors.ReaderEditor
-org.springframework.beans.propertyeditors.ResourceBundleEditor
-org.springframework.beans.propertyeditors.StringArrayPropertyEditor
-org.springframework.beans.propertyeditors.StringTrimmerEditor
-org.springframework.beans.propertyeditors.TimeZoneEditor
-org.springframework.beans.propertyeditors.URIEditor
-org.springframework.beans.propertyeditors.URLEditor
-org.springframework.beans.propertyeditors.UUIDEditor
-org.springframework.beans.propertyeditors.ZoneIdEditor
 
-org.springframework.beans.support.ArgumentConvertingMethodInvoker
-org.springframework.beans.support.MutableSortDefinition
-org.springframework.beans.support.PagedListHolder
-org.springframework.beans.support.PropertyComparator
-org.springframework.beans.support.ResourceEditorRegistrar
-org.springframework.beans.support.SortDefinition
-```
 
 
 
