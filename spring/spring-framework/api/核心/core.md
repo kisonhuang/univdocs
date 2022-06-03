@@ -26,30 +26,6 @@ org.springframework.core.AliasRegistry
         + org.springframework.beans.factory.support.SimpleBeanDefinitionRegistry
 ```
 
-## AnnotationFilter
-
-```java
-org.springframework.core.annotation.AnnotationFilter
-```
-
-## MergedAnnotation
-
-```java
-org.springframework.core.annotation.MergedAnnotation
-```
-
-## MergedAnnotationSelector
-
-```java
-org.springframework.core.annotation.MergedAnnotationSelector
-```
-
-## SynthesizedAnnotation
-
-```java
-org.springframework.core.annotation.SynthesizedAnnotation
-```
-
 ## AttributeAccessor
 
 ```java
