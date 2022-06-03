@@ -407,40 +407,10 @@ org.springframework.core.ResolvableTypeProvider
     + org.springframework.context.PayloadApplicationEvent
 ```
 
-## Deserializer
-
-```java
-org.springframework.core.serializer.Deserializer
-    + org.springframework.core.serializer.DefaultDeserializer
-    + org.springframework.core.serializer.support.SerializationDelegate
-```
-
-## Serializer
-
-```java
-org.springframework.core.serializer.Serializer
-    + org.springframework.core.serializer.DefaultSerializer
-    + org.springframework.core.serializer.support.SerializationDelegate
-```
-
 ## SmartClassLoader
 
 ```java
 org.springframework.core.SmartClassLoader
-```
-
-## ToStringStyler
-
-```java
-org.springframework.core.style.ToStringStyler
-    + org.springframework.core.style.DefaultToStringStyler
-```
-
-## ValueStyler
-
-```java
-org.springframework.core.style.ValueStyler
-    + org.springframework.core.style.DefaultValueStyler
 ```
 
 ## TaskDecorator
