@@ -191,6 +191,29 @@ org.springframework.boot.autoconfigure.mongo.MongoPropertiesClientSettingsBuilde
 org.springframework.boot.autoconfigure.mongo.embedded.DownloadConfigBuilderCustomizer
 ```
 
+## 连接MongoDB
+
+在Bean中注入以下Bean，可以连接MongoDB，默认连接的MongoDB服务器为mongodb://localhost/test：
+
+```java
+org.springframework.data.mongodb.MongoDatabaseFactory
+```
+
+连接MongoDB的依赖注入示例：
+
+```java
+@Component
+public class SampleBean {
+
+    private MongoDatabaseFactory mongoDatabaseFactory;
+
+    public SampleBean(MongoDatabaseFactory mongoDatabaseFactory) {
+        this.mongoDatabaseFactory = mongoDatabaseFactory;
+    }
+
+}
+```
+
 
 
 

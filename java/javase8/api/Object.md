@@ -417,7 +417,6 @@ java.lang.Object
         + javax.crypto.NullCipher
     + javax.crypto.CipherSpi
     + java.lang.Class
-    + java.lang.instrument.ClassDefinition
     + javax.rmi.CORBA.ClassDesc
     + java.lang.ClassLoader
         + java.security.SecureClassLoader
@@ -965,7 +964,6 @@ java.lang.Object
         + java.time.DayOfWeek
         + javax.swing.DropMode
         + javax.lang.model.element.ElementKind
-        + java.lang.annotation.ElementType
         + java.nio.file.FileVisitOption
         + java.nio.file.FileVisitResult
         + java.util.Locale.FilteringMode
@@ -1000,7 +998,6 @@ java.lang.Object
         + java.net.Authenticator.RequestorType
         + java.time.format.ResolverStyle
         + javax.xml.ws.soap.AddressingFeature.Responses
-        + java.lang.annotation.RetentionPolicy
         + java.math.RoundingMode
         + java.sql.RowIdLifetime
         + javax.xml.ws.handler.MessageContext.Scope
@@ -2288,7 +2285,6 @@ java.lang.Object
     + java.lang.Throwable
         + java.lang.Error
             + java.awt.AWTError
-            + java.lang.annotation.AnnotationFormatError
             + java.lang.AssertionError
             + java.nio.charset.CoderMalfunctionError
             + javax.xml.parsers.FactoryConfigurationError
@@ -2473,7 +2469,6 @@ java.lang.Object
                 + java.nio.file.attribute.UserPrincipalNotFoundException
                 + java.util.zip.ZipException
                     + java.util.jar.JarException
-            + java.lang.instrument.IllegalClassFormatException
             + java.lang.InterruptedException
             + java.beans.IntrospectionException
             + javax.management.InvalidApplicationException
@@ -2576,7 +2571,6 @@ java.lang.Object
             + javax.security.auth.RefreshFailedException
             + org.omg.CORBA.portable.RemarshalException
             + java.lang.RuntimeException
-                + java.lang.annotation.AnnotationTypeMismatchException
                 + java.lang.ArithmeticException
                 + java.lang.ArrayStoreException
                 + java.nio.BufferOverflowException
@@ -2656,7 +2650,6 @@ java.lang.Object
                     + java.nio.channels.WritePendingException
                 + java.util.IllformedLocaleException
                 + java.awt.image.ImagingOpException
-                + java.lang.annotation.IncompleteAnnotationException
                 + java.lang.IndexOutOfBoundsException
                     + java.lang.ArrayIndexOutOfBoundsException
                     + java.lang.StringIndexOutOfBoundsException
@@ -2779,7 +2772,6 @@ java.lang.Object
                 + javax.xml.transform.TransformerConfigurationException
             + javax.xml.crypto.URIReferenceException
             + java.net.URISyntaxException
-            + java.lang.instrument.UnmodifiableClassException
             + javax.sound.sampled.UnsupportedAudioFileException
             + javax.security.auth.callback.UnsupportedCallbackException
             + java.awt.datatransfer.UnsupportedFlavorException
