@@ -24,11 +24,8 @@ a:any-link {
   border: 1px solid blue;
   color: orange;
 }
-```
 
-+ CSS：WebKit浏览器
-
-```
+/* WebKit浏览器 */
 a:-webkit-any-link {
   border: 1px solid blue;
   color: orange;
