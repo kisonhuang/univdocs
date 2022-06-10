@@ -1,8 +1,8 @@
 # :autofill
 
 :autofill伪类选择器
-+ 匹配浏览器自动填充值的`<input>`元素。
-+ 用户编辑`<input>`元素时，会停止匹配。
++ 匹配浏览器自动填充输入值的`<input>`元素。
++ 用户编辑`<input>`元素时停止匹配。
 
 很多浏览器的用户代理样式表在其:-webkit-autofill样式声明中使用了!important，不求助于JavaScript黑客的话，这些样式不可被网页覆盖。
 
