@@ -1,0 +1,66 @@
+# head
+
+head元素是机器可读的文档信息（元数据），例如：标题、脚本和样式表。
+
+```
+内容分类：无
+允许内容：如果文档是iframe文档，或者可以从更高层协议中获取标题信息（例如：HTML邮件的主题行），那么元数据内容可以是零或多个元素；否则，元数据内容是一个或多个元素，其中一个是title元素
+允许上级：html元素的第一个子元素
+忽略标签：head元素中第一项是元素时，可以省略开始标签；head元素后第一项不是空格或注释时，可以省略结束标签
+隐式ARIA：无
+允许ARIA：无
+DOM接口：HTMLHeadElement
+```
+
+## 属性
+
+可用属性
+
+```
+全局属性
+```
+
+废弃属性
+
+```
+profile 一个或多个元数据Profile的URI，空格分隔
+```
+
+## 示例
+
+```
+<!doctype html>
+<html>
+  <head>
+    <title>Document title</title>
+  </head>
+</html>
+```
+
+## 注意
+
+head元素主要用于保留机器处理的信息，不是人可读的信息。
+
+对于人可见的信息，例如顶层标题和作者列表，请参阅header元素。
+
+如果在标记中省略了head元素的标签，兼容HTML5的浏览器会自动创建head元素。
+
+在老式浏览器中，自动创建head元素并无保障。
+
+https://www.stevesouders.com/blog/2010/05/12/autohead-my-first-browserscope-user-test
+
+## 规范
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head#specifications
+
+## 兼容性
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head#browser_compatibility
+
+## 参阅
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head#see_also
+
+
+
+

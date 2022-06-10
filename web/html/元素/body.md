@@ -1,4 +1,4 @@
-# html
+# body
 
 body元素是HTML文档的内容，一个文档只能有一个body元素。
 
