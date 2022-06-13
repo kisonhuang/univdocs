@@ -263,7 +263,6 @@ baseaudiocontext/listener
 baseaudiocontext/samplerate
 baseaudiocontext/state
 baseaudiocontext/statechange_event
-beacon_api
 beforeinstallpromptevent
 beforeinstallpromptevent/prompt
 beforeunloadevent

@@ -75,8 +75,9 @@
 + https://developer.mozilla.org/en-US/docs/Web/API/BatteryManager/dischargingtimechange_event
 + https://developer.mozilla.org/en-US/docs/Web/API/BatteryManager/levelchange_event
 
+## 异步非阻塞请求
 
-
++ https://developer.mozilla.org/en-US/docs/Web/API/Beacon_API
 
 
 
@@ -94,7 +95,6 @@
 ## 规范
 
 
-+ https://developer.mozilla.org/en-US/docs/Web/API/Beacon_API
 + https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API
 + https://developer.mozilla.org/en-US/docs/Web/API/Broadcast_Channel_API
 + https://developer.mozilla.org/en-US/docs/Web/API/CSS_Counter_Styles
