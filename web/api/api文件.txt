@@ -263,16 +263,6 @@ baseaudiocontext/listener
 baseaudiocontext/samplerate
 baseaudiocontext/state
 baseaudiocontext/statechange_event
-battery_status_api
-batterymanager/charging
-batterymanager/chargingchange_event
-batterymanager/chargingtime
-batterymanager/chargingtimechange_event
-batterymanager/dischargingtime
-batterymanager/dischargingtimechange_event
-batterymanager
-batterymanager/level
-batterymanager/levelchange_event
 beacon_api
 beforeinstallpromptevent
 beforeinstallpromptevent/prompt

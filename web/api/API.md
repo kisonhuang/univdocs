@@ -61,6 +61,29 @@
 + https://developer.mozilla.org/en-US/docs/Web/API/BarcodeDetector/detect
 + https://developer.mozilla.org/en-US/docs/Web/API/BarcodeDetector/getSupportedFormats
 
+## 电池状态
+
++ https://developer.mozilla.org/en-US/docs/Web/API/Battery_Status_API
+
++ https://developer.mozilla.org/en-US/docs/Web/API/BatteryManager
++ https://developer.mozilla.org/en-US/docs/Web/API/BatteryManager/charging
++ https://developer.mozilla.org/en-US/docs/Web/API/BatteryManager/chargingTime
++ https://developer.mozilla.org/en-US/docs/Web/API/BatteryManager/dischargingTime
++ https://developer.mozilla.org/en-US/docs/Web/API/BatteryManager/level
++ https://developer.mozilla.org/en-US/docs/Web/API/BatteryManager/chargingchange_event
++ https://developer.mozilla.org/en-US/docs/Web/API/BatteryManager/chargingtimechange_event
++ https://developer.mozilla.org/en-US/docs/Web/API/BatteryManager/dischargingtimechange_event
++ https://developer.mozilla.org/en-US/docs/Web/API/BatteryManager/levelchange_event
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -71,7 +94,6 @@
 ## 规范
 
 
-+ https://developer.mozilla.org/en-US/docs/Web/API/Battery_Status_API
 + https://developer.mozilla.org/en-US/docs/Web/API/Beacon_API
 + https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API
 + https://developer.mozilla.org/en-US/docs/Web/API/Broadcast_Channel_API
@@ -227,7 +249,6 @@
 + https://developer.mozilla.org/en-US/docs/Web/API/AuthenticatorResponse
 + https://developer.mozilla.org/en-US/docs/Web/API/BarProp
 + https://developer.mozilla.org/en-US/docs/Web/API/BaseAudioContext
-+ https://developer.mozilla.org/en-US/docs/Web/API/BatteryManager
 + https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent
 + https://developer.mozilla.org/en-US/docs/Web/API/BeforeUnloadEvent
 + https://developer.mozilla.org/en-US/docs/Web/API/BiquadFilterNode
