@@ -2,7 +2,7 @@
 
 + https://developer.mozilla.org/en-US/docs/Web/API
 
-## 规范
+## 后台任务
 
 + https://developer.mozilla.org/en-US/docs/Web/API/Background_Fetch_API
 + https://developer.mozilla.org/en-US/docs/Web/API/Background_Tasks_API
@@ -52,20 +52,25 @@
 + https://developer.mozilla.org/en-US/docs/Web/API/SyncEvent/tag
 + https://developer.mozilla.org/en-US/docs/Web/API/SyncEvent/lastChance
 
-
-
-
-
-
-
-
-
-
-
-
-
+## 条形码检测
 
 + https://developer.mozilla.org/en-US/docs/Web/API/Barcode_Detection_API
+
++ https://developer.mozilla.org/en-US/docs/Web/API/BarcodeDetector
++ https://developer.mozilla.org/en-US/docs/Web/API/BarcodeDetector/BarcodeDetector
++ https://developer.mozilla.org/en-US/docs/Web/API/BarcodeDetector/detect
++ https://developer.mozilla.org/en-US/docs/Web/API/BarcodeDetector/getSupportedFormats
+
+
+
+
+
+
+
+
+## 规范
+
+
 + https://developer.mozilla.org/en-US/docs/Web/API/Battery_Status_API
 + https://developer.mozilla.org/en-US/docs/Web/API/Beacon_API
 + https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API
@@ -220,7 +225,6 @@
 + https://developer.mozilla.org/en-US/docs/Web/API/AuthenticatorAssertionResponse
 + https://developer.mozilla.org/en-US/docs/Web/API/AuthenticatorAttestationResponse
 + https://developer.mozilla.org/en-US/docs/Web/API/AuthenticatorResponse
-+ https://developer.mozilla.org/en-US/docs/Web/API/BarcodeDetector
 + https://developer.mozilla.org/en-US/docs/Web/API/BarProp
 + https://developer.mozilla.org/en-US/docs/Web/API/BaseAudioContext
 + https://developer.mozilla.org/en-US/docs/Web/API/BatteryManager
