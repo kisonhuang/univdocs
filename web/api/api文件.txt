@@ -1,7 +1,3 @@
-files/en-us/web/api/abortcontroller/abort/index.md
-files/en-us/web/api/abortcontroller/abortcontroller/index.md
-files/en-us/web/api/abortcontroller/index.md
-files/en-us/web/api/abortcontroller/signal/index.md
 files/en-us/web/api/abortsignal/abort/index.md
 files/en-us/web/api/abortsignal/abort_event/index.md
 files/en-us/web/api/abortsignal/aborted/index.md

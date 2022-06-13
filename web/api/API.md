@@ -105,7 +105,13 @@
 
 ## 接口
 
+### AbortController
+
 + https://developer.mozilla.org/en-US/docs/Web/API/AbortController
++ https://developer.mozilla.org/en-US/docs/Web/API/AbortController/AbortController
++ https://developer.mozilla.org/en-US/docs/Web/API/AbortController/signal
++ https://developer.mozilla.org/en-US/docs/Web/API/AbortController/abort
+
 + https://developer.mozilla.org/en-US/docs/Web/API/AbortSignal
 + https://developer.mozilla.org/en-US/docs/Web/API/AbsoluteOrientationSensor
 + https://developer.mozilla.org/en-US/docs/Web/API/AbstractRange
