@@ -6,6 +6,65 @@
 
 + https://developer.mozilla.org/en-US/docs/Web/API/Background_Fetch_API
 + https://developer.mozilla.org/en-US/docs/Web/API/Background_Tasks_API
++ https://developer.mozilla.org/en-US/docs/Web/API/Background_Synchronization_API
+
++ https://developer.mozilla.org/en-US/docs/Web/API/BackgroundFetchManager
++ https://developer.mozilla.org/en-US/docs/Web/API/BackgroundFetchManager/fetch
++ https://developer.mozilla.org/en-US/docs/Web/API/BackgroundFetchManager/get
++ https://developer.mozilla.org/en-US/docs/Web/API/BackgroundFetchManager/getIds
+
++ https://developer.mozilla.org/en-US/docs/Web/API/BackgroundFetchRegistration
++ https://developer.mozilla.org/en-US/docs/Web/API/BackgroundFetchRegistration/id
++ https://developer.mozilla.org/en-US/docs/Web/API/BackgroundFetchRegistration/uploadTotal
++ https://developer.mozilla.org/en-US/docs/Web/API/BackgroundFetchRegistration/uploaded
++ https://developer.mozilla.org/en-US/docs/Web/API/BackgroundFetchRegistration/downloadTotal
++ https://developer.mozilla.org/en-US/docs/Web/API/BackgroundFetchRegistration/downloaded
++ https://developer.mozilla.org/en-US/docs/Web/API/BackgroundFetchRegistration/result
++ https://developer.mozilla.org/en-US/docs/Web/API/BackgroundFetchRegistration/failureReason
++ https://developer.mozilla.org/en-US/docs/Web/API/BackgroundFetchRegistration/recordsAvailable
++ https://developer.mozilla.org/en-US/docs/Web/API/BackgroundFetchRegistration/abort
++ https://developer.mozilla.org/en-US/docs/Web/API/BackgroundFetchRegistration/match
++ https://developer.mozilla.org/en-US/docs/Web/API/BackgroundFetchRegistration/matchAll
++ https://developer.mozilla.org/en-US/docs/Web/API/BackgroundFetchRegistration/progress_event
+
++ https://developer.mozilla.org/en-US/docs/Web/API/BackgroundFetchRecord
++ https://developer.mozilla.org/en-US/docs/Web/API/BackgroundFetchRecord/request
++ https://developer.mozilla.org/en-US/docs/Web/API/BackgroundFetchRecord/responseReady
+
++ https://developer.mozilla.org/en-US/docs/Web/API/BackgroundFetchEvent
++ https://developer.mozilla.org/en-US/docs/Web/API/BackgroundFetchEvent/BackgroundFetchEvent
++ https://developer.mozilla.org/en-US/docs/Web/API/BackgroundFetchEvent/registration
+
++ https://developer.mozilla.org/en-US/docs/Web/API/BackgroundFetchUpdateUIEvent
++ https://developer.mozilla.org/en-US/docs/Web/API/BackgroundFetchUpdateUIEvent/BackgroundFetchUpdateUIEvent
++ https://developer.mozilla.org/en-US/docs/Web/API/BackgroundFetchUpdateUIEvent/updateUI
+
++ https://developer.mozilla.org/en-US/docs/Web/API/IdleDeadline
++ https://developer.mozilla.org/en-US/docs/Web/API/IdleDeadline/didTimeout
++ https://developer.mozilla.org/en-US/docs/Web/API/IdleDeadline/timeRemaining
+
++ https://developer.mozilla.org/en-US/docs/Web/API/SyncManager
++ https://developer.mozilla.org/en-US/docs/Web/API/SyncManager/register
++ https://developer.mozilla.org/en-US/docs/Web/API/SyncManager/getTags
+
++ https://developer.mozilla.org/en-US/docs/Web/API/SyncEvent
++ https://developer.mozilla.org/en-US/docs/Web/API/SyncEvent/SyncEvent
++ https://developer.mozilla.org/en-US/docs/Web/API/SyncEvent/tag
++ https://developer.mozilla.org/en-US/docs/Web/API/SyncEvent/lastChance
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 + https://developer.mozilla.org/en-US/docs/Web/API/Barcode_Detection_API
 + https://developer.mozilla.org/en-US/docs/Web/API/Battery_Status_API
 + https://developer.mozilla.org/en-US/docs/Web/API/Beacon_API
@@ -161,11 +220,6 @@
 + https://developer.mozilla.org/en-US/docs/Web/API/AuthenticatorAssertionResponse
 + https://developer.mozilla.org/en-US/docs/Web/API/AuthenticatorAttestationResponse
 + https://developer.mozilla.org/en-US/docs/Web/API/AuthenticatorResponse
-+ https://developer.mozilla.org/en-US/docs/Web/API/BackgroundFetchEvent
-+ https://developer.mozilla.org/en-US/docs/Web/API/BackgroundFetchManager
-+ https://developer.mozilla.org/en-US/docs/Web/API/BackgroundFetchRecord
-+ https://developer.mozilla.org/en-US/docs/Web/API/BackgroundFetchRegistration
-+ https://developer.mozilla.org/en-US/docs/Web/API/BackgroundFetchUpdateUIEvent
 + https://developer.mozilla.org/en-US/docs/Web/API/BarcodeDetector
 + https://developer.mozilla.org/en-US/docs/Web/API/BarProp
 + https://developer.mozilla.org/en-US/docs/Web/API/BaseAudioContext
@@ -495,7 +549,6 @@
 + https://developer.mozilla.org/en-US/docs/Web/API/IDBRequest
 + https://developer.mozilla.org/en-US/docs/Web/API/IDBTransaction
 + https://developer.mozilla.org/en-US/docs/Web/API/IDBVersionChangeEvent
-+ https://developer.mozilla.org/en-US/docs/Web/API/IdleDeadline
 + https://developer.mozilla.org/en-US/docs/Web/API/IdleDetector
 + https://developer.mozilla.org/en-US/docs/Web/API/IIRFilterNode
 + https://developer.mozilla.org/en-US/docs/Web/API/ImageBitmap
@@ -903,8 +956,6 @@
 + https://developer.mozilla.org/en-US/docs/Web/API/SVGUseElement
 + https://developer.mozilla.org/en-US/docs/Web/API/SVGViewElement
 + https://developer.mozilla.org/en-US/docs/Web/API/SVGVKernElement
-+ https://developer.mozilla.org/en-US/docs/Web/API/SyncEvent
-+ https://developer.mozilla.org/en-US/docs/Web/API/SyncManager
 + https://developer.mozilla.org/en-US/docs/Web/API/TaskAttributionTiming
 + https://developer.mozilla.org/en-US/docs/Web/API/Text
 + https://developer.mozilla.org/en-US/docs/Web/API/TextDecoder
