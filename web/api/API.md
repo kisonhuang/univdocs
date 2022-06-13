@@ -113,6 +113,13 @@
 + https://developer.mozilla.org/en-US/docs/Web/API/AbortController/abort
 
 + https://developer.mozilla.org/en-US/docs/Web/API/AbortSignal
++ https://developer.mozilla.org/en-US/docs/Web/API/AbortSignal/aborted
++ https://developer.mozilla.org/en-US/docs/Web/API/AbortSignal/reason
++ https://developer.mozilla.org/en-US/docs/Web/API/AbortSignal/throwIfAborted
++ https://developer.mozilla.org/en-US/docs/Web/API/AbortSignal/abort
++ https://developer.mozilla.org/en-US/docs/Web/API/AbortSignal/timeout
++ https://developer.mozilla.org/en-US/docs/Web/API/AbortSignal/abort_event
+
 + https://developer.mozilla.org/en-US/docs/Web/API/AbsoluteOrientationSensor
 + https://developer.mozilla.org/en-US/docs/Web/API/AbstractRange
 + https://developer.mozilla.org/en-US/docs/Web/API/Accelerometer

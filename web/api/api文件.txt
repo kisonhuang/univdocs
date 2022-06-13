@@ -1,10 +1,3 @@
-files/en-us/web/api/abortsignal/abort/index.md
-files/en-us/web/api/abortsignal/abort_event/index.md
-files/en-us/web/api/abortsignal/aborted/index.md
-files/en-us/web/api/abortsignal/index.md
-files/en-us/web/api/abortsignal/reason/index.md
-files/en-us/web/api/abortsignal/throwifaborted/index.md
-files/en-us/web/api/abortsignal/timeout/index.md
 files/en-us/web/api/absoluteorientationsensor/absoluteorientationsensor/index.md
 files/en-us/web/api/absoluteorientationsensor/index.md
 files/en-us/web/api/abstractrange/collapsed/index.md
