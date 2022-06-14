@@ -79,8 +79,74 @@
 
 + https://developer.mozilla.org/en-US/docs/Web/API/Beacon_API
 
+## Web蓝牙
 
++ https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API
 
++ https://developer.mozilla.org/en-US/docs/Web/API/Bluetooth
++ https://developer.mozilla.org/en-US/docs/Web/API/Bluetooth/referringDevice
++ https://developer.mozilla.org/en-US/docs/Web/API/Bluetooth/getAvailability
++ https://developer.mozilla.org/en-US/docs/Web/API/Bluetooth/getDevices
++ https://developer.mozilla.org/en-US/docs/Web/API/Bluetooth/requestDevice
++ https://developer.mozilla.org/en-US/docs/Web/API/Bluetooth/availabilitychanged_event
+
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothCharacteristicProperties
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothCharacteristicProperties/authenticatedSignedWrites
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothCharacteristicProperties/broadcast
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothCharacteristicProperties/indicate
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothCharacteristicProperties/notify
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothCharacteristicProperties/read
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothCharacteristicProperties/reliableWrite
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothCharacteristicProperties/writableAuxiliaries
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothCharacteristicProperties/write
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothCharacteristicProperties/writeWithoutResponse
+
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothDevice
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothDevice/id
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothDevice/name
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothDevice/gatt
+
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothRemoteGATTCharacteristic
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothRemoteGATTCharacteristic/service
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothRemoteGATTCharacteristic/uuid
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothRemoteGATTCharacteristic/properties
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothRemoteGATTCharacteristic/value
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothRemoteGATTCharacteristic/getDescriptor
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothRemoteGATTCharacteristic/getDescriptors
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothRemoteGATTCharacteristic/readValue
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothRemoteGATTCharacteristic/writeValue
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothRemoteGATTCharacteristic/writeValueWithResponse
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothRemoteGATTCharacteristic/writeValueWithoutResponse
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothRemoteGATTCharacteristic/startNotifications
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothRemoteGATTCharacteristic/stopNotifications
+
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothRemoteGATTDescriptor
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothRemoteGATTDescriptor/characteristic
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothRemoteGATTDescriptor/uuid
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothRemoteGATTDescriptor/value
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothRemoteGATTDescriptor/readValue
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothRemoteGATTDescriptor/writeValue
+
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothRemoteGATTServer
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothRemoteGATTServer/connected
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothRemoteGATTServer/device
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothRemoteGATTServer/connect
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothRemoteGATTServer/disconnect
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothRemoteGATTServer/getPrimaryService
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothRemoteGATTServer/getPrimaryServices
+
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothRemoteGATTService
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothRemoteGATTService/device
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothRemoteGATTService/isPrimary
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothRemoteGATTService/uuid
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothRemoteGATTService/getCharacteristic
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothRemoteGATTService/getCharacteristics
+
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothUUID
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothUUID/canonicalUUID
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothUUID/getCharacteristic
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothUUID/getDescriptor
++ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothUUID/getService
 
 
 
@@ -95,7 +161,6 @@
 ## 规范
 
 
-+ https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API
 + https://developer.mozilla.org/en-US/docs/Web/API/Broadcast_Channel_API
 + https://developer.mozilla.org/en-US/docs/Web/API/CSS_Counter_Styles
 + https://developer.mozilla.org/en-US/docs/Web/API/CSS_Font_Loading_API
@@ -255,14 +320,6 @@
 + https://developer.mozilla.org/en-US/docs/Web/API/Blob
 + https://developer.mozilla.org/en-US/docs/Web/API/BlobBuilder
 + https://developer.mozilla.org/en-US/docs/Web/API/BlobEvent
-+ https://developer.mozilla.org/en-US/docs/Web/API/Bluetooth
-+ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothCharacteristicProperties
-+ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothDevice
-+ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothRemoteGATTCharacteristic
-+ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothRemoteGATTDescriptor
-+ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothRemoteGATTServer
-+ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothRemoteGATTService
-+ https://developer.mozilla.org/en-US/docs/Web/API/BluetoothUUID
 + https://developer.mozilla.org/en-US/docs/Web/API/BroadcastChannel
 + https://developer.mozilla.org/en-US/docs/Web/API/btoa
 + https://developer.mozilla.org/en-US/docs/Web/API/BufferSource
