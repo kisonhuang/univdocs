@@ -287,14 +287,6 @@ blobevent/blobevent
 blobevent/data
 blobevent
 blobevent/timecode
-broadcast_channel_api
-broadcastchannel/broadcastchannel
-broadcastchannel/close
-broadcastchannel
-broadcastchannel/message_event
-broadcastchannel/messageerror_event
-broadcastchannel/name
-broadcastchannel/postmessage
 btoa
 buffersource
 bytelengthqueuingstrategy/bytelengthqueuingstrategy

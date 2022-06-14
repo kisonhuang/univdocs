@@ -148,6 +148,21 @@
 + https://developer.mozilla.org/en-US/docs/Web/API/BluetoothUUID/getDescriptor
 + https://developer.mozilla.org/en-US/docs/Web/API/BluetoothUUID/getService
 
+## 广播通道
+
++ https://developer.mozilla.org/en-US/docs/Web/API/Broadcast_Channel_API
+
++ https://developer.mozilla.org/en-US/docs/Web/API/BroadcastChannel
++ https://developer.mozilla.org/en-US/docs/Web/API/BroadcastChannel/BroadcastChannel
++ https://developer.mozilla.org/en-US/docs/Web/API/BroadcastChannel/name
++ https://developer.mozilla.org/en-US/docs/Web/API/BroadcastChannel/postMessage
++ https://developer.mozilla.org/en-US/docs/Web/API/BroadcastChannel/close
++ https://developer.mozilla.org/en-US/docs/Web/API/BroadcastChannel/message_event
++ https://developer.mozilla.org/en-US/docs/Web/API/BroadcastChannel/messageerror_event
+
+
+
+
 
 
 
@@ -161,7 +176,6 @@
 ## 规范
 
 
-+ https://developer.mozilla.org/en-US/docs/Web/API/Broadcast_Channel_API
 + https://developer.mozilla.org/en-US/docs/Web/API/CSS_Counter_Styles
 + https://developer.mozilla.org/en-US/docs/Web/API/CSS_Font_Loading_API
 + https://developer.mozilla.org/en-US/docs/Web/API/CSS_Painting_API
@@ -320,7 +334,6 @@
 + https://developer.mozilla.org/en-US/docs/Web/API/Blob
 + https://developer.mozilla.org/en-US/docs/Web/API/BlobBuilder
 + https://developer.mozilla.org/en-US/docs/Web/API/BlobEvent
-+ https://developer.mozilla.org/en-US/docs/Web/API/BroadcastChannel
 + https://developer.mozilla.org/en-US/docs/Web/API/btoa
 + https://developer.mozilla.org/en-US/docs/Web/API/BufferSource
 + https://developer.mozilla.org/en-US/docs/Web/API/ByteLengthQueuingStrategy
