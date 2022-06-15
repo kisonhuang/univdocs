@@ -2,11 +2,11 @@
 
 + https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
 
-## 关于JavaScript参考
+## 关于参考
 
 + https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/About
 
-## 标准内置对象
+## 内置对象
 
 + https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
@@ -17,10 +17,7 @@
 + https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN
 + https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined
 
-### 方法属性
-
-+ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval
-+ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/uneval
+### 函数属性
 
 + https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isFinite
 + https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN
@@ -33,6 +30,9 @@
 
 + https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/decodeURI
 + https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/decodeURIComponent
+
++ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval
++ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/uneval
 
 + https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/escape
 + https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/unescape

@@ -77,12 +77,16 @@
 + https://developer.mozilla.org/en-US/docs/Web/CSS/:last-of-type
 + https://developer.mozilla.org/en-US/docs/Web/CSS/:only-of-type
 
+### 其他
+
 + https://developer.mozilla.org/en-US/docs/Web/CSS/:defined
 + https://developer.mozilla.org/en-US/docs/Web/CSS/:first
 + https://developer.mozilla.org/en-US/docs/Web/CSS/:fullscreen
 + https://developer.mozilla.org/en-US/docs/Web/CSS/:has
+
 + https://developer.mozilla.org/en-US/docs/Web/CSS/:host
 + https://developer.mozilla.org/en-US/docs/Web/CSS/:host-context
++ https://developer.mozilla.org/en-US/docs/Web/CSS/:host_function
 + https://developer.mozilla.org/en-US/docs/Web/CSS/:is
 + https://developer.mozilla.org/en-US/docs/Web/CSS/:left
 + https://developer.mozilla.org/en-US/docs/Web/CSS/:not
@@ -92,7 +96,6 @@
 + https://developer.mozilla.org/en-US/docs/Web/CSS/:right
 + https://developer.mozilla.org/en-US/docs/Web/CSS/:where
 
-+ https://developer.mozilla.org/en-US/docs/Web/CSS/:host_function
 + https://developer.mozilla.org/en-US/docs/Web/CSS/:user-valid
 
 + https://developer.mozilla.org/en-US/docs/Web/CSS/:-moz-broken
