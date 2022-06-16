@@ -45,12 +45,6 @@
 
 + https://kubernetes.io/zh/docs/setup/production-environment/turnkey-solutions
 
-#### Windows中的Kubernetes
-
-+ https://kubernetes.io/zh/docs/setup/production-environment/windows
-+ https://kubernetes.io/zh/docs/setup/production-environment/windows/intro-windows-in-kubernetes
-+ https://kubernetes.io/zh/docs/setup/production-environment/windows/user-guide-windows-containers
-
 ### 最佳实践
 
 + https://kubernetes.io/zh/docs/setup/best-practices
@@ -59,75 +53,6 @@
 + https://kubernetes.io/zh/docs/setup/best-practices/node-conformance
 + https://kubernetes.io/zh/docs/setup/best-practices/enforcing-pod-security-standards
 + https://kubernetes.io/zh/docs/setup/best-practices/certificates
-
-## 教程
-
-+ https://kubernetes.io/zh/docs/tutorials
-
-### Minikube
-
-+ https://kubernetes.io/zh/docs/tutorials/hello-minikube
-
-### Kubernetes基础
-
-+ https://kubernetes.io/zh/docs/tutorials/kubernetes-basics
-
-+ https://kubernetes.io/zh/docs/tutorials/kubernetes-basics/create-cluster
-+ https://kubernetes.io/zh/docs/tutorials/kubernetes-basics/create-cluster/cluster-intro
-+ https://kubernetes.io/zh/docs/tutorials/kubernetes-basics/create-cluster/cluster-interactive
-
-+ https://kubernetes.io/zh/docs/tutorials/kubernetes-basics/deploy-app
-+ https://kubernetes.io/zh/docs/tutorials/kubernetes-basics/deploy-app/deploy-intro
-+ https://kubernetes.io/zh/docs/tutorials/kubernetes-basics/deploy-app/deploy-interactive
-
-+ https://kubernetes.io/zh/docs/tutorials/kubernetes-basics/explore
-+ https://kubernetes.io/zh/docs/tutorials/kubernetes-basics/explore/explore-intro
-+ https://kubernetes.io/zh/docs/tutorials/kubernetes-basics/explore/explore-interactive
-
-+ https://kubernetes.io/zh/docs/tutorials/kubernetes-basics/expose
-+ https://kubernetes.io/zh/docs/tutorials/kubernetes-basics/expose/expose-intro
-+ https://kubernetes.io/zh/docs/tutorials/kubernetes-basics/expose/expose-interactive
-
-+ https://kubernetes.io/zh/docs/tutorials/kubernetes-basics/scale
-+ https://kubernetes.io/zh/docs/tutorials/kubernetes-basics/scale/scale-intro
-+ https://kubernetes.io/zh/docs/tutorials/kubernetes-basics/scale/scale-interactive
-
-+ https://kubernetes.io/zh/docs/tutorials/kubernetes-basics/update
-+ https://kubernetes.io/zh/docs/tutorials/kubernetes-basics/update/update-intro
-+ https://kubernetes.io/zh/docs/tutorials/kubernetes-basics/update/update-interactive
-
-### 配置
-
-+ https://kubernetes.io/zh/docs/tutorials/configuration
-+ https://kubernetes.io/zh/docs/tutorials/configuration/configure-java-microservice
-+ https://kubernetes.io/zh/docs/tutorials/configuration/configure-java-microservice/configure-java-microservice
-+ https://kubernetes.io/zh/docs/tutorials/configuration/configure-java-microservice/configure-java-microservice-interactive
-+ https://kubernetes.io/zh/docs/tutorials/configuration/configure-redis-using-configmap
-
-### 无状态应用程序
-
-+ https://kubernetes.io/zh/docs/tutorials/stateless-application
-+ https://kubernetes.io/zh/docs/tutorials/stateless-application/expose-external-ip-address
-+ https://kubernetes.io/zh/docs/tutorials/stateless-application/guestbook
-
-### 有状态应用程序
-
-+ https://kubernetes.io/zh/docs/tutorials/stateful-application
-+ https://kubernetes.io/zh/docs/tutorials/stateful-application/basic-stateful-set
-+ https://kubernetes.io/zh/docs/tutorials/stateful-application/mysql-wordpress-persistent-volume
-+ https://kubernetes.io/zh/docs/tutorials/stateful-application/cassandra
-+ https://kubernetes.io/zh/docs/tutorials/stateful-application/zookeeper
-
-### 集群
-
-+ https://kubernetes.io/zh/docs/tutorials/clusters
-+ https://kubernetes.io/zh/docs/tutorials/clusters/apparmor
-+ https://kubernetes.io/zh/docs/tutorials/clusters/seccomp
-
-### 服务
-
-+ https://kubernetes.io/zh/docs/tutorials/services
-+ https://kubernetes.io/zh/docs/tutorials/services/source-ip
 
 ## 概念
 
@@ -160,6 +85,7 @@
 + https://kubernetes.io/zh/docs/concepts/architecture/control-plane-node-communication
 + https://kubernetes.io/zh/docs/concepts/architecture/controller
 + https://kubernetes.io/zh/docs/concepts/architecture/cloud-controller
++ https://kubernetes.io/zh/docs/concepts/architecture/cri
 + https://kubernetes.io/zh/docs/concepts/architecture/garbage-collection
 
 ### 容器
@@ -169,6 +95,12 @@
 + https://kubernetes.io/zh/docs/concepts/containers/container-environment
 + https://kubernetes.io/zh/docs/concepts/containers/runtime-class
 + https://kubernetes.io/zh/docs/concepts/containers/container-lifecycle-hooks
+
+### Windows中的Kubernetes
+
++ https://kubernetes.io/zh/docs/concepts/windows
++ https://kubernetes.io/zh/docs/concepts/windows/intro
++ https://kubernetes.io/zh/docs/concepts/windows/user-guide
 
 ### 工作负载
 
@@ -205,22 +137,24 @@
 + https://kubernetes.io/zh/docs/concepts/services-networking/topology-aware-hints
 + https://kubernetes.io/zh/docs/concepts/services-networking/network-policies
 + https://kubernetes.io/zh/docs/concepts/services-networking/dual-stack
++ https://kubernetes.io/zh/docs/concepts/services-networking/windows-networking
 
 ### 存储
 
 + https://kubernetes.io/zh/docs/concepts/storage
 + https://kubernetes.io/zh/docs/concepts/storage/volumes
 + https://kubernetes.io/zh/docs/concepts/storage/persistent-volumes
-+ https://kubernetes.io/zh/docs/concepts/storage/volume-snapshots
-+ https://kubernetes.io/zh/docs/concepts/storage/volume-pvc-datasource
-+ https://kubernetes.io/zh/docs/concepts/storage/storage-classes
-+ https://kubernetes.io/zh/docs/concepts/storage/volume-snapshot-classes
-+ https://kubernetes.io/zh/docs/concepts/storage/dynamic-provisioning
-+ https://kubernetes.io/zh/docs/concepts/storage/storage-capacity
-+ https://kubernetes.io/zh/docs/concepts/storage/ephemeral-volumes
-+ https://kubernetes.io/zh/docs/concepts/storage/storage-limits
 + https://kubernetes.io/zh/docs/concepts/storage/projected-volumes
++ https://kubernetes.io/zh/docs/concepts/storage/ephemeral-volumes
++ https://kubernetes.io/zh/docs/concepts/storage/storage-classes
++ https://kubernetes.io/zh/docs/concepts/storage/dynamic-provisioning
++ https://kubernetes.io/zh/docs/concepts/storage/volume-snapshots
++ https://kubernetes.io/zh/docs/concepts/storage/volume-snapshot-classes
++ https://kubernetes.io/zh/docs/concepts/storage/volume-pvc-datasource
++ https://kubernetes.io/zh/docs/concepts/storage/storage-capacity
++ https://kubernetes.io/zh/docs/concepts/storage/storage-limits
 + https://kubernetes.io/zh/docs/concepts/storage/volume-health-monitoring
++ https://kubernetes.io/zh/docs/concepts/storage/windows-storage
 
 ### 配置
 
@@ -230,6 +164,7 @@
 + https://kubernetes.io/zh/docs/concepts/configuration/secret
 + https://kubernetes.io/zh/docs/concepts/configuration/manage-resources-containers
 + https://kubernetes.io/zh/docs/concepts/configuration/organize-cluster-access-kubeconfig
++ https://kubernetes.io/zh/docs/concepts/configuration/windows-resource-management
 
 ### 安全
 
@@ -237,14 +172,16 @@
 + https://kubernetes.io/zh/docs/concepts/security/overview
 + https://kubernetes.io/zh/docs/concepts/security/pod-security-standards
 + https://kubernetes.io/zh/docs/concepts/security/pod-security-admission
++ https://kubernetes.io/zh/docs/concepts/security/pod-security-policy
++ https://kubernetes.io/zh/docs/concepts/security/windows-security
 + https://kubernetes.io/zh/docs/concepts/security/controlling-access
++ https://kubernetes.io/zh/docs/concepts/security/rbac-good-practices
 
 ### 策略
 
 + https://kubernetes.io/zh/docs/concepts/policy
 + https://kubernetes.io/zh/docs/concepts/policy/limit-range
 + https://kubernetes.io/zh/docs/concepts/policy/resource-quotas
-+ https://kubernetes.io/zh/docs/concepts/policy/pod-security-policy
 + https://kubernetes.io/zh/docs/concepts/policy/pid-limiting
 + https://kubernetes.io/zh/docs/concepts/policy/node-resource-managers
 
@@ -300,14 +237,6 @@
 + https://kubernetes.io/zh/docs/tasks/tools/install-kubectl-macos
 + https://kubernetes.io/zh/docs/tasks/tools/install-kubectl-windows
 
-+ https://kubernetes.io/zh/docs/tasks/tools/included
-+ https://kubernetes.io/zh/docs/tasks/tools/included/optional-kubectl-configs-bash-linux
-+ https://kubernetes.io/zh/docs/tasks/tools/included/optional-kubectl-configs-bash-mac
-+ https://kubernetes.io/zh/docs/tasks/tools/included/optional-kubectl-configs-zsh
-+ https://kubernetes.io/zh/docs/tasks/tools/included/kubectl-convert-overview
-+ https://kubernetes.io/zh/docs/tasks/tools/included/verify-kubectl
-+ https://kubernetes.io/zh/docs/tasks/tools/included/kubectl-whats-next
-
 ### 管理集群
 
 + https://kubernetes.io/zh/docs/tasks/administer-cluster
@@ -315,13 +244,17 @@
 + https://kubernetes.io/zh/docs/tasks/administer-cluster/kubeadm
 + https://kubernetes.io/zh/docs/tasks/administer-cluster/kubeadm/kubeadm-certs
 + https://kubernetes.io/zh/docs/tasks/administer-cluster/kubeadm/configure-cgroup-driver
++ https://kubernetes.io/zh/docs/tasks/administer-cluster/kubeadm/kubeadm-reconfigure
 + https://kubernetes.io/zh/docs/tasks/administer-cluster/kubeadm/kubeadm-upgrade
 + https://kubernetes.io/zh/docs/tasks/administer-cluster/kubeadm/adding-windows-nodes
 + https://kubernetes.io/zh/docs/tasks/administer-cluster/kubeadm/upgrading-windows-nodes
 
 + https://kubernetes.io/zh/docs/tasks/administer-cluster/migrating-from-dockershim
++ https://kubernetes.io/zh/docs/tasks/administer-cluster/migrating-from-dockershim/change-runtime-containerd
++ https://kubernetes.io/zh/docs/tasks/administer-cluster/migrating-from-dockershim/migrate-dockershim-dockerd
 + https://kubernetes.io/zh/docs/tasks/administer-cluster/migrating-from-dockershim/find-out-runtime-you-use
-+ https://kubernetes.io/zh/docs/tasks/administer-cluster/migrating-from-dockershim/check-if-dockershim-deprecation-affects-you
++ https://kubernetes.io/zh/docs/tasks/administer-cluster/migrating-from-dockershim/troubleshooting-cni-plugin-related-errors
++ https://kubernetes.io/zh/docs/tasks/administer-cluster/migrating-from-dockershim/check-if-dockershim-removal-affects-you
 + https://kubernetes.io/zh/docs/tasks/administer-cluster/migrating-from-dockershim/migrating-telemetry-and-security-agents
 
 + https://kubernetes.io/zh/docs/tasks/administer-cluster/certificates
@@ -343,7 +276,6 @@
 + https://kubernetes.io/zh/docs/tasks/administer-cluster/network-policy-provider/weave-network-policy
 
 + https://kubernetes.io/zh/docs/tasks/administer-cluster/access-cluster-api
-+ https://kubernetes.io/zh/docs/tasks/administer-cluster/access-cluster-services
 + https://kubernetes.io/zh/docs/tasks/administer-cluster/extended-resource-node
 + https://kubernetes.io/zh/docs/tasks/administer-cluster/dns-horizontal-autoscaling
 + https://kubernetes.io/zh/docs/tasks/administer-cluster/change-default-storage-class
@@ -358,7 +290,6 @@
 + https://kubernetes.io/zh/docs/tasks/administer-cluster/developing-cloud-controller-manager
 + https://kubernetes.io/zh/docs/tasks/administer-cluster/enable-disable-api
 + https://kubernetes.io/zh/docs/tasks/administer-cluster/enabling-service-topology
-+ https://kubernetes.io/zh/docs/tasks/administer-cluster/enabling-topology-aware-hints
 + https://kubernetes.io/zh/docs/tasks/administer-cluster/encrypt-data
 + https://kubernetes.io/zh/docs/tasks/administer-cluster/guaranteed-scheduling-critical-addon-pods
 + https://kubernetes.io/zh/docs/tasks/administer-cluster/ip-masq-agent
@@ -380,6 +311,7 @@
 + https://kubernetes.io/zh/docs/tasks/administer-cluster/nodelocaldns
 + https://kubernetes.io/zh/docs/tasks/administer-cluster/sysctl-cluster
 + https://kubernetes.io/zh/docs/tasks/administer-cluster/memory-manager
++ https://kubernetes.io/zh/docs/tasks/administer-cluster/verify-signed-images
 
 ### 配置Pod和容器
 
@@ -409,6 +341,26 @@
 + https://kubernetes.io/zh/docs/tasks/configure-pod-container/enforce-standards-admission-controller
 + https://kubernetes.io/zh/docs/tasks/configure-pod-container/enforce-standards-namespace-labels
 + https://kubernetes.io/zh/docs/tasks/configure-pod-container/migrate-from-psp
+
+### 监控、日志和调试
+
++ https://kubernetes.io/zh/docs/tasks/debug
++ https://kubernetes.io/zh/docs/tasks/debug/debug-application
++ https://kubernetes.io/zh/docs/tasks/debug/debug-application/debug-pods
++ https://kubernetes.io/zh/docs/tasks/debug/debug-application/debug-service
++ https://kubernetes.io/zh/docs/tasks/debug/debug-application/debug-statefulset
++ https://kubernetes.io/zh/docs/tasks/debug/debug-application/debug-init-containers
++ https://kubernetes.io/zh/docs/tasks/debug/debug-application/debug-running-pod
++ https://kubernetes.io/zh/docs/tasks/debug/debug-application/determine-reason-pod-failure
++ https://kubernetes.io/zh/docs/tasks/debug/debug-application/get-shell-running-container
++ https://kubernetes.io/zh/docs/tasks/debug/debug-cluster
++ https://kubernetes.io/zh/docs/tasks/debug/debug-cluster/resource-metrics-pipeline
++ https://kubernetes.io/zh/docs/tasks/debug/debug-cluster/resource-usage-monitoring
++ https://kubernetes.io/zh/docs/tasks/debug/debug-cluster/monitor-node-health
++ https://kubernetes.io/zh/docs/tasks/debug/debug-cluster/crictl
++ https://kubernetes.io/zh/docs/tasks/debug/debug-cluster/audit
++ https://kubernetes.io/zh/docs/tasks/debug/debug-cluster/local-debugging
++ https://kubernetes.io/zh/docs/tasks/debug/debug-cluster/windows
 
 ### 管理Kubernetes对象
 
@@ -473,27 +425,7 @@
 + https://kubernetes.io/zh/docs/tasks/access-application-cluster/ingress-minikube
 + https://kubernetes.io/zh/docs/tasks/access-application-cluster/communicate-containers-same-pod-shared-volume
 + https://kubernetes.io/zh/docs/tasks/access-application-cluster/configure-dns-cluster
-
-### 监控、日志和调试
-
-+ https://kubernetes.io/zh/docs/tasks/debug-application-cluster
-+ https://kubernetes.io/zh/docs/tasks/debug-application-cluster/debug-application-introspection
-+ https://kubernetes.io/zh/docs/tasks/debug-application-cluster/audit
-+ https://kubernetes.io/zh/docs/tasks/debug-application-cluster/debug-stateful-set
-+ https://kubernetes.io/zh/docs/tasks/debug-application-cluster/debug-init-containers
-+ https://kubernetes.io/zh/docs/tasks/debug-application-cluster/debug-pod-replication-controller
-+ https://kubernetes.io/zh/docs/tasks/debug-application-cluster/debug-running-pod
-+ https://kubernetes.io/zh/docs/tasks/debug-application-cluster/debug-service
-+ https://kubernetes.io/zh/docs/tasks/debug-application-cluster/crictl
-+ https://kubernetes.io/zh/docs/tasks/debug-application-cluster/determine-reason-pod-failure
-+ https://kubernetes.io/zh/docs/tasks/debug-application-cluster/local-debugging
-+ https://kubernetes.io/zh/docs/tasks/debug-application-cluster/get-shell-running-container
-+ https://kubernetes.io/zh/docs/tasks/debug-application-cluster/monitor-node-health
-+ https://kubernetes.io/zh/docs/tasks/debug-application-cluster/resource-metrics-pipeline
-+ https://kubernetes.io/zh/docs/tasks/debug-application-cluster/resource-usage-monitoring
-+ https://kubernetes.io/zh/docs/tasks/debug-application-cluster/debug-application
-+ https://kubernetes.io/zh/docs/tasks/debug-application-cluster/debug-cluster
-+ https://kubernetes.io/zh/docs/tasks/debug-application-cluster/troubleshooting
++ https://kubernetes.io/zh/docs/tasks/access-application-cluster/access-cluster-services
 
 ### 扩展Kubernetes
 
@@ -505,6 +437,7 @@
 + https://kubernetes.io/zh/docs/tasks/extend-kubernetes/setup-extension-api-server
 + https://kubernetes.io/zh/docs/tasks/extend-kubernetes/configure-multiple-schedulers
 + https://kubernetes.io/zh/docs/tasks/extend-kubernetes/http-proxy-access-api
++ https://kubernetes.io/zh/docs/tasks/extend-kubernetes/socks5-proxy-access-api
 + https://kubernetes.io/zh/docs/tasks/extend-kubernetes/setup-konnectivity
 
 ### TLS
@@ -548,6 +481,77 @@
 
 + https://kubernetes.io/zh/docs/tasks/manage-gpus/scheduling-gpus
 
+## 教程
+
++ https://kubernetes.io/zh/docs/tutorials
+
+### Minikube
+
++ https://kubernetes.io/zh/docs/tutorials/hello-minikube
+
+### Kubernetes基础
+
++ https://kubernetes.io/zh/docs/tutorials/kubernetes-basics
+
++ https://kubernetes.io/zh/docs/tutorials/kubernetes-basics/create-cluster
++ https://kubernetes.io/zh/docs/tutorials/kubernetes-basics/create-cluster/cluster-intro
++ https://kubernetes.io/zh/docs/tutorials/kubernetes-basics/create-cluster/cluster-interactive
+
++ https://kubernetes.io/zh/docs/tutorials/kubernetes-basics/deploy-app
++ https://kubernetes.io/zh/docs/tutorials/kubernetes-basics/deploy-app/deploy-intro
++ https://kubernetes.io/zh/docs/tutorials/kubernetes-basics/deploy-app/deploy-interactive
+
++ https://kubernetes.io/zh/docs/tutorials/kubernetes-basics/explore
++ https://kubernetes.io/zh/docs/tutorials/kubernetes-basics/explore/explore-intro
++ https://kubernetes.io/zh/docs/tutorials/kubernetes-basics/explore/explore-interactive
+
++ https://kubernetes.io/zh/docs/tutorials/kubernetes-basics/expose
++ https://kubernetes.io/zh/docs/tutorials/kubernetes-basics/expose/expose-intro
++ https://kubernetes.io/zh/docs/tutorials/kubernetes-basics/expose/expose-interactive
+
++ https://kubernetes.io/zh/docs/tutorials/kubernetes-basics/scale
++ https://kubernetes.io/zh/docs/tutorials/kubernetes-basics/scale/scale-intro
++ https://kubernetes.io/zh/docs/tutorials/kubernetes-basics/scale/scale-interactive
+
++ https://kubernetes.io/zh/docs/tutorials/kubernetes-basics/update
++ https://kubernetes.io/zh/docs/tutorials/kubernetes-basics/update/update-intro
++ https://kubernetes.io/zh/docs/tutorials/kubernetes-basics/update/update-interactive
+
+### 配置
+
++ https://kubernetes.io/zh/docs/tutorials/configuration
++ https://kubernetes.io/zh/docs/tutorials/configuration/configure-java-microservice
++ https://kubernetes.io/zh/docs/tutorials/configuration/configure-java-microservice/configure-java-microservice
++ https://kubernetes.io/zh/docs/tutorials/configuration/configure-java-microservice/configure-java-microservice-interactive
++ https://kubernetes.io/zh/docs/tutorials/configuration/configure-redis-using-configmap
+
+### 安全
+
++ https://kubernetes.io/zh/docs/tutorials/security
++ https://kubernetes.io/zh/docs/tutorials/security/cluster-level-pss
++ https://kubernetes.io/zh/docs/tutorials/security/ns-level-pss
++ https://kubernetes.io/zh/docs/tutorials/security/apparmor
++ https://kubernetes.io/zh/docs/tutorials/security/seccomp
+
+### 无状态应用程序
+
++ https://kubernetes.io/zh/docs/tutorials/stateless-application
++ https://kubernetes.io/zh/docs/tutorials/stateless-application/expose-external-ip-address
++ https://kubernetes.io/zh/docs/tutorials/stateless-application/guestbook
+
+### 有状态应用程序
+
++ https://kubernetes.io/zh/docs/tutorials/stateful-application
++ https://kubernetes.io/zh/docs/tutorials/stateful-application/basic-stateful-set
++ https://kubernetes.io/zh/docs/tutorials/stateful-application/mysql-wordpress-persistent-volume
++ https://kubernetes.io/zh/docs/tutorials/stateful-application/cassandra
++ https://kubernetes.io/zh/docs/tutorials/stateful-application/zookeeper
+
+### 服务
+
++ https://kubernetes.io/zh/docs/tutorials/services
++ https://kubernetes.io/zh/docs/tutorials/services/source-ip
+
 ## 参考
 
 + https://kubernetes.io/zh/docs/reference
@@ -579,15 +583,19 @@
 + https://kubernetes.io/zh/docs/reference/access-authn-authz/rbac
 + https://kubernetes.io/zh/docs/reference/access-authn-authz/abac
 + https://kubernetes.io/zh/docs/reference/access-authn-authz/node
++ https://kubernetes.io/zh/docs/reference/access-authn-authz/psp-to-pod-security-standards
 + https://kubernetes.io/zh/docs/reference/access-authn-authz/webhook
++ https://kubernetes.io/zh/docs/reference/access-authn-authz/kubelet-authn-authz
++ https://kubernetes.io/zh/docs/reference/access-authn-authz/kubelet-tls-bootstrapping
 
 ### 常见标签、注解和污点
 
 + https://kubernetes.io/zh/docs/reference/labels-annotations-taints
++ https://kubernetes.io/zh/docs/reference/labels-annotations-taints/audit-annotations
 
 ### v1.22 API参考
 
-+ https://kubernetes.io/zh/docs/reference/generated/kubernetes-api/v1.23
++ https://kubernetes.io/zh/docs/reference/generated/kubernetes-api/v1.24
 
 ### API参考
 
@@ -607,6 +615,7 @@
 + https://kubernetes.io/zh/docs/reference/kubernetes-api/workload-resources/job-v1
 + https://kubernetes.io/zh/docs/reference/kubernetes-api/workload-resources/cron-job-v1
 + https://kubernetes.io/zh/docs/reference/kubernetes-api/workload-resources/horizontal-pod-autoscaler-v1
++ https://kubernetes.io/zh/docs/reference/kubernetes-api/workload-resources/horizontal-pod-autoscaler-v2
 + https://kubernetes.io/zh/docs/reference/kubernetes-api/workload-resources/horizontal-pod-autoscaler-v2beta2
 + https://kubernetes.io/zh/docs/reference/kubernetes-api/workload-resources/priority-class-v1
 
@@ -631,7 +640,7 @@
 + https://kubernetes.io/zh/docs/reference/kubernetes-api/config-and-storage-resources/volume-attachment-v1
 + https://kubernetes.io/zh/docs/reference/kubernetes-api/config-and-storage-resources/csi-driver-v1
 + https://kubernetes.io/zh/docs/reference/kubernetes-api/config-and-storage-resources/csi-node-v1
-+ https://kubernetes.io/zh/docs/reference/kubernetes-api/config-and-storage-resources/csi-storage-capacity-v1beta1
++ https://kubernetes.io/zh/docs/reference/kubernetes-api/config-and-storage-resources/csi-storage-capacity-v1
 
 #### 认证
 
@@ -678,8 +687,8 @@
 + https://kubernetes.io/zh/docs/reference/kubernetes-api/cluster-resources/api-service-v1
 + https://kubernetes.io/zh/docs/reference/kubernetes-api/cluster-resources/lease-v1
 + https://kubernetes.io/zh/docs/reference/kubernetes-api/cluster-resources/runtime-class-v1
-+ https://kubernetes.io/zh/docs/reference/kubernetes-api/cluster-resources/flow-schema-v1beta1
-+ https://kubernetes.io/zh/docs/reference/kubernetes-api/cluster-resources/priority-level-configuration-v1beta1
++ https://kubernetes.io/zh/docs/reference/kubernetes-api/cluster-resources/flow-schema-v1beta2
++ https://kubernetes.io/zh/docs/reference/kubernetes-api/cluster-resources/priority-level-configuration-v1beta2
 + https://kubernetes.io/zh/docs/reference/kubernetes-api/cluster-resources/binding-v1
 + https://kubernetes.io/zh/docs/reference/kubernetes-api/cluster-resources/component-status-v1
 
@@ -710,6 +719,11 @@
 + https://kubernetes.io/zh/docs/reference/issues-security/issues
 + https://kubernetes.io/zh/docs/reference/issues-security/security
 
+### 节点参考信息
+
++ https://kubernetes.io/zh/docs/reference/node
++ https://kubernetes.io/zh/docs/reference/node/topics-on-dockershim-and-cri-compatible-runtimes
+
 ### 端口和协议
 
 + https://kubernetes.io/zh/docs/reference/ports-and-protocols
@@ -719,20 +733,30 @@
 + https://kubernetes.io/zh/docs/reference/setup-tools
 + https://kubernetes.io/zh/docs/reference/setup-tools/kubeadm
 + https://kubernetes.io/zh/docs/reference/setup-tools/kubeadm/kubeadm-init
-+ https://kubernetes.io/zh/docs/reference/setup-tools/kubeadm/kubeadm-init-phase
 + https://kubernetes.io/zh/docs/reference/setup-tools/kubeadm/kubeadm-join
-+ https://kubernetes.io/zh/docs/reference/setup-tools/kubeadm/kubeadm-join-phase
 + https://kubernetes.io/zh/docs/reference/setup-tools/kubeadm/kubeadm-upgrade
-+ https://kubernetes.io/zh/docs/reference/setup-tools/kubeadm/kubeadm-upgrade-phase
 + https://kubernetes.io/zh/docs/reference/setup-tools/kubeadm/kubeadm-config
 + https://kubernetes.io/zh/docs/reference/setup-tools/kubeadm/kubeadm-reset
-+ https://kubernetes.io/zh/docs/reference/setup-tools/kubeadm/kubeadm-reset-phase
 + https://kubernetes.io/zh/docs/reference/setup-tools/kubeadm/kubeadm-token
 + https://kubernetes.io/zh/docs/reference/setup-tools/kubeadm/kubeadm-version
 + https://kubernetes.io/zh/docs/reference/setup-tools/kubeadm/kubeadm-alpha
 + https://kubernetes.io/zh/docs/reference/setup-tools/kubeadm/kubeadm-certs
++ https://kubernetes.io/zh/docs/reference/setup-tools/kubeadm/kubeadm-init-phase
++ https://kubernetes.io/zh/docs/reference/setup-tools/kubeadm/kubeadm-join-phase
 + https://kubernetes.io/zh/docs/reference/setup-tools/kubeadm/kubeadm-kubeconfig
++ https://kubernetes.io/zh/docs/reference/setup-tools/kubeadm/kubeadm-reset-phase
++ https://kubernetes.io/zh/docs/reference/setup-tools/kubeadm/kubeadm-upgrade-phase
 + https://kubernetes.io/zh/docs/reference/setup-tools/kubeadm/implementation-details
+
+### kubectl
+
++ https://kubernetes.io/zh/docs/reference/kubectl
++ https://kubernetes.io/zh/docs/reference/kubectl/cheatsheet
++ https://kubernetes.io/zh/docs/reference/kubectl/kubectl-cmds
++ https://kubernetes.io/zh/docs/reference/kubectl/kubectl
++ https://kubernetes.io/zh/docs/reference/kubectl/jsonpath
++ https://kubernetes.io/zh/docs/reference/kubectl/docker-cli-to-kubectl
++ https://kubernetes.io/zh/docs/reference/kubectl/conventions
 
 ### 组件工具
 
@@ -743,44 +767,39 @@
 + https://kubernetes.io/zh/docs/reference/command-line-tools-reference/kube-controller-manager
 + https://kubernetes.io/zh/docs/reference/command-line-tools-reference/kube-proxy
 + https://kubernetes.io/zh/docs/reference/command-line-tools-reference/kube-scheduler
-+ https://kubernetes.io/zh/docs/reference/command-line-tools-reference/kubelet-authentication-authorization
-+ https://kubernetes.io/zh/docs/reference/command-line-tools-reference/kubelet-tls-bootstrapping
-
-### kubectl
-
-+ https://kubernetes.io/zh/docs/reference/kubectl
-+ https://kubernetes.io/zh/docs/reference/kubectl/overview
-+ https://kubernetes.io/zh/docs/reference/kubectl/jsonpath
-+ https://kubernetes.io/zh/docs/reference/kubectl/kubectl
-+ https://kubernetes.io/zh/docs/reference/kubectl/cheatsheet
-+ https://kubernetes.io/zh/docs/reference/kubectl/kubectl-cmds
-+ https://kubernetes.io/zh/docs/reference/kubectl/docker-cli-to-kubectl
-+ https://kubernetes.io/zh/docs/reference/kubectl/conventions
 
 ### 配置API
 
 + https://kubernetes.io/zh/docs/reference/config-api
++ https://kubernetes.io/zh/docs/reference/config-api/client-authentication.v1
 + https://kubernetes.io/zh/docs/reference/config-api/client-authentication.v1beta1
++ https://kubernetes.io/zh/docs/reference/config-api/apiserver-eventratelimit.v1alpha1
++ https://kubernetes.io/zh/docs/reference/config-api/imagepolicy.v1alpha1
 + https://kubernetes.io/zh/docs/reference/config-api/apiserver-audit.v1
++ https://kubernetes.io/zh/docs/reference/config-api/apiserver-config.v1
 + https://kubernetes.io/zh/docs/reference/config-api/apiserver-config.v1alpha1
++ https://kubernetes.io/zh/docs/reference/config-api/apiserver-encryption.v1
 + https://kubernetes.io/zh/docs/reference/config-api/kube-proxy-config.v1alpha1
-+ https://kubernetes.io/zh/docs/reference/config-api/kube-scheduler-config.v1beta1
 + https://kubernetes.io/zh/docs/reference/config-api/kube-scheduler-config.v1beta2
-+ https://kubernetes.io/zh/docs/reference/config-api/kube-scheduler-policy-config.v1
++ https://kubernetes.io/zh/docs/reference/config-api/kube-scheduler-config.v1beta3
 + https://kubernetes.io/zh/docs/reference/config-api/kubeadm-config.v1beta2
 + https://kubernetes.io/zh/docs/reference/config-api/kubeadm-config.v1beta3
++ https://kubernetes.io/zh/docs/reference/config-api/kubelet-config.v1alpha1
 + https://kubernetes.io/zh/docs/reference/config-api/kubelet-config.v1beta1
++ https://kubernetes.io/zh/docs/reference/config-api/kubelet-credentialprovider.v1alpha1
++ https://kubernetes.io/zh/docs/reference/config-api/kubelet-credentialprovider.v1beta1
 + https://kubernetes.io/zh/docs/reference/config-api/apiserver-webhookadmission.v1
 
 ### 调度
 
 + https://kubernetes.io/zh/docs/reference/scheduling
-+ https://kubernetes.io/zh/docs/reference/scheduling/policies
 + https://kubernetes.io/zh/docs/reference/scheduling/config
++ https://kubernetes.io/zh/docs/reference/scheduling/policies
 
 ### 其他工具
 
 + https://kubernetes.io/zh/docs/reference/tools
++ https://kubernetes.io/zh/docs/reference/tools/map-crictl-dockercli
 
 ## 贡献
 
@@ -818,6 +837,7 @@
 + https://kubernetes.io/zh/docs/contribute/style
 + https://kubernetes.io/zh/docs/contribute/style/content-guide
 + https://kubernetes.io/zh/docs/contribute/style/style-guide
++ https://kubernetes.io/zh/docs/contribute/style/diagram-guide
 + https://kubernetes.io/zh/docs/contribute/style/write-new-topic
 + https://kubernetes.io/zh/docs/contribute/style/page-content-types
 + https://kubernetes.io/zh/docs/contribute/style/content-organization
