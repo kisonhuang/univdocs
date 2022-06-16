@@ -1,17 +1,25 @@
 # API分组
 
-## APIGroup
-
 ```
 分组：meta
 版本：v1
 类型：APIGroup
 应用：APIGroupList
-源码：https://github.com/kubernetes/apimachinery/pkg/apis/meta/v1/types.go
 ```
 
+源码：
+
 ```
-// APIGroup：包含API分组的名称、支持版本和首选版本。
+https://github.com/kubernetes/apimachinery/pkg/apis/meta/v1/types.go
+https://github.com/kubernetes/kubernetes/staging/src/k8s.io/apimachinery/pkg/apis/meta/v1/types.go
+```
+
+## APIGroup
+
+APIGroup：包含API分组的名称、支持版本和首选版本。
+
+```
+// APIGroup contains the name, the supported versions, and the preferred version of a group.
 type APIGroup struct {
 	TypeMeta `json:",inline"`
 	// name is the name of the group.
@@ -36,12 +44,10 @@ type APIGroup struct {
 
 ## APIGroupList
 
-```
-源码：https://github.com/kubernetes/apimachinery/pkg/apis/meta/v1/types.go
-```
+APIGroupList：APIGroup列表，使客户端在/apis上发现API。
 
 ```
-// APIGroupList：APIGroup列表，使客户端在/apis上发现API。
+// APIGroupList is a list of APIGroup, to allow clients to discover the API at /apis.
 type APIGroupList struct {
 	TypeMeta `json:",inline"`
 	// groups is a list of APIGroup.
