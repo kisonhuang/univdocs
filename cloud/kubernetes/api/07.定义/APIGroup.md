@@ -4,14 +4,21 @@
 分组：meta
 版本：v1
 类型：APIGroup
-应用：APIGroupList
+源码：https://github.com/kubernetes/apimachinery/pkg/apis/meta/v1/types.go
+应用：APIGroup --> APIGroupList
 ```
 
-源码：
+## APIGroupList
+
+APIGroupList：APIGroup列表，使客户端在/apis上发现API。
 
 ```
-https://github.com/kubernetes/apimachinery/pkg/apis/meta/v1/types.go
-https://github.com/kubernetes/kubernetes/staging/src/k8s.io/apimachinery/pkg/apis/meta/v1/types.go
+// APIGroupList is a list of APIGroup, to allow clients to discover the API at /apis.
+type APIGroupList struct {
+	TypeMeta `json:",inline"`
+	// groups is a list of APIGroup.
+	Groups []APIGroup `json:"groups" protobuf:"bytes,1,rep,name=groups"`
+}
 ```
 
 ## APIGroup
@@ -39,19 +46,6 @@ type APIGroup struct {
 	// Server looks at X-Forwarded-For header or X-Real-Ip header or request.RemoteAddr (in that order) to get the client IP.
 	// +optional
 	ServerAddressByClientCIDRs []ServerAddressByClientCIDR `json:"serverAddressByClientCIDRs,omitempty" protobuf:"bytes,4,rep,name=serverAddressByClientCIDRs"`
-}
-```
-
-## APIGroupList
-
-APIGroupList：APIGroup列表，使客户端在/apis上发现API。
-
-```
-// APIGroupList is a list of APIGroup, to allow clients to discover the API at /apis.
-type APIGroupList struct {
-	TypeMeta `json:",inline"`
-	// groups is a list of APIGroup.
-	Groups []APIGroup `json:"groups" protobuf:"bytes,1,rep,name=groups"`
 }
 ```
 
