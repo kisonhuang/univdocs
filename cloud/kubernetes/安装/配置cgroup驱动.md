@@ -4,7 +4,7 @@ kubelet的cgroup驱动必须匹配容器运行时的cgroup驱动。
 
 ## 配置容器运行时的cgroup驱动
 
-kubeadm把kubelet当做systemd服务来管理，在基于kubeadm的安装中，推荐使用systemd驱动，而非cgroupfs驱动。
+kubeadm会把kubelet当做systemd服务来管理，在基于kubeadm的安装中，推荐使用systemd驱动，而非cgroupfs驱动。
 
 ## 配置kubelet的cgroup驱动
 
@@ -12,13 +12,13 @@ kubeadm把kubelet当做systemd服务来管理，在基于kubeadm的安装中，�
 
 KubeletConfiguration的cgroupDriver字段用于控制kubelet的cgroup驱动。
 
-在v1.22中，如果没有设置KubeletConfiguration的cgroupDriver字段，kubeadm将会把它默认为systemd。
+在v1.22中，如果没有设置KubeletConfiguration的cgroupDriver字段，kubeadm会把它默认成systemd。
 
-Kubeadm对集群中的所有节点使用相同的KubeletConfiguration。
+kubeadm对集群中的所有节点都使用相同的KubeletConfiguration。
 
 KubeletConfiguration存放在kube-system命名空间的ConfigMap中。
 
-执行init、join和upgrade子命令时，kubeadm会把KubeletConfiguration写入/var/lib/kubelet/config.yaml文件，并把它传递给本地节点的kubelet。
+执行init、join和upgrade子命令时，kubeadm会把KubeletConfiguration写入到/var/lib/kubelet/config.yaml文件中，并传递给节点的kubelet。
 
 配置KubeletConfiguration的cgroupDriver字段：
 
@@ -49,7 +49,7 @@ kubeadm init --config kubeadm-config.yaml
 
 ### 修改节点的cgroup驱动
 
-一次一个节点，在集群的每个节点上执行：
+一次一个节点，在集群的每个节点中执行：
 + 隔离节点：`kubectl drain <node-name> --ignore-daemonsets`
 + 停止kubelet：`systemctl stop kubelet`
 + 停止容器运行时
