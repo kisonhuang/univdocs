@@ -8,7 +8,9 @@
 应用：APIGroup --> APIGroupList
 ```
 
-## APIGroupList
+## 对象
+
+### APIGroupList
 
 APIGroupList：APIGroup列表，使客户端在/apis上发现API。
 
@@ -21,7 +23,7 @@ type APIGroupList struct {
 }
 ```
 
-## APIGroup
+### APIGroup
 
 APIGroup：包含API分组的名称、支持版本和首选版本。
 

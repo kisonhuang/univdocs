@@ -12,7 +12,9 @@ CronJobSpec   --> CronJob
 CronJobStatus --> CronJob
 ```
 
-## CronJobList
+## 对象
+
+### CronJobList
 
 ```
 // CronJobList is a collection of cron jobs.
@@ -29,7 +31,7 @@ type CronJobList struct {
 }
 ```
 
-## CronJob
+### CronJob
 
 ```
 // CronJob represents the configuration of a single cron job.
@@ -52,7 +54,7 @@ type CronJob struct {
 }
 ```
 
-## CronJobSpec
+### CronJobSpec
 
 ```
 // CronJobSpec describes how the job execution will look like and when it will actually run.
@@ -100,7 +102,7 @@ type CronJobSpec struct {
 }
 ```
 
-## CronJobStatus
+### CronJobStatus
 
 ```
 // CronJobStatus represents the current state of a cron job.
@@ -120,6 +122,47 @@ type CronJobStatus struct {
 }
 ```
 
+## 写操作
+
+### 创建
+
+请求方法和路径
+
+```
+POST /apis/batch/v1/namespaces/{namespace}/cronjobs
+```
+
+路径参数
+
+```
+namespace 命名空间
+```
+
+查询参数
+
+```
+pretty
+dryRun
+fieldManager
+fieldValidation 
+```
+
+请求体参数
+
+```
+body CronJob
+```
+
+响应
+
+```
+200
+CronJob	OK
+201
+CronJob	Created
+202
+CronJob	Accepted
+```
 
 
 
@@ -131,6 +174,42 @@ type CronJobStatus struct {
 
 
 
+
+
+
+
+### Patch
+
+### Replace
+
+### Delete
+
+### Delete Collection
+
+
+## 读操作
+
+### Read
+
+### List
+
+### List All Namespaces
+
+### Watch
+
+### Watch List
+
+### Watch List All Namespaces
+
+
+
+## 状态操作
+
+### Patch Status
+
+### Read Status
+
+### Replace Status
 
 
 
