@@ -67,6 +67,10 @@ kubeadm init --config kubeadm-config.yaml
 + 确认工作负载是否迁移到新节点
 + 删除旧节点
 
+## 参考文档
+
++ https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/configure-cgroup-driver
+
 
 
 

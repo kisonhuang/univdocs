@@ -243,7 +243,7 @@
 
 + https://kubernetes.io/docs/tasks/administer-cluster/kubeadm
 + https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-certs
-+ https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/configure-cgroup-driver
++ kubernetes/安装/配置cgroup驱动.md
 + https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-reconfigure
 + https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-upgrade
 + https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/adding-windows-nodes
