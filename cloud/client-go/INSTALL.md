@@ -1,44 +1,30 @@
-# Installing client-go
+# 安装client-go
 
-## Using the latest version
+## 使用最新版本
 
-If you want to use the latest version of this library, use go1.16+ and run:
+使用go1.16+运行：
 
 ```sh
 go get k8s.io/client-go@latest
 ```
 
-This will record a dependency on `k8s.io/client-go` in your go module.
-You can now import and use the `k8s.io/client-go` APIs in your project.
-The next time you `go build`, `go test`, or `go run` your project,
-`k8s.io/client-go` and its dependencies will be downloaded (if needed),
-and detailed dependency version info will be added to your `go.mod` file
-(or you can also run `go mod tidy` to do this directly).
+## 使用特定版本
 
-## Using a specific version
++ Kubernetes >= v1.17.0 ---> client-go v0.x.y
 
-If you want to use a particular version of the `k8s.io/client-go` library,
-you can indicate which version of `client-go` your project requires:
-
-- If you are using Kubernetes versions >= `v1.17.0`, use a corresponding `v0.x.y` tag.
-  For example, `k8s.io/client-go@v0.20.4` corresponds to Kubernetes `v1.20.4`:
+例如：Kubernetes v1.20.4 ---> k8s.io/client-go@v0.20.4
 
 ```sh
 go get k8s.io/client-go@v0.20.4
 ```
 
-- If you are using Kubernetes versions < `v1.17.0`, use a corresponding `kubernetes-1.x.y` tag.
-  For example, `k8s.io/client-go@kubernetes-1.16.3` corresponds to Kubernetes `v1.16.3`:
++ Kubernetes < v1.17.0 ---> client-go kubernetes-1.x.y
+
+例如：Kubernetes v1.16.3 ---> k8s.io/client-go@kubernetes-1.16.3
 
 ```sh
 go get k8s.io/client-go@kubernetes-1.16.3
 ```
-
-You can now import and use the `k8s.io/client-go` APIs in your project.
-The next time you `go build`, `go test`, or `go run` your project,
-`k8s.io/client-go` and its dependencies will be downloaded (if needed),
-and detailed dependency version info will be added to your `go.mod` file
-(or you can also run `go mod tidy` to do this directly).
 
 ## Troubleshooting
 
