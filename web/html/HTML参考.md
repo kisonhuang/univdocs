@@ -1,5 +1,6 @@
 # HTML参考
 
++ https://developer.mozilla.org/en-US/docs/Web/HTML
 + https://developer.mozilla.org/en-US/docs/Web/HTML/Reference
 
 ## HTML元素
@@ -165,7 +166,6 @@
 + https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/time
 + https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/url
 + https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/week
-+ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/datetime
 
 ### 交互元素
 
@@ -282,6 +282,7 @@
 + https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types
 + https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types/dns-prefetch
 + https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types/manifest
++ https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types/me
 + https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types/modulepreload
 + https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types/noopener
 + https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types/noreferrer
@@ -293,6 +294,14 @@
 ## 怪异模式和标准模式
 
 + https://developer.mozilla.org/en-US/docs/Web/HTML/Quirks_Mode_and_Standards_Mode
+
+## 其他文档
+
++ https://developer.mozilla.org/en-US/docs/Web/HTML/Date_and_time_formats
++ https://developer.mozilla.org/en-US/docs/Web/HTML/CORS_enabled_image
++ https://developer.mozilla.org/en-US/docs/Web/HTML/Microdata
++ https://developer.mozilla.org/en-US/docs/Web/HTML/microformats
++ https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag
 
 
 
