@@ -257,7 +257,7 @@
 + https://kubernetes.io/docs/tasks/administer-cluster/migrating-from-dockershim/check-if-dockershim-removal-affects-you
 + https://kubernetes.io/docs/tasks/administer-cluster/migrating-from-dockershim/migrating-telemetry-and-security-agents
 
-+ https://kubernetes.io/docs/tasks/administer-cluster/certificates
++ kubernetes/证书/手动生成证书.md
 
 + https://kubernetes.io/docs/tasks/administer-cluster/manage-resources
 + https://kubernetes.io/docs/tasks/administer-cluster/manage-resources/memory-default-namespace

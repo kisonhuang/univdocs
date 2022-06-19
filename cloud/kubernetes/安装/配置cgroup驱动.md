@@ -44,7 +44,6 @@ kubeadm init --config kubeadm-config.yaml
 ### 修改kubelet的ConfigMap
 
 + 编辑kubelet-config：`kubectl edit cm kubelet-config -n kube-system`
-
 + 在ConfigMap的kubelet:中添加或修改cgroupDriver字段：`cgroupDriver: systemd 或 cgroupfs`
 
 ### 修改节点的cgroup驱动
