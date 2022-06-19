@@ -13,7 +13,7 @@
 
 ### 学习环境
 
-+ https://kubernetes.io/docs/setup/learning-environment
++ 学习环境
 
 ### 生产环境
 
@@ -25,9 +25,9 @@
 
 #### 使用部署工具安装Kubernetes
 
-+ https://kubernetes.io/docs/setup/production-environment/tools
++ 使用部署工具安装Kubernetes
 
-+ https://kubernetes.io/docs/setup/production-environment/tools/kubeadm
++ 使用kubeadm引导集群
 + https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm
 + https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm
 + https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm
@@ -47,7 +47,7 @@
 
 ### 最佳实践
 
-+ https://kubernetes.io/docs/setup/best-practices
++ 最佳实践
 + https://kubernetes.io/docs/setup/best-practices/cluster-large
 + https://kubernetes.io/docs/setup/best-practices/multiple-zones
 + https://kubernetes.io/docs/setup/best-practices/node-conformance
