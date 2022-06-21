@@ -1,22 +1,19 @@
 # javase 11
 
 + https://docs.oracle.com/en
-+ https://docs.oracle.com/en/java/index.html
-+ https://docs.oracle.com/en/java/javase/index.html
-+ https://docs.oracle.com/en/java/javase/11/index.html
++ https://docs.oracle.com/en/java
++ https://docs.oracle.com/en/java/javase
++ https://docs.oracle.com/en/java/javase/11
 
 + https://docs.oracle.com/en/java/javase/11/books.html
 + https://docs.oracle.com/en/java/javase/11/related-resources.html
-
-+ https://docs.oracle.com/en/java/java-components/index.html
-+ https://docs.oracle.com/en/java/javase/index.html
 
 ## 概述
 
 + https://www.oracle.com/java/technologies/javase/jdk11-readme.html
 + https://www.oracle.com/java/technologies/javase/11all-relnotes.html
 + https://www.oracle.com/java/technologies/javase/11-relnote-issues.html
-+ https://docs.oracle.com/en/java/javase/11/migrate/index.html
++ https://docs.oracle.com/en/java/javase/11/migrate
 + https://www.oracle.com/java/technologies/downloads
 + https://docs.oracle.com/en/java/javase/11/install/overview-jdk-installation.html
 + https://docs.oracle.com/en/java/javase/11/install/version-string-format.html
@@ -29,7 +26,7 @@
 
 ## 语言和库
 
-+ https://docs.oracle.com/en/java/javase/11/language/index.html
++ https://docs.oracle.com/en/java/javase/11/language
 + https://docs.oracle.com/en/java/javase/11/core/java-core-libraries1.html
 + https://openjdk.org/groups/net/httpclient/
 + https://docs.oracle.com/javase/tutorial/tutorialLearningPaths.html
@@ -39,12 +36,12 @@
 
 ## 规范
 
-+ https://docs.oracle.com/en/java/javase/11/docs/api/index.html
-+ https://docs.oracle.com/javase/specs/index.html
++ https://docs.oracle.com/en/java/javase/11/docs/api
++ https://docs.oracle.com/javase/specs
 + https://docs.oracle.com/en/java/javase/11/docs/specs/jar/jar.html
-+ https://docs.oracle.com/en/java/javase/11/docs/specs/jni/index.html
++ https://docs.oracle.com/en/java/javase/11/docs/specs/jni
 + https://docs.oracle.com/en/java/javase/11/docs/specs/jvmti.html
-+ https://docs.oracle.com/en/java/javase/11/docs/specs/serialization/index.html
++ https://docs.oracle.com/en/java/javase/11/docs/specs/serialization
 + https://docs.oracle.com/en/java/javase/11/docs/specs/jdwp/jdwp-spec.html
 + https://docs.oracle.com/en/java/javase/11/docs/specs/doc-comment-spec.html
 
@@ -62,7 +59,7 @@
 ## 管理和故障排除
 
 + https://docs.oracle.com/en/java/javase/11/troubleshoot/general-java-troubleshooting.html
-+ https://docs.oracle.com/en/java/java-components/index.html
++ https://docs.oracle.com/en/java/java-components
 + https://docs.oracle.com/en/java/javase/11/management/overview-java-se-monitoring-and-management.html
 + https://docs.oracle.com/en/java/javase/11/jmx/introduction-jmx-technology.html
 
