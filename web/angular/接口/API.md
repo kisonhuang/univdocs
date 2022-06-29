@@ -1,4 +1,6 @@
-# 稳定接口
+# API
+
+## 稳定
 
 ```
 https://angular.io/api/animations                                                     包
@@ -224,7 +226,6 @@ https://angular.io/api/core/destroyPlatform                                     
 https://angular.io/api/core/Directive                                                 装饰器
 https://angular.io/api/core/DoBootstrap                                               接口
 https://angular.io/api/core/DoCheck                                                   接口
-https://angular.io/api/core/ElementRef                                                类
 https://angular.io/api/core/EmbeddedViewRef                                           类
 https://angular.io/api/core/enableProdMode                                            方法
 https://angular.io/api/core/ENVIRONMENT_INITIALIZER                                   常量
@@ -449,7 +450,6 @@ https://angular.io/api/platform-browser/BrowserModule                           
 https://angular.io/api/platform-browser/BrowserTransferStateModule                    模块
 https://angular.io/api/platform-browser/By                                            类
 https://angular.io/api/platform-browser/disableDebugTools                             方法
-https://angular.io/api/platform-browser/DomSanitizer                                  类
 https://angular.io/api/platform-browser/enableDebugTools                              方法
 https://angular.io/api/platform-browser/EVENT_MANAGER_PLUGINS                         常量
 https://angular.io/api/platform-browser/EventManager                                  类
@@ -605,6 +605,42 @@ https://angular.io/api/upgrade/static/UpgradeModule                             
 https://angular.io/api/upgrade/static/testing                                         包
 https://angular.io/api/upgrade/static/testing/createAngularJSTestingModule            方法
 https://angular.io/api/upgrade/static/testing/createAngularTestingModule              方法
+```
+
+## 废弃
+
+```
+https://angular.io/api/common/http/XhrFactory                                         别名
+https://angular.io/api/core/ANALYZE_FOR_ENTRY_COMPONENTS                              常量
+https://angular.io/api/core/Compiler                                                  类
+https://angular.io/api/core/CompilerFactory                                           类
+https://angular.io/api/core/ComponentFactory                                          类
+https://angular.io/api/core/ComponentFactoryResolver                                  类
+https://angular.io/api/core/DefaultIterableDiffer                                     类
+https://angular.io/api/core/defineInjectable                                          常量
+https://angular.io/api/core/getModuleFactory                                          方法
+https://angular.io/api/core/ModuleWithComponentFactories                              类
+https://angular.io/api/core/NgModuleFactory                                           类
+https://angular.io/api/core/ReflectiveInjector                                        类
+https://angular.io/api/core/ReflectiveKey                                             类
+https://angular.io/api/core/testing/async                                             方法
+https://angular.io/api/platform-browser-dynamic/JitCompilerFactory                    类
+https://angular.io/api/platform-browser-dynamic/RESOURCE_CACHE_PROVIDER               常量
+https://angular.io/api/platform-server/renderModuleFactory                            方法
+https://angular.io/api/service-worker/UpdateActivatedEvent                            接口
+https://angular.io/api/service-worker/UpdateAvailableEvent                            接口
+https://angular.io/api/upgrade                                                        包
+https://angular.io/api/upgrade/UpgradeAdapter                                         类
+https://angular.io/api/upgrade/UpgradeAdapterRef                                      类
+https://angular.io/api/upgrade/static/getAngularLib                                   方法
+https://angular.io/api/upgrade/static/setAngularLib                                   方法
+```
+
+## 风险
+
+```
+https://angular.io/api/core/ElementRef                                                类
+https://angular.io/api/platform-browser/DomSanitizer                                  类
 ```
 
 
