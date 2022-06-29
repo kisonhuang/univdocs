@@ -24,9 +24,9 @@ Dgeni包：
 * dgeni - Support for documenting Dgeni packages (**incomplete**)
 * typescript - Tag parsing and extracting for TypeScript modules.
 
-## `base` Package
+## base
 
-### Processors
+### 处理器
 
 * `computeIdsProcessor` - Computes the `id` and `aliases` for documents using templates or helper
 functions, on a per docType basis.
@@ -41,7 +41,7 @@ set of **file readers**. There are file readers in the `jsdoc` and `ngdoc` packa
 e.g. `*/`
 * `writeFilesProcessor` - write the docs that have an `outputPath` to disk
 
-### Services
+### 服务
 
 * `aliasMap` - A map of ids/aliases to docs.  This is used for matching references to documents in
 links and relations such as modules and object members.
@@ -54,7 +54,7 @@ of text.
 * `writeFile` - Write some contents to a file, ensuring the path to the file exists.
 
 
-#### Template Finding
+#### 模板查找
 
 The template used to render a doc is computed by the `templateFinder`, which uses the first match
 from a set of patterns in a set of folders, provided in the configuration. This allows a lot of control to provide
@@ -74,7 +74,7 @@ templateFinder.templatePatterns = [
 ]
 ```
 
-## `git` Package
+## git
 
 This package provides some git and version information to the `renderDocsPocessor` that is available
 in the templates. This code as it is was made for the angular.js document generation, including some
@@ -84,7 +84,7 @@ behavior.
 The git information is made available to templates via the `extraData.git` property. See the section
 below to see an example usage.
 
-### Services
+### 服务
 
 * `decorateVersion` - all semvers are passed through this function so that additional data can before
 added to them.
@@ -94,7 +94,7 @@ added to them.
 * `packageInfo` - the contents of the package.json.
 * `versionInfo` - aggregated version and git information.
 
-### Using `extraData.git`
+### 使用extraData.git
 
 An example as used in `git/templates/api/api.template.html`
 
@@ -105,25 +105,25 @@ An example as used in `git/templates/api/api.template.html`
 ```
 
 
-## `nunjucks` Package
+## nunjucks
 
 This package provides a nunjucks driven implementation of the `templateEngine` required by the
 `base` package `renderDocsPocessor`. The "nunjucks" JavaScript template tool-kit to generates HTML
 based on the data in each document. We have nunjucks templates, tags and filters that
 can render links and text as markdown and will highlight code.
 
-### Services
+### 服务
 
 * `nunjucks-template-engine` - provide a `templateEngine` that uses the Nunjucks template library
 to render the documents into text, such as HTML or JS, based on templates.
 
-## `jsdoc` Package
+## jsdoc
 
-### File Readers
+### 文件读取器
 
 * `jsdoc` - can read documents from jsdoc style comments in source code files.
 
-### Processors
+### 处理器
 
 * `codeNameProcessor` - infer the name of the document from the code following the document in the source
 file.
@@ -131,14 +131,14 @@ file.
 * `inlineTagsProcessor` - Search the docs for inline tags that need to have content injected
 * `parseTagsProcessor` - use a `tagParser` to parses the jsdoc tags in the document content.
 
-### Tag Definitions
+### 标签定义
 
 The `jsdoc` package contains definitions for a number of standard jsdoc tags including: `name`,
 `memberof`, `param`, `property`, `returns`, `module`, `description`, `usage`,
 `animations`, `constructor`, `class`, `classdesc`, `global`, `namespace`, `method`, `type`,
 `kind`, `access`, `public`, `private` and `protected`.
 
-### Services (Tag Transformations)
+### 服务（标签转换）
 
 This package provides a number of **Transform** services that are used in **Tag Definitions** to transform
 the value of the tag from the string in the tag description to something more meaningful in the doc.
@@ -163,17 +163,17 @@ the value of the tag from the string in the tag description to something more me
 * `codeNameService` - helper service for `codeNameProcessor`, registers code name matchers and performs
  actual matches against AST tree
 
-### Templates
+### 模板
 
 **This package does not provide any templates nor a `templateEngine` to render templates (use the
 `nunjucks` package to add this).**
 
-### Tag Definitions
+### 标签定义
 
 This package provides a minimal implementation of tags from the JSDoc project. They extract the name
 and type from the tag description accordingly but do not fully implement all the JSDoc tag functionality.
 
-### Code Name Matchers
+### 代码名称匹配器
 Matcher performs a search for a suitable code name at the given jsdoc code point (AST node).
 `codeNameService` matches AST node name against matcher name and if suitable matcher is found, executes it.
 
@@ -205,17 +205,17 @@ Matchers:
 * `VariableDeclaration`
 * `VariableDeclarator`
 
-## `ngdoc` Package
+## ngdoc
 
 The `ngdoc` Package depends upon the `jsdoc` and `nunjucks` packages. It provides additional support for
 non-API documents written in files with `.ngdoc` extension; it also computes additional properties specific
 to Angular related code.
 
-### File Readers
+### 文件读取器
 
 * `ngdoc` - can pull a single document from an ngdoc content file.
 
-### Processors
+### 处理器
 
 * `filterNgdocsProcessor` -
 For AngularJS we are only interested in documents that contain the @ngdoc tag.  This processor
@@ -235,20 +235,20 @@ to the module doc in the `components` property
 provider document.
 
 
-### Tag Definitions
+### 标签定义
 
 This package modifies and adds new tag definitions on top of those provided by the `jsdoc` package:
 `area`, `element`, `eventType`, `example`, `fullName`, `id`, `module`, `name`, `ngdoc`, `packageName`,
 `parent`, `priority`, `restrict`, `scope` and `title`.
 
 
-### Inline Tag Definitions
+### 内联标签定义
 
 * `link` - Process inline link tags (of the form {@link some/uri Some Title}), replacing them with
 HTML anchors
 
 
-### Services
+### 服务
 
 * `getAliases()` - Get a list of all the aliases that can be made from the provided doc
 * `getDocFromAliases()` - Find a document from the `aliasMap` that matches the given alias
@@ -256,7 +256,7 @@ HTML anchors
 * `getTypeClass()` - Get a CSS class string for the given type string
 * `moduleMap` - A collection of modules keyed on the module id
 
-### Templates
+### 模板
 
 This package provides a set of templates for generating an HTML file for each document: api,
 directive, error, filter function, input, module, object, overview, provider, service, type and a
@@ -272,18 +272,18 @@ templateEngine.config.tags = {
 };
 ```
 
-### Rendering Filters
+### 渲染过滤器
 
 * `code` - Render a span of text as code
 * `link` - Render a HTML anchor link
 * `typeClass` - Render a CSS class for a given type
 
-### Rendering Tags
+### 渲染标签
 
 * `code` - Render a block of code
 
 
-## `examples` Package
+## examples
 
 This package is a mix-in that provides functionality for working with examples in the docs.
 
@@ -305,7 +305,7 @@ Some text after the example
 ```
 
 
-### Processors
+### 处理器
 
 * `generateExamplesProcessor` - Add new docs to the docs collection for each example in the `examples` service
 that will be rendered as files that can be run in the browser, for example as live in-place demos of the
@@ -316,7 +316,7 @@ what versions of each example to generate. See the section of **Deployment Confi
 must be configured with a collection of deployments that tell versions of the protractor tests to generate. See the
 section of **Deployment Configuration** below.
 
-#### Deployment Configuration
+#### 部署配置
 
 The `generateExamplesProcessor` and `generateProtractorTestsProcessor` processors have a *required* property called `deployments`.
 This property should be an array of deployment information objects telling the processor what files to generate.
@@ -359,23 +359,23 @@ path to the associated example for that deployment.
 Here you can see we have a `default` deployment that injects the `angular.js` file into all examples,
 plus any dependencies referenced in the example itself are made relative to the given `dependencyPath`.
 
-### Inline Tag Definitions
+### 内联标签定义
 
 * `runnableExample` - Inject the specified runnable example into the doc
 
 
-### Services
+### 服务
 
 * `exampleMap` - a hash map holding each example by id, which is a unique id generated from the name
 of the example
 
 
-## `post-process-html` Package
+## post-process-html
 
 This package provides a HTML post process manager powered by [`rehype`](https://github.com/rehypejs/rehype). It uses the rehype processing engine to manipulate the `renderedContent` HTML via rehype "plugins" that work with HTML ASTs (HASTs).
 Read more https://github.com/wooorm/rehype
 
-### Processors
+### 处理器
 
 * `post-process-html` -  Use the rehype processing engine to manipulate the
 `renderedContent` HTML via rehype "plugins" that work with HTML ASTs (HASTs).
@@ -384,13 +384,13 @@ The factory should return a `transform` function that takes a HAST and returns a
 The HAST can be mutated by the "transform" function.
 If `false` is returned then the processing stops with that plugin.
 
-## `typescript` Package
+## typescript
 
-### File Readers
+### 文件读取器
 
 * at the moment we are not using a filereader but the `readTypeScriptModules` processor to read our modules.
 
-### Processors
+### 处理器
 
 * `readTypeScriptModules` - parse the `sourceFiles` with the help of the `tsParser` service and return a doc
 for each exported member. You can either pass an array of strings or an array of objects with `include` and
@@ -402,7 +402,7 @@ Set `sortClassMembers` to `true` to sort instance and static members by name (de
 You can ignore special exports by adding strings or regexes to the `ignoreExportsMatching` property (defaults to
 `___esModule`.
 
-### Services
+### 服务
 
 * `convertPrivateClassesToInterfaces` - pass this service a list of exported docs and if it represents a
 class that is marked as `/** @internal */` the doc will be converted to represent an interface.
@@ -412,10 +412,15 @@ and compile the source files. The docs are created from the symbols read by the 
 check if files exist
 * `getContent` - retrieves the file contents and comments.
 
-### Templates
+### 模板
 
 **This package does not provide any templates nor a `templateEngine` to render templates (use the
 `nunjucks` package to add this).**
 
-### Tag Definitions
+### 标签定义
+
 Please note that at the moment the `@param` documentation is ignored.
+
+
+
+
